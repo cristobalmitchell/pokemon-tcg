@@ -123,8 +123,9 @@ def main():
             if d is None:
                 raise SystemExit(f'{name}: column {c} is not documented')
             fields.append({'name': c, 'description': d[0], 'type': d[1]})
-        resources.append({'path': f'data/{name}', 'description': desc, 'schema': {'fields': fields}})
-    resources.append({'path': 'data/tcg.sqlite', 'description': 'All tables in one SQLite database with keys.'})
+        # Kaggle layout: the data files sit at the dataset root
+        resources.append({'path': name, 'description': desc, 'schema': {'fields': fields}})
+    resources.append({'path': 'tcg.sqlite', 'description': 'All tables in one SQLite database with keys.'})
     meta = {
         'title': 'The Complete Pokémon TCG Dataset',
         'subtitle': 'Every English Pokémon card 1999–2026: 20,776 cards, attacks & sets',

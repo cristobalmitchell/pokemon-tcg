@@ -84,7 +84,7 @@ def main():
     documented = {r['path']: [f['name'] for f in r.get('schema', {}).get('fields', [])] for r in meta['resources']}
     for p in sorted(DATA.glob('*.csv')):
         cols = list(pd.read_csv(p, nrows=0).columns)
-        check(documented.get(f'data/{p.name}') == cols, f'metadata: data/{p.name} columns not documented in order')
+        check(documented.get(p.name) == cols, f'metadata: {p.name} columns not documented in order')
 
     if failures:
         print(f'FAILED {len(failures)} check(s):')

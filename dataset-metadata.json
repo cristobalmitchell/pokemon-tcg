@@ -1,7 +1,7 @@
 {
   "title": "The Complete Pokémon TCG Dataset",
   "subtitle": "Every English Pokémon card 1999–2026: 20,776 cards, attacks & sets",
-  "description": "# The Complete Pokémon TCG Dataset\n\nEvery **English Pokémon Trading Card Game card**, from Base Set (January 1999) to Delta Reign (November 2026): **20,776 cards in 177 sets**, with **28,412 attacks**, 4,157 abilities and 188 theme decks. It's built as relational tables and an SQLite database, and links to **[The Complete Pokédex Dataset](https://www.kaggle.com/datasets/cristobalmitchell/pokedex)** by National Pokédex number.\n\n## What's inside\n\n| File | Rows | One row per |\n|---|---|---|\n| `cards.csv` | 20,776 | card: supertype, subtypes, HP, types, evolution, weakness, resistance, retreat cost, rarity, artist, regulation mark, legality, image links |\n| `card_attacks.csv` | 28,412 | attack: energy cost, damage as printed and as a number, effect text |\n| `card_abilities.csv` | 4,157 | Ability, Poké-Power or Poké-Body |\n| `card_pokemon.csv` | 17,654 | (card, National Pokédex number) link to the Pokédex dataset |\n| `sets.csv` | 177 | set: series, size, release date, legality |\n| `decks.csv` / `deck_cards.csv` | 188 / 3,976 | theme deck and its card list |\n| `tcg.sqlite` | | every table, with keys |\n\n## Quick start\n\n```python\nimport pandas as pd\ncards = pd.read_csv('/kaggle/input/pokemon-tcg/cards.csv')\nattacks = pd.read_csv('/kaggle/input/pokemon-tcg/card_attacks.csv')\n\n# Damage per Energy across eras: how much has power crept?\na = attacks.merge(cards[['card_id', 'series', 'release_date']], on='card_id')\na = a[a.converted_energy_cost > 0]\n(a.base_damage / a.converted_energy_cost).groupby(a.release_date.str[:4]).median()\n```\n\nJoin it to the Pokédex dataset to compare a Pokémon's card HP with its game stats:\n\n```python\npokedex = pd.read_csv('/kaggle/input/pokedex/pokemon_utf8.csv')\nlinks = pd.read_csv('/kaggle/input/pokemon-tcg/card_pokemon.csv')\nhp = links.merge(cards[['card_id', 'hp']], on='card_id').merge(pokedex, on='national_number')\n```\n\n## Ideas\n- **Power creep:** HP and damage per Energy by year and series.\n- **Rarity:** what makes a card rare, and how the rarity ladder changed (Rare Holo → Illustration Rare → Hyper Rare).\n- **Artists:** who illustrated what, and how styles cluster by era.\n- **Card game vs. video game:** card HP and attack damage against base stats from the Pokédex dataset.\n- **NLP:** attack and ability text, flavor text, rule boxes.\n- **Deck building:** energy curves and type balance in theme decks.\n\n## Notes\n- Multi-valued cells (types, subtypes, energy costs) are separated by `|`.\n- Legality is the snapshot's (Standard rotation through regulation mark J).\n- Image links point at the source's image host. The source has announced that its API will go offline on March 1, 2027, so the links may stop working. They are kept for reference.\n- There are no prices. Price feeds are commercial.\n\n## Source and credits\nCompiled from the [PokemonTCG/pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data) JSON files, which are now kept for historical use. This dataset is a snapshot taken in November 2026. The source repository has no explicit license. Card names, card text and card images are © The Pokémon Company, Nintendo, Creatures Inc. and GAME FREAK, and are shared here for non-commercial research and education.\n\nThe build is reproducible: `scripts/build.py` builds the tables and `scripts/validate.py` checks them. Both are on [GitHub](https://github.com/cristobalmitchell/pokemon-tcg).\n",
+  "description": "# The Complete Pokémon TCG Dataset\n\nEvery **English Pokémon Trading Card Game card**, from Base Set (January 1999) to Delta Reign (November 2026): **20,776 cards in 177 sets**, with **28,412 attacks**, 4,157 abilities and 188 theme decks. It's built as relational tables and an SQLite database, and links to **[The Complete Pokédex Dataset](https://www.kaggle.com/datasets/cristobalmitchell/pokedex)** by National Pokédex number.\n\n## What's inside\n\n| File | Rows | One row per |\n|---|---|---|\n| `cards.csv` | 20,776 | card: supertype, subtypes, HP, types, evolution, weakness, resistance, retreat cost, rarity, artist, regulation mark, legality, image links |\n| `card_attacks.csv` | 28,412 | attack: energy cost, damage as printed and as a number, effect text |\n| `card_abilities.csv` | 4,157 | Ability, Poké-Power or Poké-Body |\n| `card_pokemon.csv` | 17,654 | (card, National Pokédex number) link to the Pokédex dataset |\n| `sets.csv` | 177 | set: series, size, release date, legality |\n| `decks.csv` / `deck_cards.csv` | 188 / 3,976 | theme deck and its card list |\n| `tcg.sqlite` | | every table, with keys |\n\n## Quick start\n\n```python\nimport pandas as pd\ncards = pd.read_csv('/kaggle/input/pokemon-tcg/cards.csv', low_memory=False)  # a few columns mix numbers and text\nattacks = pd.read_csv('/kaggle/input/pokemon-tcg/card_attacks.csv')\n\n# Damage per Energy across eras: how much has power crept?\na = attacks.merge(cards[['card_id', 'series', 'release_date']], on='card_id')\na = a[a.converted_energy_cost > 0]\n(a.base_damage / a.converted_energy_cost).groupby(a.release_date.str[:4]).median()\n```\n\nJoin it to the Pokédex dataset to compare a Pokémon's card HP with its game stats:\n\n```python\npokedex = pd.read_csv('/kaggle/input/pokedex/pokemon_utf8.csv')\nlinks = pd.read_csv('/kaggle/input/pokemon-tcg/card_pokemon.csv')\nhp = links.merge(cards[['card_id', 'hp']], on='card_id').merge(pokedex, on='national_number')\n```\n\n**Starter notebook:** the dataset's starter analysis covers power creep, the rise of rule-box cards, card HP against game stats, and the most prolific illustrators. Fork it as a starting point.\n\n## Ideas\n- **Power creep:** HP and damage per Energy by year and series.\n- **Rarity:** what makes a card rare, and how the rarity ladder changed (Rare Holo → Illustration Rare → Hyper Rare).\n- **Artists:** who illustrated what, and how styles cluster by era.\n- **Card game vs. video game:** card HP and attack damage against base stats from the Pokédex dataset.\n- **NLP:** attack and ability text, flavor text, rule boxes.\n- **Deck building:** energy curves and type balance in theme decks.\n\n## Notes\n- Multi-valued cells (types, subtypes, energy costs) are separated by `|`.\n- Legality is the snapshot's (Standard rotation through regulation mark J).\n- Image links point at the source's image host. The source has announced that its API will go offline on March 1, 2027, so the links may stop working. They are kept for reference.\n- There are no prices. Price feeds are commercial.\n\n## License\n**Other (non-commercial, attribution required).** The card names, card text and card images belong to The Pokémon Company, and the upstream compilation publishes no license, so no standard license fits.\n- **You may:** use the data for non-commercial research, education, analysis and notebooks.\n- **You must:** credit *\"The Complete Pokémon TCG Dataset by Cristobal Mitchell\"* and *\"card data compiled by PokemonTCG/pokemon-tcg-data\"*.\n- **You may not:** sell the data or use it in a commercial product.\n- **The author's own contributions:** the table design, derived columns, corrections, documentation and cover are © 2026 Cristobal Mitchell and reusable under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The build and analysis code on GitHub is MIT-licensed.\n- **No affiliation:** not affiliated with or endorsed by Nintendo, The Pokémon Company, Creatures Inc., GAME FREAK inc. or the PokemonTCG project.\n\nThe full terms are in the repository's `DATA_LICENSE.md`.\n\n## Source and credits\nCompiled from the [PokemonTCG/pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data) JSON files, which are now kept for historical use. This dataset is a snapshot taken in November 2026. Card names, card text and card images are © 1995–2026 Nintendo, Creatures Inc. and GAME FREAK inc.\n\nThe build is reproducible: `scripts/build.py` builds the tables and `scripts/validate.py` checks them. Both are on [GitHub](https://github.com/cristobalmitchell/pokemon-tcg).\n\n**Companion dataset:** [The Complete Pokédex Dataset](https://www.kaggle.com/datasets/cristobalmitchell/pokedex) has every Pokémon's game data, forms, moves, Smogon usage, artwork and cries.\n",
   "id": "cristobalmitchell/pokemon-tcg",
   "licenses": [
     {
@@ -21,7 +21,7 @@
   "userSpecifiedSources": "Compiled from the PokemonTCG/pokemon-tcg-data JSON files (https://github.com/PokemonTCG/pokemon-tcg-data), snapshot of November 2026. Card names, text and images are © The Pokémon Company, Nintendo, Creatures and GAME FREAK.",
   "resources": [
     {
-      "path": "data/sets.csv",
+      "path": "sets.csv",
       "description": "One row per set (177), from Base Set (1999) to Delta Reign (November 2026).",
       "schema": {
         "fields": [
@@ -99,7 +99,7 @@
       }
     },
     {
-      "path": "data/cards.csv",
+      "path": "cards.csv",
       "description": "One row per English card (20,776): Pokémon, Trainer and Energy cards with HP, types, rarity, artist, legality and image links.",
       "schema": {
         "fields": [
@@ -282,7 +282,7 @@
       }
     },
     {
-      "path": "data/card_attacks.csv",
+      "path": "card_attacks.csv",
       "description": "One row per attack: cost, damage (as printed and numeric) and effect text.",
       "schema": {
         "fields": [
@@ -335,7 +335,7 @@
       }
     },
     {
-      "path": "data/card_abilities.csv",
+      "path": "card_abilities.csv",
       "description": "One row per Ability / Poké-Power / Poké-Body on a card.",
       "schema": {
         "fields": [
@@ -368,7 +368,7 @@
       }
     },
     {
-      "path": "data/card_pokemon.csv",
+      "path": "card_pokemon.csv",
       "description": "Bridge from cards to National Pokédex numbers; joins to The Complete Pokédex Dataset.",
       "schema": {
         "fields": [
@@ -386,7 +386,7 @@
       }
     },
     {
-      "path": "data/decks.csv",
+      "path": "decks.csv",
       "description": "One row per theme deck.",
       "schema": {
         "fields": [
@@ -419,7 +419,7 @@
       }
     },
     {
-      "path": "data/deck_cards.csv",
+      "path": "deck_cards.csv",
       "description": "Card lists of the theme decks.",
       "schema": {
         "fields": [
@@ -457,7 +457,7 @@
       }
     },
     {
-      "path": "data/tcg.sqlite",
+      "path": "tcg.sqlite",
       "description": "All tables in one SQLite database with keys."
     }
   ]
