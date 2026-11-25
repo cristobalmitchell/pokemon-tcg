@@ -2,7 +2,7 @@
 
 Creates kaggle_upload/ (ignored by git):
 
-    kaggle_upload/dataset/        everything to upload: the CSV files and tcg.sqlite, laid out as on Kaggle
+    kaggle_upload/dataset/        everything to upload: the CSV files, tcg.sqlite and THIRD_PARTY_NOTICES.md
     kaggle_upload/UPLOAD.md       step-by-step guide for the web uploader
     kaggle_upload/COLUMNS.md      every column description, per file, ready to paste into the Data Card
     kaggle_upload/description.md  the dataset description (paste into "About Dataset")
@@ -63,7 +63,7 @@ def upload_guide(meta, files):
 | License | Other (specified in description). The terms are in the description's "License" section |
 | Tags | {', '.join(meta['keywords'])} |
 | Cover image | `cover.png` (1280 × 640) |
-| Expected update frequency | {meta['expectedUpdateFrequency']} (a snapshot of a source that is no longer updated) |
+| Expected update frequency | {meta['expectedUpdateFrequency']} (rebuild with scripts/fetch_sources.sh and scripts/build.py) |
 | Provenance / sources | {meta['userSpecifiedSources']} |
 
 ## 3. Column descriptions
@@ -95,6 +95,9 @@ def main():
     documented = {r['path'] for r in meta['resources']}
     if set(files) - documented:
         raise SystemExit(f'files without a dataset-metadata.json resource: {sorted(set(files) - documented)}')
+    # The MIT sources require their notices to travel with copies of the data.
+    shutil.copy2(ROOT / 'THIRD_PARTY_NOTICES.md', ds / 'THIRD_PARTY_NOTICES.md')
+    files.append('THIRD_PARTY_NOTICES.md')
     (OUT / 'metadata').mkdir()
     shutil.copy2(ROOT / 'dataset-metadata.json', OUT / 'metadata' / 'dataset-metadata.json')
     shutil.copy2(ROOT / 'docs' / 'kaggle_description.md', OUT / 'description.md')

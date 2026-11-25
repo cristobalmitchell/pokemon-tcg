@@ -1,0 +1,1912 @@
+set_id,language,name
+base4,en,Base Set 2
+base1,en,Base Set
+base1,fr,Set de Base
+base1,es,Edición Básica
+base1,it,Set Base
+base1,de,Grundset
+base1,pt,Coleção Básica
+base1,nl,Basis Set
+base3,en,Fossil
+base3,fr,Fossile
+base3,es,Fósil
+base3,it,Fossil
+base3,de,Fossil
+base3,pt,Fóssil
+base3,nl,Fossiel
+base2,en,Jungle
+base2,fr,Jungle
+base2,de,Dschungel
+base2,it,Jungle
+base2,es,Jungla
+base2,pt,Selva
+base2,nl,Jungle
+base5,en,Team Rocket
+base5,fr,Team Rocket
+base5,it,Team Rocket
+base5,de,Team Rocket
+wp,en,W Promotional
+wp,fr,W Promotional
+wp,it,Carte Promo Wizards
+basep,en,Wizards Black Star Promos
+basep,fr,Wizards Black Star Promos
+basep,it,Wizards Black Star Promos
+basep,es,Wizards Black Star Promos
+basep,de,Wizards Black Star Promos
+bwp,en,BW Black Star Promos
+bwp,fr,Promo BW
+bwp,es,NB Promo
+bwp,it,NB Promo
+bwp,de,SW Promokarten
+bw1,en,Black & White
+bw1,fr,Noir & Blanc
+bw1,es,Negro y Blanco
+bw1,it,Nero e Bianco
+bw1,de,Schwarz & Weiß
+bw1,pt,Black & White
+bw7,en,Boundaries Crossed
+bw7,fr,Frontières Franchies
+bw7,es,Fronteras Cruzadas
+bw7,it,Confini Varcati
+bw7,de,Überschrittene Schwellen
+bw7,pt,Fronteiras Cruzadas
+bw5,en,Dark Explorers
+bw5,fr,Explorateurs Obscurs
+bw5,it,Esploratori delle Tenebre
+bw5,de,Erforscher der Finsternis
+bw5,es,Oscuros Exploradores
+bw5,pt,Exploradores da Escuridão
+dv1,en,Dragon Vault
+dv1,fr,Coffre des Dragons
+dv1,it,Tesoro dei Draghi
+dv1,de,Drachengruft
+dv1,es,Tesoro de Dragones
+dv1,pt,Cofre do Dragão
+bw6,en,Dragons Exalted
+bw6,fr,Dragons Éxaltés
+bw6,es,Dragones Majestuosos
+bw6,it,Stirpe dei Draghi
+bw6,de,Hoheit der Drachen
+bw6,pt,Dragões Enaltecidos
+bw2,en,Emerging Powers
+bw2,fr,Pouvoirs Émergents
+bw2,es,Fuerzas Emergentes
+bw2,it,Nuove Forze
+bw2,de,Aufstreben der Mächtigen
+bw2,pt,Poderes Emergentes
+bw11,de,Legendäre Schätze
+bw11,en,Legendary Treasures
+bw11,es,Tesoros Legendarios
+bw11,pt,Tesouros Lendários
+bw4,en,Next Destinies
+bw4,fr,Destinées Futures
+bw4,es,Próximos Destinos
+bw4,it,Destini Futuri
+bw4,de,Kommende Schicksale
+bw4,pt,Próximos Destinos
+bw3,en,Noble Victories
+bw3,fr,Nobles Victoires
+bw3,es,Nobles Victorias
+bw3,it,Vittorie Regali
+bw3,de,Königliche Siege
+bw3,pt,Vitórias Nobres
+bw10,en,Plasma Blast
+bw10,es,Explosión Plasma
+bw10,fr,Explosion Plasma
+bw10,it,Esplosione Plasma
+bw10,de,Plasma-Blaster
+bw10,pt,Explosão de Plasma
+bw9,en,Plasma Freeze
+bw9,fr,Glaciation Plasma
+bw9,es,Glaciación Plasma
+bw9,it,Glaciazione Plasma
+bw9,de,Plasma-Frost
+bw9,pt,Congelamento de Plasma
+bw8,en,Plasma Storm
+bw8,fr,Tempète Plasma
+bw8,es,Tormenta Plasma
+bw8,it,Uragano Plasma
+bw8,de,Plasma-Sturm
+bw8,pt,Tempestade de Plasma
+rc,en,Radiant Collection
+rc,fr,Radiant Collection
+rc,es,Colección Radiante
+col1,en,Call of Legends
+col1,fr,L'appel des Légendes
+col1,it,Richiamo delle Leggende
+col1,de,Ruf der Legenden
+col1,pt,Chamado das Lendas
+col1,es,Llamada de las Leyendas
+dpp,en,DP Black Star Promos
+dpp,fr,Promo DP
+dpp,es,DP Black Star Promos
+dpp,it,DP Black Star Promos
+dpp,de,Promo DP
+dp1,en,Diamond & Pearl
+dp1,fr,Diamant & Perle
+dp1,es,Diamante & Perla
+dp1,it,Diamante & Perla
+dp1,de,Diamant & Perl
+dp1,pt,Diamante & Pérola
+dp1,pl,Diament i Perla
+dp4,en,Great Encounters
+dp4,fr,Duels au Sommets
+dp4,es,Grandes Encuentros
+dp4,de,Epische Begegnungen
+dp4,it,Incontri Leggendari
+dp6,en,Legends Awakened
+dp6,fr,Éveil des Légendes
+dp6,es,Despertar de las Leyendas
+dp6,it,Il Risveglio dei Miti
+dp6,de,Erwachte Legenden
+dp5,en,Majestic Dawn
+dp5,fr,Aube Majestueuse
+dp5,it,Alba Suprema
+dp5,de,Majestätischer Morgen
+dp2,en,Mysterious Treasures
+dp2,fr,Trésors Mystérieux
+dp2,es,Tesoros Misteriosos
+dp2,it,Tesori Misteriosi
+dp2,de,Geheimnisvolle Schätze
+dp2,pt,Tesouros Misteriosos
+dp2,pl,Tajemne Skarby
+dp3,en,Secret Wonders
+dp3,fr,Merveilles Secrètes
+dp3,es,Maravillas Secretas
+dp3,it,Prodigi Segreti
+dp3,de,Rätselhafte Wunder
+dp3,pt,Maravilhas Secretas
+dp7,en,Stormfront
+dp7,fr,Tempête
+dp7,es,Frente Tormentoso
+dp7,it,Fronte di Tempesta
+dp7,de,Sturmtief
+ecard2,en,Aquapolis
+ecard2,fr,Aquapolis
+ecard2,de,Aquapolis
+ecard2,it,Aquapolis
+bog,en,Best of game
+ecard1,en,Expedition Base Set
+ecard1,fr,Expedition
+ecard1,it,Expedition Set Base
+ecard1,de,Expedition
+sp,en,Sample
+ecard3,en,Skyridge
+ecard3,it,Skyridge
+ecard3,de,Skyridge
+ex14,en,Crystal Guardians
+ex14,fr,EX Gardiens de Cristal
+ex14,de,EX Crystal Guardians
+ex14,it,EX Guardiani dei Cristalli
+ex11,en,Delta Species
+ex11,fr,EX Espèces Delta
+ex11,it,EX Specie Delta
+ex11,de,EX Delta Species
+ex8,en,Deoxys
+ex8,fr,EX Deoxys
+ex8,it,EX Deoxys
+ex8,de,EX Deoxys
+ex8,pt,EX Deoxys
+ex15,en,Dragon Frontiers
+ex15,fr,EX Île des Dragons
+ex15,it,EX L'Isola dei Draghi
+ex15,de,EX Dragon Frontiers
+ex3,en,Dragon
+ex3,fr,EX Dragon
+ex3,de,EX Drache
+ex3,it,EX Drago
+ex9,en,Emerald
+ex9,fr,EX Émeraude
+ex9,de,EX Smaragd
+ex9,it,EX Smeraldo
+ex9,pt,EX Esmeralda
+ex6,en,FireRed & LeafGreen
+ex6,fr,EX Rouge Feu & Vert Feuille
+ex6,it,EX RossoFuoco e VerdeFoglia
+ex6,de,EX Feuerrot & Blattgrün
+ex5,en,Hidden Legends
+ex5,fr,EX Légendes Oubliées
+ex5,it,EX Leggende Nascoste
+ex13,en,Holon Phantoms
+ex13,fr,EX Fantômes Holon
+ex13,it,EX Fantasmi di Holon
+ex13,de,EX Holon Phantoms
+ex12,en,Legend Maker
+ex12,fr,EX Créateurs de légendes
+ex12,de,EX Legend Maker
+ex12,it,EX La Leggenda di Mew
+ex5.5,en,Poké Card Creator Pack
+ex16,en,Power Keepers
+ex16,fr,EX Gardiens du Pouvoir
+ex16,de,EX Power Keepers
+ex1,en,Ruby & Sapphire
+ex1,fr,EX Rubis & Saphir
+ex1,es,Rubí & Zafiro
+ex1,it,EX Rubino & Zaffiro
+ex1,de,EX Rubin & Saphir
+ex1,pt,EX Rubi e Safira
+ex2,en,Sandstorm
+ex2,fr,EX Tempête de sable
+ex2,it,EX Tempesta di Sabbia
+ex2,de,EX Sandsturm
+ex4,en,Team Magma vs Team Aqua
+ex4,fr,EX Team Magma vs Team Aqua
+ex4,it,EX Team Magma vs Team Idro
+ex4,de,EX Team Magma vs Team Aqua
+ex7,en,Team Rocket Returns
+ex7,pt,EX O Retorno da Equipe Rocket 
+exu,en,Unseen Forces Unown Collection
+exu,fr,EX Forces Cachées Collection Zarbi
+exu,es,EX Fuerzas Ocultas Unown
+exu,it,EX Forze Segrete Unown
+exu,de,EX Verborgene Mächte Icognito
+ex10,en,Unseen Forces
+ex10,fr,EX Forces Cachées
+ex10,es,EX Fuerzas Ocultas
+ex10,it,EX Forze Segrete
+ex10,de,EX Verborgene Mächte
+ex10,pt,EX Forças Ocultas
+gym2,en,Gym Challenge
+gym1,en,Gym Heroes
+hgssp,en,HGSS Black Star Promos
+hgssp,fr,Promo HGSS
+hgssp,es,HGSS Black Star Promos
+hgssp,it,HGSS Promo
+hgssp,de,Promo HGSS
+hgss1,en,HeartGold SoulSilver
+hgss1,fr,HeartGold SoulSilver
+hgss1,es,HeartGold SoulSilver
+hgss1,it,HeartGold SoulSilver
+hgss1,de,HeartGold SoulSilver
+hgss1,pt,HeartGold SoulSilver
+hgss4,en,Triumphant
+hgss4,fr,Triomphant
+hgss4,it,Battaglie Trionfali
+hgss4,de,Triumph
+hgss4,pt,Triunfante
+hgss3,en,Undaunted
+hgss3,fr,Indomptable
+hgss3,it,Senza Paura
+hgss3,de,Unerschrocken
+hgss3,pt,Destemido
+hgss2,en,Unleashed
+hgss2,fr,Déchaînement
+hgss2,es,Liberados
+hgss2,it,Forze Scatenate
+hgss2,de,Entfesselt
+hgss2,pt,Revelado
+lc,en,Legendary Collection
+2013bw,fr,Collection McDonald's 2013
+2018sm-fr,fr,Collection McDonald's 2018
+2019sm-fr,fr,Collection McDonald's 2019
+2011bw,en,McDonald's Collection 2011
+2011bw,fr,Collection McDonald's 2011
+2011bw,es,Colección de McDonald's 2011
+2011bw,it,McDonald's Collection
+2011bw,de,McDonald’s Kollektion 2011
+2012bw,en,McDonald's Collection 2012
+2012bw,fr,Collection McDonald's 2012
+2012bw,es,Colección de McDonald's 2012
+2012bw,it,McDonald's Collection 2012
+2014xy,en,McDonald's Collection 2014
+2014xy,fr,Collection McDonald's 2014
+2014xy,it,McDonald's Collection 2014
+2015xy,en,McDonald's Collection 2015
+2015xy,fr,Collection McDonald's 2015
+2015xy,it,McDonald's Collection 2015
+2016xy,en,McDonald's Collection 2016
+2016xy,fr,Collection McDonald's 2016
+2016xy,it,McDonald's Collection 2016
+2017sm,en,McDonald's Collection 2017
+2017sm,fr,Collection McDonald's 2017
+2017sm,it,McDonald's Collection 2017
+2017sm,de,McDonald’s Kollektion 2017
+2018sm,de,McDonald's Kollektion 2018
+2018sm,en,McDonald's Collection 2018
+2018sm,it,McDonald's Collection 2018
+2019sm,en,McDonald's Collection 2019
+2019sm,it,McDonald's Collection 2019
+2019sm,de,McDonald’s Kollektion 2019
+2021swsh,en,McDonald's Collection 2021
+2021swsh,fr,Collection McDonald's 2021
+2021swsh,es,Colección de McDonald's 2021
+2021swsh,it,McDonald's Collection 2021
+2021swsh,de,McDonald’s Kollektion 2021
+2022swsh,en,McDonald's Collection 2022
+2022swsh,fr,Collection McDonald's 2022
+2022swsh,es,Colección de McDonald's 2022
+2022swsh,it,McDonald's Collection 2022
+2022swsh,de,McDonald's Kollektion 2022
+2023sv,en,McDonald's Collection 2023
+2023sv,fr,Collection McDonald's 2023
+2023sv,es,Colección de McDonald's 2023
+2023sv,it,McDonald's Collection 2023
+2023sv,de,McDonald's Kollektion 2023
+2024sv,en,McDonald's Collection 2024
+2024sv,fr,Collection McDonald's 2024
+2024sv,es,Colección de McDonald's 2024
+2024sv,it,McDonald's Collection 2024
+2024sv,de,McDonald's Kollektion 2024
+30th,en,30th Celebration
+30th,fr,30ᵉ Anniversaire
+30th,de,30 Jahre
+30th,it,30° Anniversario
+30th,pt,Celebração de 30 Anos
+30th,es,Celebración 30.º Aniversario
+30th,es-mx,Celebración 30.º Aniversario
+30th-c,en,30th Classic Collection
+30th-c,fr,Collection Classique 30ᵉ Anniversaire
+30th-c,de,30 Jahre: Klassische Sammlung
+30th-c,it,Collezione Classica del 30°
+30th-c,pt,Coleção Clássica de 30 Anos
+30th-c,es,Colección Clásica del 30.º Aniversario
+30th-c,es-mx,Colección Clásica del 30.º Aniversario 
+me02.5,de,Erhabene Helden
+me02.5,en,Ascended Heroes
+me02.5,es,Héroes Ascendentes
+me02.5,es-mx,Ascenso Heroico
+me02.5,fr,Héros Transcendants
+me02.5,it,Ascesa Eroica
+me02.5,pt,Heróis Excelsos
+me04,de,Wachsendes Chaos
+me04,en,Chaos Rising
+me04,es,Caos Creciente
+me04,es-mx,Caos Creciente
+me04,fr,Chaos Ascendant
+me04,it,Caos Nascente
+me04,pt,Caos Ascendente
+me06,en,Delta Reign
+me06,fr,Règne Delta
+me06,de,Delta-Herrschaft
+me06,it,Dominio Delta 
+me06,pt,Reinado Delta
+me06,es,Dominio Delta
+me06,es-mx,Dominio Delta
+mep,de,MEP Black Star Promos
+mep,en,MEP Black Star Promos
+mep,es,MEP Black Star Promos
+mep,es-mx,MEP Black Star Promos
+mep,fr,MEP Black Star Promos
+mep,it,MEP Black Star Promos
+mep,pt,MEP Black Star Promos
+mee,en,Mega Evolution Energy
+mee,es,Megaevolución Energía
+mee,fr,Méga-Évolution Énergie
+mee,it,Megaevoluzione Energia
+mee,pt,Megaevolução Energia
+mee,de,Mega-Entwicklung Energie
+me01,de,Mega-Entwicklung
+me01,en,Mega Evolution
+me01,es,Megaevolución
+me01,es-mx,Megaevolución
+me01,fr,Méga-Évolution
+me01,it,Megaevoluzione
+me01,pt,Megaevolução
+me03,de,Optimale Ordnung
+me03,en,Perfect Order
+me03,es,Equilibrio Perfecto
+me03,es-mx,Equilibrio Perfecto
+me03,fr,Équilibre Parfait
+me03,it,Equilibrio Perfetto
+me03,pt,Equilíbrio Perfeito
+me02,de,Fatale Flammen
+me02,en,Phantasmal Flames
+me02,es,Fuegos Fantasmales
+me02,es-mx,Llamaradas Fantasmales
+me02,fr,Flammes Fantasmagoriques
+me02,it,Fiamme Spettrali
+me02,pt,Fogo Fantasmagórico
+me05,de,Dunkelnacht
+me05,en,Pitch Black
+me05,es,Oscuridad Absoluta
+me05,es-mx,Tinieblas Umbrías
+me05,fr,Nuit Noire
+me05,it,Buio Pesto
+me05,pt,Escuridão Absoluta
+jumbo,en,Jumbo cards
+jumbo,fr,Cartes Jumbo
+miscp,en,Miscellaneous Promos
+neo4,en,Neo Destiny
+neo4,fr,Neo Destiny
+neo4,de,Neo Destiny
+neo4,it,Neo Destiny
+neo2,en,Neo Discovery
+neo2,fr,Neo Discovery
+neo2,it,Neo Discovery
+neo2,de,Neo Entdeckung
+neo1,en,Neo Genesis
+neo1,fr,Neo Genesis
+neo1,es,Neo Genesis
+neo1,it,Neo Genesis
+neo1,de,Neo Genesis
+neo3,en,Neo Revelation
+neo3,fr,Neo Revelation
+neo3,it,Neo Revelation
+neo3,de,Neo Revelation
+si1,en,Southern Islands
+np,en,Nintendo Black Star Promos
+np,fr,Promo Nintendo
+np,es,Nintendo Black Star Promos
+np,it,Nintendo Black Star Promos
+np,de,Nintendo Black Star Promos
+pop1,en,POP Series 1
+pop1,fr,POP Série 1
+pop1,it,POP Serie 1
+pop1,de,POP Serie 1
+pop2,en,POP Series 2
+pop2,fr,POP Série 2
+pop2,it,POP Serie 2
+pop2,de,POP Serie 2
+pop3,en,POP Series 3
+pop3,fr,POP Série 3
+pop3,it,POP Serie 3
+pop3,de,POP Serie 3
+pop4,en,POP Series 4
+pop4,fr,POP Série 4
+pop4,it,POP Serie 4
+pop4,de,POP Serie 4
+pop5,en,POP Series 5
+pop5,it,POP Serie 5
+pop5,de,POP Serie 5
+pop6,en,POP Series 6
+pop6,de,POP Series 6
+pop7,en,POP Series 7
+pop7,fr,POP Série 7
+pop7,it,POP Serie 7
+pop7,de,POP Serie 7
+pop8,en,POP Series 8
+pop8,de,POP Series 8
+pop9,en,POP Series 9
+pop9,fr,POP Série 9
+pop9,it,POP Serie 9
+pop9,de,POP Serie 9
+pl4,en,Arceus
+pl4,es,Arceus
+pl4,it,Arceus
+pl4,de,Arceus
+pl1,en,Platinum
+pl1,fr,Platine
+pl1,es,Platino
+pl1,it,Platino
+pl1,de,Platin
+ru1,en,Pokémon Rumble
+ru1,es,Pokémon Rumble
+pl2,en,Rising Rivals
+pl2,fr,Rivaux Émergeants
+pl2,it,L'Ascesa dei Rivali
+pl2,de,Aufstieg der Rivalen
+pl3,en,Supreme Victors
+pl3,fr,Vainqueurs Suprêmes
+pl3,de,Ultimative Sieger
+A3,de,Hüter des Firmaments
+A3,en,Celestial Guardians
+A3,es,Guardianes Celestiales
+A3,fr,Gardiens Astraux
+A3,it,Guardiani Astrali
+A3,pt-br,Guardiões Celestiais
+A3,ko,쌍천의 수호자
+B1a,de,Feuerrote Flammen
+B1a,en,Crimson Blaze
+B1a,es,Fuego Carmesí
+B1a,fr,Embrasement Écarlate
+B1a,it,Fiamme Cremisi
+B1a,pt-br,Chama Carmesim
+B1a,ko,홍련 블레이즈
+A3b,en,Eevee Grove
+A3b,fr,La Clairière d'Évoli
+A3a,en,Extradimensional Crisis
+A3a,fr,Crise Interdimensionnelle
+B2,de,Traumhafte Parade
+B2,en,Fantastical Parade
+B2,es,Desfile de Ensueño
+B2,fr,Parade Onirique
+B2,it,Parata Fantasmagorica
+B2,pt-br,Desfile Onírico
+B2,ko,몽환 퍼레이드
+A1,de,Unschlagbare Gene
+A1,en,Genetic Apex
+A1,es,Genes Formidables
+A1,fr,Puissance Génétique
+A1,it,Geni Supremi
+A1,pt-br,Dominação Genética
+A1,ko,최강의 유전자
+B1,en,Mega Rising
+B1,fr,Méga-Ascension
+A1a,de,Mysteriöse Insel
+A1a,en,Mythical Island
+A1a,es,La Isla Singular
+A1a,fr,L’Île Fabuleuse
+A1a,it,L'Isola Misteriosa
+A1a,pt-br,Ilha Mítica
+A1a,ko,환상이 있는 섬
+B2a,de,Paldean Wonders
+B2a,en,Paldean Wonders
+B2a,es,Paldean Wonders
+B2a,fr,Merveilles de Paldea
+B2a,it,Paldean Wonders
+B2a,pt-br,Paldean Wonders
+B2a,ko,Paldean Wonders
+P-A,de,PROMO-A
+P-A,en,Promos-A
+P-A,es,Promo-A
+P-A,fr,Promo-A
+P-A,it,Promo-A
+P-A,ko,Promo-A
+P-A,pt-br,Promo-A
+A4a,en,Secluded Springs
+A4a,de,Verborgene Quelle
+A4a,es,Manantial Oculto
+A4a,fr,Source Secrète
+A4a,it,Sorgenti Recondite
+A4a,pt-br,Nascentes Reclusas
+A4a,ko,미지의 수역
+A4a,ja,未知なる水域
+A4a,zh-tw,未知水域
+A4a,zh-cn,未知水域
+A2b,de,Glänzendes Festival
+A2b,en,Shining Revelry
+A2b,es,Festival Brillante
+A2b,fr,Réjouissances Rayonnantes
+A2b,it,Tripudio Splendente
+A2b,pt-br,Festival Brilhante
+A2b,ko,샤이닝 하이
+A2,de,Kollision von Raum und Zeit
+A2,en,Space-Time Smackdown
+A2,es,Pugna Espaciotemporal
+A2,fr,Choc Spatio-Temporel
+A2,it,Scontro Spaziotemporale
+A2,pt-br,Embate do Tempo e Espaço
+A2,ko,시공의 격투
+A2a,de,Licht des Triumphs
+A2a,en,Triumphant Light
+A2a,es,Luz Triunfal
+A2a,fr,Lumière Triomphale
+A2a,it,Luce Trionfale
+A2a,pt-br,Luz Triunfante
+A2a,ko,초극의 빛
+A4,en,Wisdom of Sea and Sky
+A4,fr,Sagesse Entre Ciel et Mer
+sv03.5,de,151
+sv03.5,en,151
+sv03.5,es,151
+sv03.5,fr,151
+sv03.5,it,151
+sv03.5,pt,151
+sv10.5b,de,Schwarze Blitze
+sv10.5b,en,Black Bolt
+sv10.5b,es,Fulgor Negro
+sv10.5b,fr,Foudre Noire
+sv10.5b,it,Luce Nera
+sv10.5b,pt,Raio Preto
+sv10,de,Ewige Rivalen
+sv10,en,Destined Rivals
+sv10,es,Rivales Predestinados
+sv10,fr,Rivalités Destinées
+sv10,it,Rivali Predestinati
+sv10,pt,Rivais Predestinados
+sv10,es-mx,Rivales Predestinados
+sv09,de,Reisegefährten
+sv09,en,Journey Together
+sv09,es,Juntos de Aventuras
+sv09,fr,Aventures Ensemble
+sv09,it,Avventure Insieme
+sv09,pt,Amigos de Jornada
+sv09,es-mx,Aventuras Compartidas
+mfb,en,My First Battle
+sv03,de,Obsidian Flammen
+sv03,en,Obsidian Flames
+sv03,es,Llamas Obsidianas
+sv03,fr,Flammes Obsidiennes
+sv03,it,Ossidiana Infuocata
+sv03,pt,Obsidiana em Chamas
+sv02,de,Entwicklungen in Paldea
+sv02,en,Paldea Evolved
+sv02,es,Evoluciones en Paldea
+sv02,fr,Évolutions à Paldea
+sv02,it,Evoluzioni a Paldea
+sv02,pt,Evoluções em Paldea
+sv04.5,de,Paldeas Schicksale
+sv04.5,en,Paldean Fates
+sv04.5,es,Destinos de Paldea
+sv04.5,fr,Destinées de Paldea
+sv04.5,it,Destino di Paldea
+sv04.5,pt,Destinos de Paldea
+sv04,de,Paradoxrift
+sv04,en,Paradox Rift
+sv04,es,Brecha Paradójica
+sv04,fr,Faille Paradoxe
+sv04,it,Paradosso Temporale
+sv04,pt,Fenda Paradoxal
+sv08.5,de,Prismatische Entwicklungen
+sv08.5,en,Prismatic Evolutions
+sv08.5,es,Evoluciones Prismáticas
+sv08.5,fr,Évolutions Prismatiques
+sv08.5,it,Evoluzioni Prismatiche
+sv08.5,pt,Evoluções Prismáticas
+svp,de,SVP Black Star Promos
+svp,en,SVP Black Star Promos
+svp,es,SVP Black Star Promos
+svp,fr,SVP Black Star Promos
+svp,it,SVP Black Star Promos
+svp,pt,SVP Black Star Promos
+sve,en,Scarlet & Violet Energy
+sve,es,Escarlata y Púrpura Energía
+sve,fr,Écarlate et Violet Énergie
+sve,it,Scarlatto e Violetto Energia
+sve,pt,Escarlate e Violeta Energia
+sve,de,Karmesin & Purpur Energie
+sv01,de,Karmesin & Purpur
+sv01,en,Scarlet & Violet
+sv01,es,Escarlata y Púrpura
+sv01,fr,Écarlate et Violet
+sv01,it,Scarlatto e Violetto
+sv01,pt,Escarlate e Violeta
+sv06.5,de,Nebel der Sagen
+sv06.5,en,Shrouded Fable
+sv06.5,es,Fabula Sombría
+sv06.5,fr,Fable Nébuleuse
+sv06.5,it,Segreto Fiabesco
+sv06.5,pt,Fábulas Nebulosas
+sv07,de,Stellarkrone
+sv07,en,Stellar Crown
+sv07,es,Corona Astral
+sv07,fr,Couronne Stellaire
+sv07,it,Corona Astrale
+sv07,pt,Coroa Estelar
+sv08,de,Stürmische Funken
+sv08,en,Surging Sparks
+sv08,es,Chispas Fulgurantes
+sv08,fr,Étincelles Déferlantes
+sv08,it,Scintille Folgoranti
+sv08,pt,Fagulhas Impetuosas
+sv05,de,Gewalten der Zeit
+sv05,en,Temporal Forces
+sv05,es,Fuerzas Temporales
+sv05,fr,Forces Temporelles
+sv05,it,Cronoforze
+sv05,pt,Forças Temporais
+sv06,de,Maskerade im Zwielicht
+sv06,en,Twilight Masquerade
+sv06,es,Mascarada Crepuscular
+sv06,fr,Mascarade Crépusculaire
+sv06,it,Crepuscolo Mascherato
+sv06,pt,Máscaras do Crepúsculo
+sv10.5w,de,Weiße Flammen
+sv10.5w,en,White Flare
+sv10.5w,es,Llama Blanca
+sv10.5w,fr,Flamme Blanche
+sv10.5w,it,Fuoco Bianco
+sv10.5w,pt,Fogo Branco
+sm3,en,Burning Shadows
+sm3,fr,Ombres Ardentes
+sm3,es,Sombras Ardientes
+sm3,it,Ombre Infuocate
+sm3,de,Nacht in Flammen
+sm3,pt,Sombras Ardentes
+sm7,en,Celestial Storm
+sm7,fr,Tempête Céleste
+sm7,es,Tormenta Celestial
+sm7,it,Tempesta Astrale
+sm7,de,Sturm Am Firmament
+sm7,pt,Tempestade Celestial
+sm12,en,Cosmic Eclipse
+sm12,fr,Éclipse Cosmique
+sm12,es,Eclipse Cósmico
+sm12,it,Eclissi Cosmica
+sm12,de,Welten im Wandel
+sm12,pt,Eclipse Cósmico
+sm4,en,Crimson Invasion
+sm4,fr,Invasion Carmin
+sm4,es,Invasión Carmesí
+sm4,it,Invasione Scarlatta
+sm4,de,Aufziehen der Sturmröte
+sm4,pt,Invasão Carmim
+det1,en,Detective Pikachu
+det1,fr,Détective Pikachu
+det1,es,Detective Pikachu
+det1,it,Detective Pikachu
+det1,de,Meisterdetektiv Pikachu
+det1,pt,Detetive Pikachu
+sm7.5,en,Dragon Majesty
+sm7.5,fr,Majesté Des Dragons
+sm7.5,es,Majestad De Dragones
+sm7.5,it,Trionfo Dei Draghi
+sm7.5,de,Majestät Der Drachen
+sm7.5,pt,Dragões Soberanos
+sm6,en,Forbidden Light
+sm6,fr,Lumière Interdite
+sm6,es,Luz Prohibida
+sm6,it,Apocalisse Di Luce
+sm6,de,Grauen Der Lichtfinsternis
+sm6,pt,Luz Proibida
+sm2,en,Guardians Rising
+sm2,fr,Gardiens Ascendants
+sm2,es,Albor de Guadianes
+sm2,it,Guardiani Nascenti
+sm2,de,Stunde der Wächter
+sm2,pt,Guardiões Ascendentes
+sma,en,Hidden Fates Shiny Vault
+sma,fr,Destinées Occultes Coffre Étincelant
+sma,es,Destinos Ocultos Tesoro Brillante
+sma,it,Destino Sfuggente Tesoro Lucente
+sma,de,Verborgenes Schicksal Glitzer-Tresor
+sma,pt,Destinos Ocultos Cofre Brilhante
+sm115,en,Hidden Fates
+sm115,fr,Destinées Occultes
+sm115,es,Destinos Ocultos
+sm115,it,Destino Sfuggente
+sm115,de,Verborgenes Schicksal
+sm115,pt,Destinos Ocultos
+sm8,en,Lost Thunder
+sm8,fr,Tonnerre Perdu
+sm8,es,Truenos Perdidos
+sm8,it,Tuoni Perduti
+sm8,de,Echo des Donners
+sm8,pt,Trovões Perdidos
+smp,en,SM Black Star Promos
+smp,pt,Sol e Lua Promos
+smp,fr,Promo SM
+smp,es,SL Cartas de promoción
+smp,it,SL Promo
+smp,de,SM Promokarten
+sm3.5,en,Shining Legends
+sm3.5,fr,Légendes Brillantes
+sm3.5,es,Leyendas Luminosas
+sm3.5,it,Leggende Iridescenti
+sm3.5,de,Schimmernde Legenden
+sm3.5,pt,Lendas Luminescentes
+sm1,en,Sun & Moon
+sm1,fr,Soleil et Lune
+sm1,es,Sol y Luna
+sm1,it,Sole e Luna
+sm1,de,Sonne & Mond
+sm1,pt,Sol e Lua
+sm9,en,Team Up
+sm9,fr,Duo de Choc
+sm9,es,Union de Aliados
+sm9,it,Gioco di Squadra
+sm9,de,Teams Sind Trumpf
+sm9,pt,União de Aliados
+sm5,en,Ultra Prism
+sm5,fr,Ultra-Prisme
+sm5,es,Ultraprisma
+sm5,it,Ultraprisma
+sm5,de,Ultra-Prisma
+sm5,pt,Ultra Prisma
+sm10,en,Unbroken Bonds
+sm10,fr,Alliance Infaillible
+sm10,es,Vínculos Indestructibles
+sm10,it,Legami Inossidabili
+sm10,de,Kräfte im Einklang
+sm10,pt,Elos Inquebráveis
+sm11,en,Unified Minds
+sm11,fr,Harmonie des Esprits
+sm11,es,Mentes Unidas
+sm11,it,Sintonia Mentale
+sm11,de,Bund der Gleichgesinnten
+sm11,pt,Sintonia Mental 
+swsh10tg,en,Astral Radiance Trainer Gallery
+swsh10tg,fr,Astres Radieux Galerie de Dresseurs
+swsh10tg,es,Resplandor Astral Galería de Entrenador
+swsh10tg,it,Lucentezza Siderale Galleria Allenatori
+swsh10tg,de,Astralglanz Trainer-Galerie
+swsh10tg,pt,Estrelas Radiantes Galeria de Treinador
+swsh10,en,Astral Radiance
+swsh10,fr,Astres Radieux
+swsh10,es,Resplandor Astral
+swsh10,it,Lucentezza Siderale
+swsh10,de,Astralglanz
+swsh10,pt,Estrelas Radiantes
+swsh5,en,Battle Styles
+swsh5,fr,Styles de combat
+swsh5,es,Estilos de Combate
+swsh5,it,Stili di Lotta
+swsh5,de,Kampfstile
+swsh5,pt,Estilos de Batalha
+swsh9tg,en,Brilliant Stars Trainer Gallery
+swsh9tg,fr,Stars Étincelantes Galerie de Dresseurs
+swsh9tg,es,Astros Brillantes Galería de Entrenador
+swsh9tg,it,Astri Lucenti Galleria Allenatori
+swsh9tg,de,Strahlende Sterne Trainer-Galerie
+swsh9tg,pt,Astros Cintilantes Galeria de Treinador
+swsh9,en,Brilliant Stars
+swsh9,fr,Stars Étincelantes
+swsh9,es,Astros Brillantes
+swsh9,it,Astri Lucenti
+swsh9,de,Strahlende Sterne
+swsh9,pt,Astros Cintilantes
+cel25cc,en,Celebrations Classic Collection
+cel25cc,fr,Célébrations Collection Classique
+cel25cc,es,Celebraciones Colección Clásica
+cel25cc,it,Gran Festa Collezione Classica
+cel25cc,de,Celebrations Klassische Kollektion
+cel25cc,pt,Celebrações Coleção Clássica
+cel25,en,Celebrations
+cel25,fr,Célébrations
+cel25,es,Celebraciones
+cel25,de,Celebrations
+cel25,it,Gran Festa
+cel25,pt,Celebrações
+swsh3.5,en,Champion's Path
+swsh3.5,fr,La Voie du Maître
+swsh3.5,es,Camino de Campeones
+swsh3.5,it,Futuri Campioni
+swsh3.5,de,Weg des Champs
+swsh3.5,pt,Caminho do Campeão
+swsh6,en,Chilling Reign
+swsh6,fr,Règne de Glace
+swsh6,es,Reinado Escalofriante
+swsh6,it,Regno Glaciale
+swsh6,de,Schaurige Herrschaft
+swsh6,pt,Reinado Arrepiante
+swsh12.5gg,en,Crown Zenith Galarian Gallery
+swsh12.5gg,fr,Zénith Suprême Galerie Galaroise
+swsh12.5gg,es,Cenit Supremo Galería de Galar
+swsh12.5gg,it,Zenit Regale Galleria di Galar
+swsh12.5gg,de,Zenit der Könige Galar-Galerie
+swsh12.5gg,pt,Realeza Absoluta Galeria de Galar
+swsh12.5,en,Crown Zenith
+swsh12.5,fr,Zénith Suprême
+swsh12.5,es,Cenit Supremo
+swsh12.5,it,Zenit Regale
+swsh12.5,de,Zenit der Könige
+swsh12.5,pt,Realeza Absoluta
+swsh3,en,Darkness Ablaze
+swsh3,fr,Ténèbres Embrasées
+swsh3,es,Oscuridad Incandescente
+swsh3,it,Fiamme Oscure
+swsh3,de,Flammende Finsternis
+swsh3,pt,Escuridão Incandescente
+swsh7,en,Evolving Skies
+swsh7,fr,Évolution Céleste
+swsh7,es,Cielos Evolutivos
+swsh7,de,Drachenwandel
+swsh7,it,Evoluzioni Eteree
+swsh7,pt,Céus em Evolução
+swsh8,en,Fusion Strike
+swsh8,fr,Poing de Fusion
+swsh8,es,Golpe Fusión
+swsh8,it,Colpo Fusione
+swsh8,de,Fusionsangriff
+swsh8,pt,Golpe Fusão
+swsh11tg,en,Lost Origin Trainer Gallery
+swsh11tg,fr,Origine Perdue Galerie de Dresseurs
+swsh11tg,es,Origen Perdido Galería de Entrenador
+swsh11tg,it,Origine Perduta Galleria Allenatori
+swsh11tg,de,Verlorener Ursprung Trainer-Galerie
+swsh11tg,pt,Origem Perdida Galeria de Treinador
+swsh11,en,Lost Origin
+swsh11,fr,Origine Perdue
+swsh11,es,Origen Perdido
+swsh11,de,Verlorener Ursprung
+swsh11,it,Origine Perduta
+swsh11,pt,Origem Perdida
+fut2020,en,Pokémon Futsal 2020
+swsh10.5,en,Pokémon GO
+swsh10.5,fr,Pokémon GO
+swsh10.5,es,Pokémon GO
+swsh10.5,it,Pokémon GO
+swsh10.5,de,Pokémon GO
+swsh10.5,pt,Pokémon GO
+swsh2,en,Rebel Clash
+swsh2,fr,Clash des Rebelles
+swsh2,es,Choque Rebelde
+swsh2,it,Fragore Ribelle
+swsh2,de,Clash der Rebellen
+swsh2,pt,Rixa Rebelde
+swshp,en,SWSH Black Star Promos
+swshp,pt,ESES Promos
+swshp,fr,Promo SWSH
+swshp,es,Cartas de promoción ESES
+swshp,it,SPSC Promo
+swshp,de,SCSC Promokarten
+swsh4.5sv,en,Shining Fates Shiny Vault
+swsh4.5sv,fr,Destinées Radieuses Coffre Étincelant
+swsh4.5sv,es,Destinos Brillantes Tesoro Brillante
+swsh4.5sv,it,Destino Splendente Tesoro Lucente
+swsh4.5sv,de,Glänzendes Schicksal Glitzer-Tresor
+swsh4.5sv,pt,Destinos Brilhantes Cofre Brilhante
+swsh4.5,en,Shining Fates
+swsh4.5,fr,Destinées Radieuses
+swsh4.5,es,Destinos Brillantes
+swsh4.5,it,Destino Splendente
+swsh4.5,de,Glänzendes Schicksal
+swsh4.5,pt,Destinos Brilhantes 
+swsh12tg,en,Silver Tempest Trainer Gallery
+swsh12tg,fr,Tempête Argentée Galerie de Dresseurs
+swsh12tg,es,Tempestad Plateada Galería de Entrenador
+swsh12tg,it,Tempesta Argentata Galleria Allenatori
+swsh12tg,de,Silberne Sturmwinde Trainer-Galerie
+swsh12tg,pt,Tempestade Prateada Galeria de Treinador
+swsh12,en,Silver Tempest
+swsh12,fr,Tempête Argentée
+swsh12,es,Tempestad Plateada
+swsh12,it,Tempesta Argentata
+swsh12,de,Silberne Sturmwinde
+swsh12,pt,Tempestade Prateada
+swsh1,en,Sword & Shield
+swsh1,fr,Épée et Bouclier
+swsh1,es,Espada y Escudo
+swsh1,it,Spada e Scudo
+swsh1,de,Schwert & Schild
+swsh1,pt,Espada e Escudo
+swsh4,en,Vivid Voltage
+swsh4,fr,Voltage Éclatant
+swsh4,es,Voltaje Vívido
+swsh4,it,Voltaggio Sfolgorante
+swsh4,de,Farbenschock
+swsh4,pt,Voltagem Vívida
+tk-bw-e,en,BW trainer Kit (Excadrill)
+tk-bw-e,fr,BW Kit du dresseur (Minitaupe)
+tk-bw-e,es,Kit de Entrenador BW (Excadrill)
+tk-bw-z,en,BW trainer Kit (Zoroark)
+tk-bw-z,fr,BW Kit du dresseur (Zoroark)
+tk-bw-z,es,Kit de Entrenador XY (Pikachu Enmascarada)
+tk-dp-l,en,DP trainer Kit (Lucario)
+tk-dp-l,it,Diamond & Pearl trainer Kit (Lucario)
+tk-dp-l,fr,DP Kit dresseur (Lucario)
+tk-dp-l,es,Kit de Entrenador Diamante & Perla (Lucario)
+tk-dp-m,en,DP trainer Kit (Manaphy)
+tk-dp-m,it,Diamond & Pearl trainer Kit (Manaphy)
+tk-dp-m,fr,DP Kit dresseur (Manaphy)
+tk-dp-m,es,Kit de Entrenador Diamante & Perla (Manaphy)
+tk-ex-latia,en,EX trainer Kit (Latias)
+tk-ex-latia,it,EX trainer Kit (Latias)
+tk-ex-latia,de,EX trainer Kit (Latias)
+tk-ex-latia,fr,EX Kit dresseur (Latias)
+tk-ex-latia,es,Kit de Entrenador EX (Latias)
+tk-ex-latio,en,EX trainer Kit (Latios)
+tk-ex-latio,it,EX trainer Kit (Latios)
+tk-ex-latio,de,EX trainer Kit (Latios)
+tk-ex-latio,fr,EX Kit dresseur (Latios)
+tk-ex-latio,es,Kit de Entrenador EX (Latios)
+tk-ex-m,en,EX trainer Kit 2 (Minun)
+tk-ex-m,it,EX trainer Kit (Ninun)
+tk-ex-m,fr,EX Kit dresseur (Négapi)
+tk-ex-m,es,Kit de Entrenador EX (Ninun)
+tk-ex-p,en,EX trainer Kit 2 (Plusle)
+tk-ex-p,it,EX trainer Kit (Plusle)
+tk-ex-p,fr,EX Kit dresseur (Positi)
+tk-ex-p,es,Kit de Entrenador EX (Plusle)
+tk-hs-g,en,HS trainer Kit (Gyarados)
+tk-hs-g,it,HS trainer Kit (Gyarados)
+tk-hs-g,fr,HS Kit du dresseur (Léviator)
+tk-hs-g,es,Kit de Entrenador HeatGold & SoulSilver (Gyarados)
+tk-hs-r,en,HS trainer Kit (Raichu)
+tk-hs-r,it,HS trainer Kit (Raichu)
+tk-hs-r,fr,HS Kit du dresseur (Raichu)
+tk-hs-r,es,Kit de Entrenador HeatGold & SoulSilver (Raichu)
+tk-sm-r,en,SM trainer Kit (Alolan Raichu)
+tk-sm-r,it,Sole e Luna trainer Kit (Alolan Raichu)
+tk-sm-r,fr,SM Kit du dresseur (Raichu d'Alola)
+tk-sm-r,es,Kit de Entrenador Sol y Luna (Raichu de Alola)
+tk-sm-l,en,SM trainer Kit (Lycanroc)
+tk-sm-l,it,Sole e Luna trainer Kit (Lycanroc)
+tk-sm-l,fr,SM Kit du dresseur (Lougarox)
+tk-sm-l,es,Kit de Entrenador Sol y Luna (Lycanroc)
+tk-xy-b,en,XY trainer Kit (Bisharp)
+tk-xy-b,it,XY trainer Kit (Bisharp)
+tk-xy-b,fr,XY Kit du dresseur (Scalproie)
+tk-xy-b,es,Kit de Entrenador XY (Bisharp)
+tk-xy-latia,en,XY trainer Kit (Latias)
+tk-xy-latia,it,XY trainer Kit (Latias)
+tk-xy-latia,fr,XY Kit du dresseur (Latias)
+tk-xy-latia,es,Kit de Entrenador XY (Latias)
+tk-xy-latio,en,XY trainer Kit (Latios)
+tk-xy-latio,it,XY trainer Kit (Latios)
+tk-xy-latio,fr,XY Kit du dresseur (Latios)
+tk-xy-latio,es,Kit de Entrenador XY (Latios)
+tk-xy-n,en,XY trainer Kit (Noivern)
+tk-xy-n,it,XY trainer Kit (Noivern)
+tk-xy-n,fr,XY Kit du dresseur (Bruyverne)
+tk-xy-n,es,Kit de Entrenador XY (Noivern)
+tk-xy-p,en,XY trainer Kit (Pikachu Libre)
+tk-xy-p,it,XY trainer Kit (Pikachu Libre)
+tk-xy-p,fr,XY Kit du dresseur (Pikachu Libre)
+tk-xy-p,es,Kit de Entrenador XY (Pikachu Enmascarada)
+tk-xy-su,en,XY trainer Kit (Suicune)
+tk-xy-su,it,XY trainer Kit (Suicune)
+tk-xy-su,fr,XY Kit du dresseur (Suicune)
+tk-xy-su,es,Kit de Entrenador XY (Suicune)
+tk-xy-sy,en,XY trainer Kit (Sylveon)
+tk-xy-sy,it,XY trainer Kit (Sylveon)
+tk-xy-sy,fr,XY Kit du dresseur (Nymphali)
+tk-xy-sy,es,Kit de Entrenador XY (Pikachu Enmascarada)
+tk-xy-w,en,XY trainer Kit (Wigglytuff)
+tk-xy-w,it,XY trainer Kit (Wigglytuff)
+tk-xy-w,fr,XY Kit du dresseur (Grodoudou)
+tk-xy-w,es,Kit de Entrenador XY (Wigglytuff)
+xy7,en,Ancient Origins
+xy7,fr,Origines Antiques
+xy7,es,Antiguos Orígenes
+xy7,it,Antiche Origini
+xy7,de,Ewiger Anfang
+xy7,pt,Origens Ancestrais
+xy7,ru,Древние Истоки
+xy9,en,BREAKpoint
+xy9,fr,Rupture Turbo
+xy9,es,TURBOLímite
+xy9,it,Turbo Crash
+xy9,de,TURBOfieber
+xy9,pt,Turbo Colisão
+xy8,en,BREAKthrough
+xy8,fr,Impulsion Turbo
+xy8,es,Turbo Impulso
+xy8,it,Turbo Blitz
+xy8,de,TURBOstart
+xy8,pt,Turbo Revolução
+xy8,ru,Турбо Импульс
+dc1,de,Doppeltes Dilemma
+dc1,en,Double Crisis
+dc1,fr,Double Danger
+dc1,pt,Crise Dupla
+xy12,en,Evolutions
+xy12,fr,Évolutions
+xy12,es,Evoluciones
+xy12,it,Evoluzioni
+xy12,de,Evolution
+xy12,pt,Evoluções
+xy10,en,Fates Collide
+xy10,fr,Impact des Destins
+xy10,es,Destinos Enfrentados
+xy10,it,Destini Incrociati
+xy10,de,Schicksalsschmiede
+xy10,pt,Fusão de Destinos
+xy2,en,Flashfire
+xy2,fr,Étincelles
+xy2,es,Destellos de Fuego
+xy2,it,Fuoco Infernale
+xy2,de,Flammenmeer
+xy2,pt,Flash de Fogo
+xy2,ru,Огненная Вспышка
+xy3,en,Furious Fists
+xy3,fr,Poings Furieux
+xy3,es,Puños Furiosos
+xy3,it,Colpi Furiosi
+xy3,de,Fliegende Fäuste
+xy3,pt,Punhos Furiosos
+xy3,ru,Яростный Кулак
+g1,en,Generations
+g1,fr,Générations
+g1,es,Generaciones
+g1,it,Generazioni
+g1,de,Generationen
+g1,pt,Gerações
+xy0,en,Kalos Starter Set
+xy0,fr,Bienvenue à Kalos
+xy0,it,Benvenuti a Kalos
+xy0,de,Willkommen in Kalos
+xy0,pt,Conjunto para Iniciantes Kalos
+xy0,ru,Стартовый Набор Калоса
+xy4,en,Phantom Forces
+xy4,fr,Vigueur Spectrale
+xy4,es,Fuerzas Fantasmales
+xy4,it,Forze Spettrali
+xy4,de,Phantomkräfte
+xy4,pt,Força Fantasma
+xy4,ru,Призрачные Силы
+xy5,en,Primal Clash
+xy5,fr,Primo-Choc
+xy5,es,Duelos Primigenios
+xy5,it,Scontro Primordiale
+xy5,de,Protoshock
+xy5,pt,Conflito Primitivo
+xy5,ru,Первобытная Дуэль
+xy6,en,Roaring Skies
+xy6,fr,Ciel Rugissant
+xy6,es,Cielos Rugientes
+xy6,it,Furie Volanti
+xy6,de,Drachenleuchten
+xy6,pt,Céus Estrondosos
+xy6,ru,Грохочущие Небеса
+xy11,en,Steam Siege
+xy11,fr,Offensive Vapeur
+xy11,es,Asedio de Vapor
+xy11,it,Vapori Accesi
+xy11,de,Dampfkessel
+xy11,pt,Cerco de Vapor
+xyp,en,XY Black Star Promos
+xyp,fr,Promo XY
+xyp,es,XY Cartas de promoción
+xyp,it,XY Promo
+xyp,de,XY Promokarten
+xy1,en,XY
+xy1,fr,XY
+xy1,es,XY
+xy1,it,XY
+xy1,de,XY
+xy1,pt,XY
+xy1,ru,XY
+xya,en,Yellow A Alternate
+xya,fr,carte alternative A Jaune
+xya,es,Cartas alternativas
+xya,it,Carta Alternatica A Gialla
+xya,de,Gelbes-A-Alternativkarten
+ADV1,ja,拡張パック
+ADV2,ja,砂漠のきせき
+ADV3,ja,天空の覇者
+ADV4,ja,強化拡張パックex1マグマVSアクア ふたつの野望
+ADV5,ja,とかれた封印
+BW1a,ja,ブラックコレクション
+BW1a,ko,블랙 컬렉션
+BW1b,ja,ホワイトコレクション
+BW1b,ko,화이트 컬렉션
+BW2,ja,レッドコレクション
+BW2,ko,레드 컬렉션
+BW3a,ja,サイコドライブ
+BW3a,ko,사이코 드라이브
+BW3b,ja,ヘイルブリザード
+BW3b,ko,헤일 블리자드
+BW4,ja,ダークラッシュ
+BW4,ko,다크러시
+BW5a,ja,リューズブラスト
+BW5a,ko,드래곤 블라스트
+BW5b,ja,リューノブレード
+BW5b,ko,드래곤 블레이드
+BW6a,ja,フリーズボルト
+BW6a,ko,프리즈볼트
+BW6b,ja,コールドフレア
+BW6b,ko,콜드플레어
+BW7,ja,プラズマゲイル
+BW7,ko,플라스마게일
+BW8a,ja,ラセンフォース
+BW8a,ko,스파이럴포스
+BW8b,ja,ライデンナックル
+BW8b,ko,볼트너클
+BW9,ja,メガロキャノン
+BW9,ko,메갈로캐논
+DS,ja,ドラゴンセレクション
+DS,ko,드래곤 컬렉션
+EBB,ja,EXバトルブースト
+EBB,ko,EX 배틀 부스트
+SC,ja,シャイニーコレクション
+SC,ko,샤이니 컬렉션
+DP1a,ja,時空の創造: ダイヤモンドコレクション
+DP1b,ja,時空の創造: パールコレクション
+DP2,ja,湖の秘密
+DP3,ja,ひかる闇
+DP4a,ja,月光の追跡
+DP4b,ja,夜明けの疾走
+DP5a,ja,秘境の叫び
+DP5b,ja,怒りの神殿
+DP6,ja,破空の激闘
+Pt1,ja,ギンガの覇道
+Pt2,ja,時の果ての絆
+Pt3,ja,フロンティアの鼓動
+Pt4,ja,アルセウス光臨
+L1a,ja,ハートゴールドコレクション
+L1b,ja,ソウルシルバーコレクション
+L2,ja,よみがえる伝説
+L3,ja,頂上大激突
+LL,ja,強化パック ロストリンク
+M-P,ja,メガ プロモカード
+M1L,ja,メガブレイブ
+M1S,ja,メガシンフォニア
+M2,ja,インフェルノX
+M2a,ja,MEGAドリームex
+M3,ja,ムニキスゼロ
+M4,ja,ニンジャスピナー
+M5,ja,アビスアイ
+M6,ja,ストームエメラルダ
+M6a,ja,30th CELEBRATION
+MBG,ja,スターターセットMEGA メガゲンガーex
+MC,ja,スタートデッキ100 バトルコレクション
+MF,ja,30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー
+miscp-asia,en,Miscellaneous Promos
+PCG1,ja,伝説の飛翔
+PCG10,ja,ワールドチャンピオンズパック
+PCG2,ja,蒼空の激突
+PCG3,ja,ロケット団の逆襲
+PCG4,ja,金の空、銀の海
+PCG5,ja,まぼろしの森
+PCG6,ja,ホロンの研究塔
+PCG7,ja,ホロンの幻影
+PCG8,ja,きせきの結晶
+PCG9,ja,さいはての攻防
+PMCG1,ja,拡張パック
+PMCG2,ja,ポケモンジャングル
+PMCG3,ja,化石の秘密
+PMCG4,ja,ロケット団
+PMCG5,ja,リーダーズスタジアム
+PMCG6,ja,闇からの挑戦
+CS1.5,ja,トリプレットビート
+CS1.5,ko,트리플렛비트
+CS1.5,zh-tw,三連音爆
+CS1.5,id,Hantaman Triplet
+CS1.5,th,ทริปเปิลบีต
+CS1.5C,zh-cn,极巨攻防
+CS1a,ja,トリプレットビート
+CS1a,ko,트리플렛비트
+CS1a,zh-tw,三連音爆
+CS1a,id,Hantaman Triplet
+CS1a,th,ทริปเปิลบีต
+CS1aC,zh-cn,横空出世 赫
+CS1b,ja,トリプレットビート
+CS1b,ko,트리플렛비트
+CS1b,zh-tw,三連音爆
+CS1b,id,Hantaman Triplet
+CS1b,th,ทริปเปิลบีต
+CS1bC,zh-cn,极巨争锋 焰
+CS2.5,ja,トリプレットビート
+CS2.5,ko,트리플렛비트
+CS2.5,zh-tw,三連音爆
+CS2.5,id,Hantaman Triplet
+CS2.5,th,ทริปเปิลบีต
+CS2.5C,zh-cn,璀璨反击
+CS2a,ja,トリプレットビート
+CS2a,ko,트리플렛비트
+CS2a,zh-tw,三連音爆
+CS2a,id,Hantaman Triplet
+CS2a,th,ทริปเปิลบีต
+CS2aC,zh-cn,浓墨重彩 黎
+CS2b,ja,トリプレットビート
+CS2b,ko,트리플렛비트
+CS2b,zh-tw,三連音爆
+CS2b,id,Hantaman Triplet
+CS2b,th,ทริปเปิลบีต
+CS2bC,zh-cn,浓墨重彩 靛
+CS3.5,ja,トリプレットビート
+CS3.5,ko,트리플렛비트
+CS3.5,zh-tw,三連音爆
+CS3.5,id,Hantaman Triplet
+CS3.5,th,ทริปเปิลบีต
+CS3.5C,zh-cn,怒炎灼天
+CS3D,ja,トリプレットビート
+CS3D,ko,트리플렛비트
+CS3D,zh-tw,三連音爆
+CS3D,id,Hantaman Triplet
+CS3D,th,ทริปเปิลบีต
+CS3a,ja,トリプレットビート
+CS3a,ko,트리플렛비트
+CS3a,zh-tw,三連音爆
+CS3a,id,Hantaman Triplet
+CS3a,th,ทริปเปิลบีต
+CS3aC,zh-cn,洪荒演武 茂
+CS3b,ja,トリプレットビート
+CS3b,ko,트리플렛비트
+CS3b,zh-tw,三連音爆
+CS3b,id,Hantaman Triplet
+CS3b,th,ทริปเปิลบีต
+CS3bC,zh-cn,洪荒演武 激
+CS4,ja,トリプレットビート
+CS4,ko,트리플렛비트
+CS4,zh-tw,三連音爆
+CS4,id,Hantaman Triplet
+CS4,th,ทริปเปิลบีต
+CS4.5C,zh-cn,终末炎舞
+CS4Da,ja,トリプレットビート
+CS4Da,ko,트리플렛비트
+CS4Da,zh-tw,三連音爆
+CS4Da,id,Hantaman Triplet
+CS4Da,th,ทริปเปิลบีต
+CS4a,ja,トリプレットビート
+CS4a,ko,트리플렛비트
+CS4a,zh-tw,三連音爆
+CS4a,id,Hantaman Triplet
+CS4a,th,ทริปเปิลบีต
+CS4aC,zh-cn,九彩汇聚 朋
+CS4b,ja,トリプレットビート
+CS4b,ko,트리플렛비트
+CS4b,zh-tw,三連音爆
+CS4b,id,Hantaman Triplet
+CS4b,th,ทริปเปิลบีต
+CS4bC,zh-cn,九彩汇聚 源
+CS5.5C,zh-cn,暗影夺辉
+CS5aC,zh-cn,勇魅群星 魅
+CS5bC,zh-cn,勇魅群星 勇
+CS6.5C,zh-cn,胜象星引
+CS6aC,zh-cn,碧海暗影 啸
+CS6bC,zh-cn,碧海暗影 逐
+CSA,ja,トリプレットビート
+CSA,ko,트리플렛비트
+CSA,zh-tw,三連音爆
+CSA,id,Hantaman Triplet
+CSA,th,ทริปเปิลบีต
+S-P,id,Kartu Promo
+S-P,th,การ์ดโปรโม ซอร์ด แอนด์ ชีลด์
+S10D,ja,タイムゲイザー
+S10D,ko,타임게이저
+S10D,zh-tw,時間觀察者
+S10D,id,Pengamat Waktu
+S10D,th,เจ้าแห่งกาลเวลา
+S10P,ja,スペースジャグラー
+S10P,ko,스페이스저글러
+S10P,zh-tw,空間魔術師
+S10P,id,Penyulap Ruang
+S10P,th,จอมมายาผ่ามิติ
+S10a,ja,ダークファンタズマ
+S10a,ko,다크판타스마
+S10a,zh-tw,黑暗亡靈
+S10a,id,Fantom Kegelapan
+S10a,th,อันธการลวงตา
+S10b,ja,Pokémon GO
+S10b,ko,Pokémon GO
+S10b,zh-tw,Pokémon GO
+S10b,id,Pokémon GO
+S10b,th,Pokémon GO
+S11,ja,ロストアビス
+S11,ko,트리플렛비트
+S11,zh-tw,三連音爆
+S11,id,Hantaman Triplet
+S11,th,ทริปเปิลบีต
+S11a,ja,白熱のアルカナ
+S11a,ko,백열의 아르카나
+S11a,zh-tw,白熱奧祕
+S11a,id,Arkana Memuncak
+S11a,th,อาร์คานาแห่งประกายแสง
+S12,ja,パラダイムトリガー
+S12,ko,패러다임트리거
+S12,zh-tw,思維激盪
+S12,id,Pemicu Paradigma
+S12,th,ปฐมบทแห่งยุคใหม่
+S12a,ja,VSTARユニバース
+S12a,ko,VSTAR 유니버스
+S12a,zh-tw,天地萬物VSTAR
+S12a,th,จักรวาลแห่งVSTAR
+S12a,id,VSTAR Semesta
+S1H,ja,シールド
+S1H,ko,실드
+S1W,ja,ソード
+S1W,ko,소드
+S1a,ja,VMAXライジング
+S1a,ko,VMAX라이징
+S2,ja,反逆クラッシュ
+S2,ko,반역크래시
+S2a,ja,爆炎ウォーカー
+S2a,ko,폭염워커
+S3,ja,ムゲンゾーン
+S3,ko,무한존
+S3a,ja,伝説の鼓動
+S3a,ko,전설의 고동
+S4,ja,仰天のボルテッカー
+S4,ko,앙천의 볼트태클
+S4,zh-tw,驚天伏特攻擊
+S4a,ja,シャイニースターV
+S4a,ko,샤이니스타V
+S4a,zh-tw,閃色明星V
+S5I,ja,一撃マスター
+S5I,ko,일격마스터
+S5I,zh-tw,一撃大師
+S5I,id,Master Serangan Tunggal
+S5I,th,มาสเตอร์จู่โจมครั้งเดียว
+S5R,ja,連撃マスター
+S5R,ko,연격마스터
+S5R,zh-tw,連撃大師
+S5R,id,Master Serangan Beruntun
+S5R,th,มาสเตอร์จู่โจมต่อเนื่อง
+S5a,ja,双璧のファイター
+S5a,ko,쌍벽의 파이터
+S5a,zh-tw,雙璧戰士
+S5a,id,Dua Pilar Petarung
+S5a,th,สองยอดนักสู้
+S6H,ja,白銀のランス
+S6H,ko,백은의 랜스
+S6H,zh-tw,銀白戰槍
+S6H,id,Ganjur Salju Perak
+S6H,th,หอกหิมะขาว
+S6K,ja,漆黒のガイスト
+S6K,ko,칠흑의 가이스트
+S6K,zh-tw,漆黑幽魂
+S6K,id,Astral Gelap Gulita
+S6K,th,ภูตทมิฬ
+S6a,ja,イーブイヒーローズ
+S6a,ko,이브이 히어로즈
+S6a,zh-tw,伊布英雄
+S6a,id,Para Eevee Pahlawan
+S6a,th,อีวุยฮีโร
+S7D,ja,摩天パーフェクト
+S7D,ko,마천퍼펙트
+S7D,zh-tw,摩天巔峰
+S7D,id,Pencakar Langit Sempurna
+S7D,th,เพอร์เฟคระฟ้า
+S7R,ja,蒼空ストリーム
+S7R,ko,창공의스트림
+S7R,zh-tw,蒼空烈流
+S7R,id,Arus Langit Biru
+S7R,th,สายน้ำแห่งนภา
+S8,ja,フュージョンアーツ
+S8,ko,퓨전아츠
+S8,zh-tw,匯流藝術
+S8,id,Teknik Fusion
+S8,th,ฟิวชันอาร์ต
+S8a,ja,25th アニバーサリーコレクション
+S8a,ko,25th Anniversary
+S8a,zh-tw,25週年收藏款
+S8a,id,Koleksi Perayaan 25 Tahun
+S8a,th,คอลเลกชันฉลองครบรอบ 25 ปี
+S8b,ja,VMAXクライマックス
+S8b,ko,VMAX 클라이맥스
+S8b,zh-tw,VMAX絕群壓軸
+S8b,id,VMAX Klimaks
+S8b,th,VMAX ไคลแมกซ์
+S9,ja,スターバース
+S9,ko,스타버스
+S9,zh-tw,星星誕生
+S9,id,Star Birth
+S9,th,สตาร์เบิร์ท
+S9a,ja,バトルリージョン
+S9a,ko,배틀리전
+S9a,zh-tw,對戰地區
+S9a,id,Pertarungan Daerah
+S9a,th,พสุธามหายุทธ
+SC1D,zh-tw,劍&盾
+SC1D,id,Pedang & Perisai
+SC1D,th,ซอร์ด แอนด์ ชีลด์
+SC1a,zh-tw,劍&盾 SET A
+SC1a,id,劍&盾」SET A
+SC1a,th,ซอร์ด แอนด์ ชีลด์ ชุด A
+SC1b,zh-tw,劍&盾 SET B
+SC1b,id,劍&盾」SET B
+SC1b,th,ซอร์ด แอนด์ ชีลด์ ชุด B
+SC2D,zh-tw,無極力量
+SC2a,zh-tw,無極力量 SET A
+SC2b,zh-tw,無極力量 SET B
+SC3a,id,Koleksi VMAX Berkilau Set A
+SC3a,th,ชนี VMAX คอลเลกชัน ชุด A
+SC3b,id,Koleksi VMAX Berkilau Set B
+SC3b,th,ชนี VMAX คอลเลกชัน ชุด B
+SCA,zh-tw,搭檔
+SCA,id,V Starter Deck Teman
+SCA,th,V Starter Deck บัดดี้
+SCB,zh-tw,挑戰
+SCB,th,ชาเลนจ์
+SCB,id,Tantangan
+SCC,zh-tw,進化
+SCC,th,อีโวลู
+SCC,id,Evolusi
+SCD,th,Starter Deck เกรทพาวเวอร์
+SCD,id,V Starter Deck Kekuatan
+SCD,zh-tw,強大
+SCE,th,เกรทพาวเวอร์
+SCE,id,Kebangkitan
+SCF,th,เปลี่ยนผ่าน
+SCF,id,Transformasi
+SDL,zh-tw,噴火龍
+SDM,zh-tw,超夢
+SDP,zh-tw,皮卡丘
+SH,th,โปเกมอนเทรดดิ้งการ์ดเกม ชุดแฟมิลีแฮปปี้
+SH,zh-tw,寶可夢卡牌家庭組合
+SI,zh-tw,初階牌組100
+SJ,zh-tw,藏瑪然特VS無極汰那
+SK,zh-tw,頂級訓練家收藏箱 VSTAR
+SLD,zh-tw,起始組合VSTAR 達克萊伊
+SLL,zh-tw,起始組合VSTAR 路卡利歐
+SN,zh-tw,初階牌組100 特別版
+SP5,zh-tw,強大
+SP6,zh-tw,VSTAR特別組合
+SPD,zh-tw,VSTAR&VMAX 高級牌組 代歐奇希斯
+SPZ,zh-tw,VSTAR&VMAX 高級牌組 捷拉奧拉
+AC1D,zh-tw,眾星雲集組合篇
+AC1a,zh-tw,眾星雲集組合篇 SET A
+AC1b,zh-tw,眾星雲集組合篇 SET B
+AC2D,zh-tw,美夢成真組合篇
+AC2a,zh-tw,美夢成真組合篇 SET A
+AC2b,zh-tw,美夢成真組合篇 SET B
+AC3D,id,Booster Pack Koleksi TAG TEAM
+AC3a,id,Booster Pack Koleksi TAG TEAM Set A
+AC3b,id,Booster Pack Koleksi TAG TEAM Set B
+AS1D,id,Starter Deck GX Hantaman Pertama
+AS1a,id,Matahari & Bulan: Hantaman Pertama Set A
+AS1a,th,ซันแอนด์มูน เฟิร์สอิมแพค Sun & Moon: First Impact Set A
+AS1b,id,Matahari & Bulan: Hantaman Pertama Set B
+AS1b,th,ซันแอนด์มูน เฟิร์สอิมแพค Sun & Moon: First Impact Set B
+AS2D,id,Starter Deck GX Kebangkitan Legenda
+AS2a,id,Booster Pack Kebangkitan Legenda Set A
+AS2b,id,Booster Pack Kebangkitan Legenda Set B
+AS3D,id,Starter Deck GX Bayangan Tersembunyi
+AS3a,id,Booster Pack Bayangan Tersembunyi Set A
+AS3b,id,Booster Pack Bayangan Tersembunyi Set B
+AS4D,id,Starter Deck GX Penguasa Langit
+AS4a,id,Booster Pack Penguasa Langit Set A
+AS4b,id,Booster Pack Penguasa Langit Set B
+AS5D,zh-tw,雙倍爆擊
+AS5a,zh-tw,雙倍爆擊 SET A
+AS5b,zh-tw,雙倍爆擊 SET B
+AS6D,zh-tw,傳說交鋒
+AS6a,zh-tw,傳說交鋒 SET A
+AS6b,zh-tw,傳說交鋒 SET B
+csm1.5,zh-cn,战斗精英
+CSM1.5C,zh-cn,对战精英
+csm1a,zh-cn,风暴涌现
+CSM1aC,zh-cn,横空出世 赫
+csm1b,zh-cn,风暴涌现
+CSM1bC,zh-cn,横空出世 苍
+csm1c,zh-cn,风暴涌现
+CSM1cC,zh-cn,横空出世 泽
+csm2.5,zh-cn,精彩的比赛
+CSM2.5C,zh-cn,炫奇争胜
+csm2a,zh-cn,闪耀协同效应
+CSM2aC,zh-cn,交相辉映 沐
+csm2b,zh-cn,闪耀协同效应
+CSM2bC,zh-cn,交相辉映 魁
+csm2c,zh-cn,闪耀协同效应
+CSM2cC,zh-cn,交相辉映 唤
+CSMPiC,zh-cn,对战派对组合 奖励包
+SM-P,zh-tw,特典卡 太陽&月亮
+SM0,ja,ピカチュウと新しい仲間たち
+SM1+,ja,サン＆ムーン
+SM1+,ko,썬&문
+SM10,ja,ダブルブレイズ
+SM10,ko,더블블레이즈
+SM10a,ja,ジージーエンド
+SM10a,ko,GG엔드
+SM10b,ja,スカイレジェンド
+SM10b,ko,스카이레전드
+SM11,ja,ミラクルツイン
+SM11,ko,미라클트윈
+SM11a,ja,リミックスバウト
+SM11a,ko,리믹스바우트
+SM11b,ja,ドリームリーグ
+SM11b,ko,드림리그
+SM12,ja,オルタージェネシス
+SM12,ko,얼터제네시스
+SM12a,ja,TAG TEAM GX タッグオールスターズ
+SM12a,ko,TAG TEAM GX 태그올스타즈
+SM1M,ja,コレクションムーン
+SM1M,ko,문 컬렉션
+SM1S,ja,コレクションサン
+SM1S,ko,썬 컬렉션
+SM1p,ja,サン＆ムーン
+sm2+,ja,新たなる試練の向こう
+SM2K,ja,キミを待つ島々
+SM2K,ko,알로라의 햇빛
+SM2L,ja,アローラの月光
+SM2L,ko,알로라의 달빛
+SM2p,ja,新たなる試練の向こう
+SM3H,ja,闘う虹を見たか
+SM3H,ko,어둠을 밝힌 무지개
+SM3N,ja,光を喰らう闇
+SM3N,ko,빛을 삼킨 어둠
+SM3p,ja,ひかる伝説
+SM3p,ko,빛나는 전설
+SM4+,ja,GXバトルブースト
+SM4+,ko,GX 배틀부스트
+SM4A,ja,超次元の暴獣
+SM4A,ko,초차원의 침략자
+SM4S,ja,覚醒の勇者
+SM4S,ko,각성의 용사
+SM4p,ja,GXバトルブースト
+SM5+,ja,ウルトラフォース
+SM5+,ko,울트라포스
+SM5M,ja,ウルトラムーン
+SM5M,ko,울트라문
+SM5S,ja,ウルトラサン
+SM5S,ko,울트라썬
+SM5p,ja,ウルトラフォース
+SM6,ja,禁断の光
+SM6,ko,금단의 빛
+SM6a,ja,ドラゴンストーム
+SM6a,ko,드래곤스톰
+SM6b,ja,チャンピオンロード
+SM6b,ko,챔피언로드
+SM7,ja,裂空のカリスマ
+SM7,ko,창공의 카리스마
+SM7a,ja,迅雷スパーク
+SM7a,ko,플라스마 스파크
+SM7b,ja,フェアリーライズ
+SM7b,ko,페어리라이즈
+SM8,ja,超爆インパクト
+SM8,ko,버스트임팩트
+SM8a,ja,ダークオーダー
+SM8a,ko,다크오더
+SM8b,ja,GXウルトラシャイニー
+SM8b,ko,GX 울트라샤이니 ULTIMATE
+SM9,ja,タッグボルト
+SM9,ko,태그볼트
+SM9a,ja,ナイトユニゾン
+SM9a,ko,나이트유니슨
+SM9b,ja,フルメタルウォール
+SM9b,ko,풀메탈월
+SMP2,ja,名探偵ピカチュウ
+SMP2,ko,명탐정 피카츄
+CBB1C,zh-cn,宝石包 第一卷
+CBB2C,zh-cn,宝石包Vol.2
+CBB3C,zh-cn,宝石包Vol.3
+CBB4C,zh-cn,宝石包 Vol.4
+CBB5C,zh-cn,宝石包 Vol.5
+CSV1C,zh-cn,亘古开来
+CSV2C,zh-cn,奇迹启程
+CSV3C,zh-cn,无畏太晶
+CSV4C,zh-cn,嘉奖回合
+CSV5C,zh-cn,黑晶炽诚
+CSV6C,zh-cn,真实玄虚
+CSV7C,zh-cn,利刃猛醒
+CSV8C,zh-cn,璀璨诡幻
+CSV9.5C,zh-cn,太晶盛聚
+CSV9C,zh-cn,星彩晶璃
+SV-P,ja,スカーレット&バイオレット プロモカード
+SV-P,zh-tw,特典卡 朱&紫
+SV-P,th,การ์ดโปรโม สการ์เล็ต แอนด์ ไวโอเล็ต
+SV-P,id,Kartu Promo
+SV10,ja,ロケット団の栄光
+SV10,zh-cn,火箭隊的榮耀
+SV10,zh-tw,火箭隊的榮耀
+SV11B,ja,ブラックボルト
+SV11W,ja,ホワイトフレア
+SV1S,ja,スカーレットex
+SV1S,ko,스칼렛ex
+SV1S,zh-tw,朱ex
+SV1S,id,Scarlet ex
+SV1S,th,สการ์เล็ต ex
+SV1V,ja,バイオレットex
+SV1V,ko,바이올렛ex
+SV1V,zh-tw,紫ex
+SV1V,id,Violet ex
+SV1V,th,ไวโอเล็ต ex
+SV1a,ja,トリプレットビート
+SV1a,ko,트리플렛비트
+SV1a,zh-tw,三連音爆
+SV1a,id,Hantaman Triplet
+SV1a,th,ทริปเปิลบีต
+SV2D,ja,クレイバースト
+SV2D,ko,클레이버스트
+SV2D,zh-tw,碟旋暴擊
+SV2D,id,Letusan Tanah
+SV2D,th,เคลย์เบิสต์
+SV2P,ja,スノーハザード
+SV2P,ko,스노해저드
+SV2P,zh-tw,冰雪險境
+SV2P,id,Mara Bahaya Salju
+SV2P,th,สโนว์ฮาซาร์ด
+SV2a,ja,ポケモンカード151
+SV2a,ko,포켓몬 카드 151
+SV2a,zh-tw,寶可夢卡牌151
+SV2a,id,Kartu Pokémon 151
+SV2a,th,โปเกมอนการ์ด 151
+SV3,ja,黒炎の支配者
+SV3,ko,흑염의 지배자
+SV3,zh-tw,黯焰支配者
+SV3,th,ราชาแห่งเพลิงกาฬ
+SV3a,ja,レイジングサーフ
+SV3a,ko,레이징서프
+SV3a,zh-tw,激狂駭浪
+SV3a,th,คลื่นพิโรธ
+SV3s,id,Kilau Hitam
+SV4K,ja,古代の咆哮
+SV4K,ko,고대의 포효
+SV4K,zh-tw,古代咆哮
+SV4K,th,เสียงคำรามจากอดีต
+SV4M,ja,未来の一閃
+SV4M,ko,미래의 일섬
+SV4M,zh-tw,未來閃光
+SV4M,th,ประกายแสงจากอนาคต
+SV4a,ja,シャイニートレジャーex
+SV4a,ko,샤이니트레저 ex
+SV4a,zh-tw,閃色寶藏ex
+SV4a,id,Harta Berkilau ex
+SV4a,th,ไชนีเทรเชอร์ex
+SV4s,id,Pertemuan Paradoks
+SV5K,ja,ワイルドフォース
+SV5K,ko,와일드포스
+SV5K,zh-tw,狂野之力
+SV5K,th,อำนาจอนารยะ
+SV5M,ja,サイバージャッジ
+SV5M,ko,사이버저지
+SV5M,zh-tw,異度審判
+SV5M,th,ตุลาการไซเบอร์
+SV5a,ja,クリムゾンヘイズ
+SV5a,zh-tw,緋紅薄霧
+SV5a,th,หมอกสีชาด
+SV5a,ko,크림슨헤이즈
+SV5s,id,Paradoks Andalan
+SV6,ja,変幻の仮面
+SV6,zh-tw,變幻假面
+SV6,th,หน้ากากจอมลวงตา
+SV6,ko,변환의 가면
+SV6a,ja,ナイトワンダラー
+SV6a,zh-tw,黑夜漫遊者
+SV6s,id,Topeng Transfigurasi
+SV7,ja,ステラミラクル
+SV7,zh-tw,星晶奇跡
+SV7,zh-cn,星晶奇跡
+SV7a,ja,楽園ドラゴーナ
+SV7a,zh-tw,樂園騰龍
+SV7a,zh-cn,樂園騰龍
+SV7s,id,Bimbingan Rasi
+SV7s,th,แสงนำทางแห่งสเตลลาร์
+SV8,ja,超電ブレイカー
+SV8,zh-cn,超電突圍
+SV8,zh-tw,超電突圍
+SV8a,ja,テラスタルフェスex
+SV8a,id,Festival Terastal ex
+SV8a,th,เทศกาลเทรัสตัลex
+SV8a,zh-tw,太晶慶典ex
+SV8a,zh-cn,太晶慶典ex
+SV8s,id,Kilat Rasi
+SV8s,th,สเตลลาร์สายฟ้าฟาด
+SV9,ja,バトルパートナーズ
+SV9,zh-cn,對戰搭檔
+SV9,zh-tw,對戰搭檔
+SV9a,ja,熱風のアリーナ
+SV9a,zh-cn,熱風競技場
+SV9a,zh-tw,熱風競技場
+SV9s,th,สายใยแห่งโชคชะตา
+SV9s,id,Ikatan Takdir
+SVAL,zh-tw,起始組合ex 呆火鱷&電龍 ex
+SVAL,id,Sprigatito & Lucario ex
+SVAM,zh-tw,起始組合ex 新葉喵&路卡利歐 ex
+SVAM,id,Fuecoco & Ampharos ex
+SVAW,zh-tw,起始組合ex 潤水鴨&謎擬Ｑ ex
+SVAW,id,Quaxly & Mimikyu ex
+SVB,zh-tw,頂級訓練家收藏箱ex
+SVC,zh-tw,皮卡丘特別組合
+SVD,zh-tw,ex初階牌組
+SVDs,id,Deck Ringkas ex
+SVDs,th,ex คอมแพกต์เด็ค
+SVEL,zh-tw,骨紋巨聲鱷ex
+SVEM,zh-tw,超夢ex
+SVF,zh-tw,黯焰支配者
+SVHK,zh-tw,未來密勒頓ex
+SVHK,id,Koraidon ex Purba
+SVHK,th,โคไรดอนex โบราณ
+SVHM,zh-tw,閃色寶藏ex
+SVHM,th,มิไรดอนex อนาคต
+SVHM,id,Miraidon ex Futur
+SVK,ja,デッキビルドBOX ステラミラクル
+SVLN,ja,スターターセット テラスタイプ：ステラ ニンフィアex
+SVLS,ja,スターターセット テラスタイプ：ステラ ソウブレイズex
+SVP1,zh-tw,ex特別組合
+WCS23,ja,ポケモンワールドチャンピオンシップス2023横浜 記念デッキ「ピカチュウ」
+VS1,ja,ポケモンカード★VS
+CP1,ja,マグマ団VSアクア団 ダブルクライシス
+CP1,ko,마그마단vs아쿠아단 더블크라이시스
+CP2,ja,伝説キラコレクション
+CP2,ko,레전드 컬렉션
+XY1a,ja,コレクションX
+XY1a,ko,X컬렉션
+XY1b,ja,コレクションY
+XY1b,ko,Y컬렉션
+XY2,ja,ワイルドブレイズ
+XY2,ko,와일드 블레이즈
+XY3,ja,ライジングフィスト
+XY3,ko,라이징피스트
+XY4,ja,ファントムゲート
+XY4,ko,팬텀게이트
+XY5a,ja,ガイアボルケーノ
+XY5a,ko,가이아 볼케이노
+XY5b,ja,タイダルストーム
+XY5b,ko,타이달스톰
+XY6,ja,エメラルドブレイク
+XY6,ko,마그마단vs아쿠아단 더블크라이시스
+XY7,ja,バンデットリング
+XY7,ko,밴디트링
+CP3,ja,ポケキュンコレクション
+CP3,ko,포켓심쿵 컬렉션
+CP4,ja,プレミアムチャンピオンパック EX×M×BREAK
+CP4,ko,프리미엄 챔피언팩
+CP5,ja,冷酷の反逆者
+CP5,ko,냉혹한 반역자
+CP6,ja,ポケットモンスターカードゲーム 拡張パック 20th Anniversary
+CP6,ko,BASE PACK 20th Anniversary
+XY,ja,THE BEST OF XY
+XY,ko,THE BEST OF XY
+XY10,ja,めざめる超王
+XY10,ko,초능력의 제왕
+XY11a,ja,爆熱の闘士
+XY11a,ko,타오르는 투사
+XY11b,ja,冷酷の反逆者
+XY11b,ko,냉혹한 반역자
+XY8a,ja,青い衝撃
+XY8a,ko,푸른 충격
+XY8b,ja,赤い閃光
+XY8b,ko,붉은 섬광 충격
+XY9,ja,破天の怒り
+XY9,ko,천공의 분노
+E1,ja,基本拡張パック
+E2,ja,地図にない町
+E3,ja,海からの風
+E4,ja,裂けた大地
+E5,ja,神秘なる山
+neo1-asia,ja,金、銀、新世界へ...
+neo2-asia,ja,遺跡をこえて...
+neo3-asia,ja,めざめる伝説
+neo4-asia,ja,闇、そして光へ...
+web1,ja,ポケモンカード★web
+A4b,en,Deluxe Pack: ex
+A4b,fr,Booster de Luxe ex
+A4b,de,Deluxepack-ex
+A4b,es,Sobre Deluxe ex
+A4b,it,Busta Deluxe ex
+A4b,pt-br,Pacote Deluxe ex
+A4b,ja,ハイクラスパックex
+A4b,ko,하이클래스팩 ex
+A4b,zh-tw,高級擴充包 ex
+B2b,en,Mega Shine
+B2b,fr,Méga-Rayonnement
+B2b,de,Mega-Schillern
+B2b,es,Megavariocolor
+B2b,it,Mega Splendore
+B2b,pt-br,Mega Brilho
+B2b,ja,シャイニングメガ
+B2b,ko,샤이닝 메가
+B2b,zh-tw,超級異彩
+B3,en,Pulsing Aura
+B3,fr,Aura Palpitante
+B3,de,Pulsierende Aura
+B3,es,Aura Pulsante
+B3,it,Aura Pulsante
+B3,pt-br,Aura Pulsante
+B3,ja,波動ビート
+B3,ko,파동 비트
+B3,zh-tw,波導奏動
+B3a,en,Paradox Drive
+B3a,fr,Propulsion Paradoxe
+B3a,de,Paradoxansturm
+B3a,es,Impulso Paradójico
+B3a,it,Assalto dei Paradossi
+B3a,pt-br,Impulso Paradoxal
+B3a,ja,進撃パラドックス
+B3a,ko,진격 패러독스
+B3a,zh-tw,進擊悖謬
+B3b,en,Everyday Wonders
+B3b,fr,Jours Heureux
+B3b,de,Wunder des Alltags
+B3b,es,Maravillas Cotidianas
+B3b,it,Giorni Giocondi
+B3b,pt-br,Encantos Cotidianos
+B3b,ja,ミラクルデイズ
+B3b,ko,미라클 데이즈
+B3b,zh-tw,奇跡日常
+B4,en,Ruler of the Skies
+B4,fr,Domination Céleste
+B4,de,Herrscher der Lüfte
+B4,es,Dominador de los Cielos
+B4,it,Sovrano dei Cieli
+B4,pt-br,Mestre dos Céus
+B4,ja,天空の支配者
+B4,ko,천공의 지배자
+B4,zh-tw,天空主宰
+B4a,en,Team Rocket’s Ambition
+B4a,fr,L’Ambition de la Team Rocket
+B4a,de,Team Rockets Pläne
+B4a,es,La Ambición del Team Rocket
+B4a,it,I Loschi Piani del Team Rocket
+B4a,pt-br,Ambições da Equipe Rocket
+B4a,ja,ロケット団の野望
+B4a,ko,로켓단의 야망
+B4a,zh-tw,火箭隊的野心
+B4b,en,Deluxe Pack: Mega
+B4b,fr,Booster de Luxe Méga
+B4b,de,Deluxepack: Mega
+B4b,es,Sobre Deluxe Mega
+B4b,it,Busta Deluxe Mega
+B4b,pt-br,Pacote Deluxe Mega
+B4b,ja,ハイクラスパックMEGA
+B4b,ko,하이클래스팩 MEGA
+B4b,zh-tw,高級擴充包 MEGA
+P-B,en,Promo B
+P-B,fr,Promo-B
+P-B,de,PROMO-B
+P-B,es,Promo-B
+P-B,it,Promo-B
+P-B,pt-br,Promo-B
+P-B,ja,PROMO-B
+P-B,ko,PROMO-B
+P-B,zh-tw,PROMO-B
+C1,en,Dual Fusion
+C1,fr,Fusion Double
+C1,de,Duale Fusion
+C1,es,Fusión Dual
+C1,it,Fusione Duale
+C1,pt-br,Fusão Dupla
+C1,ja,デュアルフュージョン
+C1,ko,듀얼 퓨전
+C1,zh-tw,雙元融合
+P-C,en,Promo C
+P-C,fr,Promo-C
+P-C,de,PROMO-C
+P-C,es,Promo-C
+P-C,it,Promo-C
+P-C,pt-br,Promo-C
+P-C,ja,PROMO-C
+P-C,ko,PROMO-C
+P-C,zh-tw,PROMO-C
+SP1,en,Special Pack: First Partners
+SP1,fr,Premiers Partenaires
+SP1,de,Erste Partner
+SP1,es,Primeros Compañeros
+SP1,it,Primi Amici
+SP1,pt-br,Parceiros Iniciais
+SP1,ja,はじまりのパートナー
+SP1,ko,첫 파트너
+SP1,zh-tw,最初的夥伴
