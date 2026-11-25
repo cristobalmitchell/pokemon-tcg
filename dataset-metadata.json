@@ -1,7 +1,7 @@
 {
   "title": "The Complete Pokémon TCG Dataset",
-  "subtitle": "Every English Pokémon card 1999–2026: 20,776 cards, attacks & sets",
-  "description": "# The Complete Pokémon TCG Dataset\n\nEvery **English Pokémon Trading Card Game card**, from Base Set (January 1999) to Delta Reign (November 2026): **20,776 cards in 177 sets**, with **28,412 attacks**, 4,157 abilities and 188 theme decks. It's built as relational tables and an SQLite database, and links to **[The Complete Pokédex Dataset](https://www.kaggle.com/datasets/cristobalmitchell/pokedex)** by National Pokédex number.\n\n## What's inside\n\n| File | Rows | One row per |\n|---|---|---|\n| `cards.csv` | 20,776 | card: supertype, subtypes, HP, types, evolution, weakness, resistance, retreat cost, rarity, artist, regulation mark, legality, image links |\n| `card_attacks.csv` | 28,412 | attack: energy cost, damage as printed and as a number, effect text |\n| `card_abilities.csv` | 4,157 | Ability, Poké-Power or Poké-Body |\n| `card_pokemon.csv` | 17,654 | (card, National Pokédex number) link to the Pokédex dataset |\n| `sets.csv` | 177 | set: series, size, release date, legality |\n| `decks.csv` / `deck_cards.csv` | 188 / 3,976 | theme deck and its card list |\n| `tcg.sqlite` | | every table, with keys |\n\n## Quick start\n\n```python\nimport pandas as pd\ncards = pd.read_csv('/kaggle/input/pokemon-tcg/cards.csv', low_memory=False)  # a few columns mix numbers and text\nattacks = pd.read_csv('/kaggle/input/pokemon-tcg/card_attacks.csv')\n\n# Damage per Energy across eras: how much has power crept?\na = attacks.merge(cards[['card_id', 'series', 'release_date']], on='card_id')\na = a[a.converted_energy_cost > 0]\n(a.base_damage / a.converted_energy_cost).groupby(a.release_date.str[:4]).median()\n```\n\nJoin it to the Pokédex dataset to compare a Pokémon's card HP with its game stats:\n\n```python\npokedex = pd.read_csv('/kaggle/input/pokedex/pokemon_utf8.csv')\nlinks = pd.read_csv('/kaggle/input/pokemon-tcg/card_pokemon.csv')\nhp = links.merge(cards[['card_id', 'hp']], on='card_id').merge(pokedex, on='national_number')\n```\n\n**Starter notebook:** the dataset's starter analysis covers power creep, the rise of rule-box cards, card HP against game stats, and the most prolific illustrators. Fork it as a starting point.\n\n## Ideas\n- **Power creep:** HP and damage per Energy by year and series.\n- **Rarity:** what makes a card rare, and how the rarity ladder changed (Rare Holo → Illustration Rare → Hyper Rare).\n- **Artists:** who illustrated what, and how styles cluster by era.\n- **Card game vs. video game:** card HP and attack damage against base stats from the Pokédex dataset.\n- **NLP:** attack and ability text, flavor text, rule boxes.\n- **Deck building:** energy curves and type balance in theme decks.\n\n## Notes\n- Multi-valued cells (types, subtypes, energy costs) are separated by `|`.\n- Legality is the snapshot's (Standard rotation through regulation mark J).\n- Image links point at the source's image host. The source has announced that its API will go offline on March 1, 2027, so the links may stop working. They are kept for reference.\n- There are no prices. Price feeds are commercial.\n\n## License\n**Other (non-commercial, attribution required).** The card names, card text and card images belong to The Pokémon Company, and the upstream compilation publishes no license, so no standard license fits.\n- **You may:** use the data for non-commercial research, education, analysis and notebooks.\n- **You must:** credit *\"The Complete Pokémon TCG Dataset by Cristobal Mitchell\"* and *\"card data compiled by PokemonTCG/pokemon-tcg-data\"*.\n- **You may not:** sell the data or use it in a commercial product.\n- **The author's own contributions:** the table design, derived columns, corrections, documentation and cover are © 2026 Cristobal Mitchell and reusable under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The build and analysis code on GitHub is MIT-licensed.\n- **No affiliation:** not affiliated with or endorsed by Nintendo, The Pokémon Company, Creatures Inc., GAME FREAK inc. or the PokemonTCG project.\n\nThe full terms are in the repository's `DATA_LICENSE.md`.\n\n## Source and credits\nCompiled from the [PokemonTCG/pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data) JSON files, which are now kept for historical use. This dataset is a snapshot taken in November 2026. Card names, card text and card images are © 1995–2026 Nintendo, Creatures Inc. and GAME FREAK inc.\n\nThe build is reproducible: `scripts/build.py` builds the tables and `scripts/validate.py` checks them. Both are on [GitHub](https://github.com/cristobalmitchell/pokemon-tcg).\n\n**Companion dataset:** [The Complete Pokédex Dataset](https://www.kaggle.com/datasets/cristobalmitchell/pokedex) has every Pokémon's game data, forms, moves, Smogon usage, artwork and cries.\n",
+  "subtitle": "44,778 Pokémon cards 1999–2026: TCG, Pocket & Japanese, with prices",
+  "description": "# The Complete Pokémon TCG Dataset\n\n**44,778 Pokémon cards** as relational tables and an SQLite database:\n- **The international Trading Card Game:** every card from Base Set (1999) to Delta Reign (November 2026).\n- **Pokémon TCG Pocket:** every card through October 2026, with pack pull rates.\n- **Japanese and other Asian sets:** 18,660 cards.\n\nAround the cards:\n- **Text:** 54,868 attacks, and card names in 14 languages.\n- **Variants:** printed variants with their TCGplayer, Cardmarket and CardTrader ids.\n- **Prices:** 488,808 monthly TCGplayer sale prices from 2022 to 2024.\n\nIt links to **[The Complete Pokédex Dataset](https://www.kaggle.com/datasets/cristobalmitchell/pokedex)** by National Pokédex number.\n\n## What's inside\n\n| File | Rows | One row per |\n|---|---|---|\n| `cards.csv` | 44,778 | card: region, game, stage, HP, types, evolution, weakness, retreat cost, rarity, artist, regulation mark, legality, image link |\n| `card_names.csv` | 167,307 | card name in up to 14 languages |\n| `card_attacks.csv` | 54,868 | attack: Energy cost, damage as printed and as a number, effect text |\n| `card_abilities.csv` | 8,063 | Ability, Poké-Power, Poké-Body or Ancient Trait |\n| `card_pokemon.csv` | 33,507 | (card, National Pokédex number) link to the Pokédex dataset |\n| `card_variants.csv` | 47,807 | printed variant (reverse holo, 1st edition, stamps) and its marketplace ids |\n| `price_history.csv` | 488,808 | (card, finish, condition, month): TCGplayer sale prices and number of sales |\n| `id_crosswalk.csv` | 33,230 | TCGdex id ↔ pokemontcg.io ↔ TCGplayer ↔ Cardmarket ↔ CardTrader |\n| `pocket_pull_rates.csv` | 1,145 | Pocket pull rate per set, pack, slot and rarity |\n| `card_boosters.csv` | 4,786 | booster pack a card can be pulled from |\n| `sets.csv` / `set_names.csv` | 582 / 1,911 | set: series, region, game, size, release date, legality, marketplace ids |\n| `decks.csv` / `deck_cards.csv` | 188 / 3,976 | theme deck and its card list |\n| `tcg.sqlite` | | every table, with keys |\n\n## Quick start\n\n```python\nimport pandas as pd\ncards = pd.read_csv('/kaggle/input/pokemon-tcg/cards.csv', low_memory=False)\nattacks = pd.read_csv('/kaggle/input/pokemon-tcg/card_attacks.csv')\ntcg = cards[(cards.region == 'international') & (cards.game == 'tcg')]\n\n# Damage per Energy across eras: how much has power crept?\na = attacks.merge(tcg[['card_id', 'release_date']], on='card_id')\na = a[a.converted_energy_cost > 0]\n(a.base_damage / a.converted_energy_cost).groupby(a.release_date.str[:4]).median()\n```\n\nWhat did the most valuable cards sell for?\n\n```python\nprices = pd.read_csv('/kaggle/input/pokemon-tcg/price_history.csv')\nnm = prices[(prices.condition == 'nearmint') & (prices.month == '2024-08')]\nnm.merge(cards[['card_id', 'name', 'set_name', 'rarity']], on='card_id').nlargest(10, 'avg_price_usd')\n```\n\nJoin it to the Pokédex dataset to compare a Pokémon's card HP with its game stats:\n\n```python\npokedex = pd.read_csv('/kaggle/input/pokedex/pokemon_utf8.csv')\nlinks = pd.read_csv('/kaggle/input/pokemon-tcg/card_pokemon.csv')\nhp = links.merge(tcg[['card_id', 'hp']], on='card_id').merge(pokedex, on='national_number')\n```\n\n**Starter notebook:** the dataset's starter analysis covers power creep, the rise of rule-box cards, card HP against game stats, the most prolific illustrators, prices by rarity and the Pocket rarity ladder. Fork it as a starting point.\n\n## Ideas\n- **Power creep:** HP and damage per Energy by year and series.\n- **Prices:** what makes a card valuable: rarity, artist, the Pokémon's popularity (join Smogon usage from the Pokédex dataset), set age.\n- **Rarity:** how the rarity ladder changed (Rare Holo → Illustration Rare → Special Illustration Rare), and Pocket's pull odds.\n- **Japan vs. the West:** compare a Japanese set with its English release; translation with `card_names.csv`.\n- **Card game vs. video game:** card HP and attack damage against base stats from the Pokédex dataset.\n- **NLP:** attack, ability and Trainer text, flavor text.\n\n## Notes\n- `region` is `international` or `asia`; `game` is `tcg` or `pocket`. Filter on both for like-for-like comparisons.\n- `text_language` is the language of a card's name and text: English for international cards, the card's own language for Asian cards.\n- The newest 12 Pocket sets come from the Pokémon TCG Pocket database and have no attack text (`attack_count` is blank).\n- Prices are historical: TCGplayer sales recorded from November 2022 to September 2024, aggregated by month, in US dollars.\n- `ptcgio_id` and `id_crosswalk.csv` map 99.5% of pokemontcg.io cards, for projects moving off that API, which goes offline on March 1, 2027.\n- Multi-valued cells (types, Energy costs, stamps) are separated by `|`.\n\n## License\n**Other (non-commercial, attribution required).** The card names, card text and card images belong to The Pokémon Company, so no standard license fits.\n- **You may:** use the data for non-commercial research, education, analysis and notebooks.\n- **You must:** credit *\"The Complete Pokémon TCG Dataset by Cristobal Mitchell\"* and *\"card data from TCGdex\"*, and keep `THIRD_PARTY_NOTICES.md` (included) with copies.\n- **You may not:** sell the data or use it in a commercial product.\n- **The author's own contributions:** the table design, ID crosswalk, derived columns, corrections, documentation and cover are © 2026 Cristobal Mitchell and reusable under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The build and analysis code on GitHub is MIT-licensed.\n- **No affiliation:** not affiliated with or endorsed by Nintendo, The Pokémon Company, Creatures Inc., GAME FREAK inc., TCGdex, TCGplayer or the PokemonTCG project.\n\nThe full terms are in the repository's `DATA_LICENSE.md`.\n\n## Sources and credits\n- **Cards, sets, variants, marketplace ids and images:** [TCGdex](https://github.com/tcgdex/cards-database) (MIT).\n- **Price history:** [TCGdex price-history](https://github.com/tcgdex/price-history) (MIT), from TCGplayer.\n- **Pocket pull rates and newest sets:** [Pokémon TCG Pocket database](https://github.com/flibustier/pokemon-tcg-pocket-database) (MIT).\n- **pokemontcg.io ids and theme decks:** [PokemonTCG/pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data).\n- **Rights:** card names, card text and card images are © 1995–2026 Nintendo, Creatures Inc. and GAME FREAK inc.\n\nThe build is reproducible: `scripts/build.py` builds the tables and `scripts/validate.py` checks them. Both are on [GitHub](https://github.com/cristobalmitchell/pokemon-tcg).\n\n**Companion dataset:** [The Complete Pokédex Dataset](https://www.kaggle.com/datasets/cristobalmitchell/pokedex) has every Pokémon's game data, forms, moves, Smogon usage, artwork and cries.\n",
   "id": "cristobalmitchell/pokemon-tcg",
   "licenses": [
     {
@@ -17,47 +17,47 @@
     "data visualization",
     "nlp"
   ],
-  "expectedUpdateFrequency": "never",
-  "userSpecifiedSources": "Compiled from the PokemonTCG/pokemon-tcg-data JSON files (https://github.com/PokemonTCG/pokemon-tcg-data), snapshot of November 2026. Card names, text and images are © The Pokémon Company, Nintendo, Creatures and GAME FREAK.",
+  "expectedUpdateFrequency": "quarterly",
+  "userSpecifiedSources": "Cards and sets: TCGdex (https://github.com/tcgdex/cards-database, MIT). Price history: tcgdex/price-history (MIT), TCGplayer sales 2022-2024. Pokémon TCG Pocket packs, pull rates and newest sets: flibustier/pokemon-tcg-pocket-database (MIT). pokemontcg.io ids and theme decks: PokemonTCG/pokemon-tcg-data. Card names, text and images are © The Pokémon Company, Nintendo, Creatures and GAME FREAK.",
   "resources": [
     {
       "path": "sets.csv",
-      "description": "One row per set (177), from Base Set (1999) to Delta Reign (November 2026).",
+      "description": "One row per set (582): 209 international TCG sets from Base Set (1999) to Delta Reign (November 2026), 27 Pokémon TCG Pocket sets and 346 Asian sets.",
       "schema": {
         "fields": [
           {
             "name": "set_id",
-            "description": "Set id (e.g. \"base1\", \"sv10\", \"me6\"). Joins to sets.csv.",
+            "description": "Set id (e.g. \"base1\", \"sv03.5\", \"me06\", \"A1\"). The TCGdex id; joins to sets.csv.",
             "type": "string"
           },
           {
             "name": "name",
-            "description": "Set name (e.g. \"Base\", \"Delta Reign\").",
+            "description": "Set name, in English when it exists (e.g. \"Base Set\", \"151\", \"Genetic Apex\").",
+            "type": "string"
+          },
+          {
+            "name": "series_id",
+            "description": "Series id (e.g. \"base\", \"swsh\", \"sv\", \"me\", \"tcgp\").",
             "type": "string"
           },
           {
             "name": "series",
-            "description": "Series / era (e.g. \"Base\", \"Sword & Shield\", \"Scarlet & Violet\", \"Mega Evolution\").",
+            "description": "Series / era (e.g. \"Base\", \"Sword & Shield\", \"Scarlet & Violet\", \"Pokémon TCG Pocket\").",
             "type": "string"
           },
           {
-            "name": "printed_total",
-            "description": "Number printed on the cards as the set size (excludes secret rares).",
-            "type": "integer"
+            "name": "region",
+            "description": "\"international\" (English and European languages, and Pocket) or \"asia\" (Japanese, Chinese, Korean, Thai, Indonesian).",
+            "type": "string"
           },
           {
-            "name": "total",
-            "description": "Total cards in the set, including secret rares.",
-            "type": "integer"
+            "name": "game",
+            "description": "\"tcg\" for the physical card game, \"pocket\" for the Pokémon TCG Pocket app.",
+            "type": "string"
           },
           {
-            "name": "card_count",
-            "description": "Cards of the set in cards.csv.",
-            "type": "integer"
-          },
-          {
-            "name": "ptcgo_code",
-            "description": "Set code used by Pokémon TCG Online / Live (e.g. \"DLR\").",
+            "name": "languages",
+            "description": "Languages the set name is recorded in. Several values are separated by \"|\".",
             "type": "string"
           },
           {
@@ -66,33 +66,86 @@
             "type": "string"
           },
           {
-            "name": "updated_at",
-            "description": "When the source last updated the set.",
+            "name": "official_card_count",
+            "description": "Set size printed on the cards (excludes secret rares).",
+            "type": "integer"
+          },
+          {
+            "name": "card_count",
+            "description": "Cards of the set in cards.csv (includes secret rares).",
+            "type": "integer"
+          },
+          {
+            "name": "abbreviation",
+            "description": "Official set abbreviation (e.g. \"MEW\" for 151).",
+            "type": "string"
+          },
+          {
+            "name": "tcg_online_code",
+            "description": "Set code in Pokémon TCG Online / Live.",
             "type": "string"
           },
           {
             "name": "legal_standard",
-            "description": "Legal in the Standard format at the time of the snapshot (Legal / blank).",
-            "type": "string"
+            "description": "Set legal in the Standard format. True/False for international TCG cards at the time of the build; blank for Pocket and Asian cards.",
+            "type": "boolean"
           },
           {
             "name": "legal_expanded",
-            "description": "Legal in the Expanded format.",
-            "type": "string"
+            "description": "Set legal in the Expanded format. True/False for international TCG cards at the time of the build; blank for Pocket and Asian cards.",
+            "type": "boolean"
           },
           {
-            "name": "legal_unlimited",
-            "description": "Legal in the Unlimited format.",
-            "type": "string"
+            "name": "tcgplayer_group_id",
+            "description": "TCGplayer group (set) id. Blank when the source has none.",
+            "type": "integer"
           },
           {
-            "name": "symbol_url",
-            "description": "URL of the set symbol image.",
+            "name": "cardmarket_expansion_id",
+            "description": "Cardmarket expansion id. Blank when the source has none.",
+            "type": "integer"
+          },
+          {
+            "name": "ptcgio_set_id",
+            "description": "Set id on pokemontcg.io (e.g. \"sv3pt5\"); version 1 of this dataset used it.",
             "type": "string"
           },
           {
             "name": "logo_url",
-            "description": "URL of the set logo image.",
+            "description": "URL of the set logo (TCGdex image host).",
+            "type": "string"
+          },
+          {
+            "name": "symbol_url",
+            "description": "URL of the set symbol (TCGdex image host).",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "description": "Where the row comes from: \"tcgdex\" or \"pocket-database\" (Pokémon TCG Pocket cards TCGdex does not have yet).",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "set_names.csv",
+      "description": "Set names in every language the source has.",
+      "schema": {
+        "fields": [
+          {
+            "name": "set_id",
+            "description": "Set id (e.g. \"base1\", \"sv03.5\", \"me06\", \"A1\"). The TCGdex id; joins to sets.csv.",
+            "type": "string"
+          },
+          {
+            "name": "language",
+            "description": "Language code: en, fr, de, es, es-mx, it, pt, pt-br, ja, ko, zh-tw, zh-cn, th, id.",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "description": "Set name in that language.",
             "type": "string"
           }
         ]
@@ -100,17 +153,17 @@
     },
     {
       "path": "cards.csv",
-      "description": "One row per English card (20,776): Pokémon, Trainer and Energy cards with HP, types, rarity, artist, legality and image links.",
+      "description": "One row per card (44,778): 21,541 international TCG cards, 4,577 Pokémon TCG Pocket cards and 18,660 Asian cards, with stats, rarity, artist, legality, cross-reference ids and image links.",
       "schema": {
         "fields": [
           {
             "name": "card_id",
-            "description": "Card id: <set_id>-<number> (e.g. \"sv3pt5-25\"). Joins to cards.csv.",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
             "type": "string"
           },
           {
             "name": "set_id",
-            "description": "Set id (e.g. \"base1\", \"sv10\", \"me6\"). Joins to sets.csv.",
+            "description": "Set id (e.g. \"base1\", \"sv03.5\", \"me06\", \"A1\"). The TCGdex id; joins to sets.csv.",
             "type": "string"
           },
           {
@@ -124,18 +177,33 @@
             "type": "string"
           },
           {
+            "name": "region",
+            "description": "\"international\" or \"asia\" (see sets.csv).",
+            "type": "string"
+          },
+          {
+            "name": "game",
+            "description": "\"tcg\" or \"pocket\" (Pokémon TCG Pocket).",
+            "type": "string"
+          },
+          {
             "name": "release_date",
             "description": "Release date of the set (YYYY-MM-DD).",
             "type": "string"
           },
           {
             "name": "number",
-            "description": "Collector number within the set (text: some are like \"TG05\" or \"SV001\").",
+            "description": "Collector number within the set (text: some are like \"TG05\", \"SV001\", \"GG70\").",
             "type": "string"
           },
           {
             "name": "name",
-            "description": "Card name (e.g. \"Charizard ex\", \"Professor's Research\").",
+            "description": "Card name in text_language (e.g. \"Charizard ex\", \"Professor's Research\"). Other languages: card_names.csv.",
+            "type": "string"
+          },
+          {
+            "name": "text_language",
+            "description": "Language of name, evolves_from, flavor_text, effect and of the attack and ability text: English when the card has it, else the card's own language.",
             "type": "string"
           },
           {
@@ -144,18 +212,28 @@
             "type": "string"
           },
           {
-            "name": "subtypes",
-            "description": "Subtypes such as Basic, Stage 1, Stage 2, ex, V, VMAX, Item, Supporter, Stadium. Several values are separated by \"|\".",
+            "name": "stage",
+            "description": "Pokémon stage: Basic, Stage 1, Stage 2, VMAX, VSTAR, MEGA, BREAK, LEVEL-UP, Baby, V-UNION, RESTORED.",
             "type": "string"
           },
           {
-            "name": "level",
-            "description": "Pokémon level (Diamond & Pearl / Platinum era cards only).",
+            "name": "suffix",
+            "description": "Rule-box suffix: ex, EX, GX, TAG TEAM-GX, V, Prime, Legend, SP.",
+            "type": "string"
+          },
+          {
+            "name": "trainer_type",
+            "description": "Trainer cards: Item, Supporter, Tool, Stadium, Technical Machine, Rocket's Secret Machine.",
+            "type": "string"
+          },
+          {
+            "name": "energy_type",
+            "description": "Energy cards: Normal (basic Energy) or Special.",
             "type": "string"
           },
           {
             "name": "hp",
-            "description": "Hit points (Pokémon cards only).",
+            "description": "Hit points (Pokémon cards; also Fossils and dolls played as Pokémon).",
             "type": "integer"
           },
           {
@@ -175,22 +253,17 @@
           },
           {
             "name": "evolves_to",
-            "description": "Names it can evolve into. Several values are separated by \"|\".",
-            "type": "string"
-          },
-          {
-            "name": "rules",
-            "description": "Rule boxes (e.g. the ex rule: \"When your Pokémon ex is Knocked Out...\"), joined with \" | \".",
+            "description": "Names of the cards (same game and language) that evolve from this card's name. Derived. Several values are separated by \"|\".",
             "type": "string"
           },
           {
             "name": "attack_count",
-            "description": "Number of attacks (rows in card_attacks.csv).",
+            "description": "Number of attacks (rows in card_attacks.csv). Blank for the pocket-database cards, which have no attack data.",
             "type": "integer"
           },
           {
             "name": "ability_count",
-            "description": "Number of abilities (rows in card_abilities.csv).",
+            "description": "Number of abilities (rows in card_abilities.csv). Blank for the pocket-database cards.",
             "type": "integer"
           },
           {
@@ -220,12 +293,12 @@
           },
           {
             "name": "regulation_mark",
-            "description": "Regulation mark (D, E, F, G, H, I, ...) used for Standard rotation.",
+            "description": "Regulation mark (D, E, F, G, H, I, J) used for Standard rotation.",
             "type": "string"
           },
           {
             "name": "rarity",
-            "description": "Rarity (e.g. Common, Rare Holo, Illustration Rare, Special Illustration Rare, Hyper Rare).",
+            "description": "Rarity (e.g. Common, Rare, Illustration rare, Special illustration rare, Hyper rare; Pocket: One Diamond ... Crown).",
             "type": "string"
           },
           {
@@ -239,43 +312,61 @@
             "type": "string"
           },
           {
+            "name": "effect",
+            "description": "Rules text of Trainer and Energy cards.",
+            "type": "string"
+          },
+          {
             "name": "national_numbers",
             "description": "National Pokédex numbers of the Pokémon on the card (several for TAG TEAM cards). Several values are separated by \"|\".",
             "type": "string"
           },
           {
-            "name": "ancient_trait",
-            "description": "Ancient Trait name (XY Ancient Origins era).",
-            "type": "string"
-          },
-          {
-            "name": "ancient_trait_text",
-            "description": "Ancient Trait text.",
-            "type": "string"
-          },
-          {
             "name": "legal_standard",
-            "description": "Standard format legality at the time of the snapshot (Legal, Not Legal, Banned or blank).",
-            "type": "string"
+            "description": "Legal in the Standard format (regulation marks H, I, J). True/False for international TCG cards at the time of the build; blank for Pocket and Asian cards.",
+            "type": "boolean"
           },
           {
             "name": "legal_expanded",
-            "description": "Expanded format legality.",
+            "description": "Legal in the Expanded format (Black & White onwards, minus the ban list). True/False for international TCG cards at the time of the build; blank for Pocket and Asian cards.",
+            "type": "boolean"
+          },
+          {
+            "name": "ptcgio_id",
+            "description": "Card id on pokemontcg.io / PokemonTCG/pokemon-tcg-data (e.g. \"sv3pt5-25\"); version 1 of this dataset used it.",
             "type": "string"
           },
           {
-            "name": "legal_unlimited",
-            "description": "Unlimited format legality.",
+            "name": "image_url",
+            "description": "URL of the high-resolution card image (TCGdex image host; Pocket thumbnails for pocket-database cards). Blank when no image exists.",
             "type": "string"
           },
           {
-            "name": "image_small",
-            "description": "URL of the small card image (hosted by the source; may stop working).",
+            "name": "source",
+            "description": "Where the row comes from: \"tcgdex\" or \"pocket-database\" (Pokémon TCG Pocket cards TCGdex does not have yet).",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "card_names.csv",
+      "description": "Card names in up to 14 languages.",
+      "schema": {
+        "fields": [
+          {
+            "name": "card_id",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
             "type": "string"
           },
           {
-            "name": "image_large",
-            "description": "URL of the high-resolution card image.",
+            "name": "language",
+            "description": "Language code: en, fr, de, es, es-mx, it, pt, pt-br, ja, ko, zh-tw, zh-cn, th, id.",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "description": "Card name in that language.",
             "type": "string"
           }
         ]
@@ -288,7 +379,7 @@
         "fields": [
           {
             "name": "card_id",
-            "description": "Card id: <set_id>-<number> (e.g. \"sv3pt5-25\"). Joins to cards.csv.",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
             "type": "string"
           },
           {
@@ -298,7 +389,7 @@
           },
           {
             "name": "name",
-            "description": "Attack name.",
+            "description": "Attack name (in the card's text_language).",
             "type": "string"
           },
           {
@@ -328,7 +419,7 @@
           },
           {
             "name": "text",
-            "description": "Attack effect text.",
+            "description": "Attack effect text (in the card's text_language).",
             "type": "string"
           }
         ]
@@ -336,12 +427,12 @@
     },
     {
       "path": "card_abilities.csv",
-      "description": "One row per Ability / Poké-Power / Poké-Body on a card.",
+      "description": "One row per Ability / Poké-Power / Poké-Body / Ancient Trait on a card.",
       "schema": {
         "fields": [
           {
             "name": "card_id",
-            "description": "Card id: <set_id>-<number> (e.g. \"sv3pt5-25\"). Joins to cards.csv.",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
             "type": "string"
           },
           {
@@ -356,7 +447,7 @@
           },
           {
             "name": "type",
-            "description": "Ability, Poké-Power, Poké-Body, Pokémon Power, Ancient Trait, ...",
+            "description": "Ability, Poké-Power, Poké-Body, Pokémon Power or Ancient Trait.",
             "type": "string"
           },
           {
@@ -369,18 +460,248 @@
     },
     {
       "path": "card_pokemon.csv",
-      "description": "Bridge from cards to National Pokédex numbers; joins to The Complete Pokédex Dataset.",
+      "description": "Bridge from cards to National Pokédex numbers (featured and cameo Pokémon); joins to The Complete Pokédex Dataset.",
       "schema": {
         "fields": [
           {
             "name": "card_id",
-            "description": "Card id: <set_id>-<number> (e.g. \"sv3pt5-25\"). Joins to cards.csv.",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
             "type": "string"
           },
           {
             "name": "national_number",
             "description": "National Pokédex number. Joins to The Complete Pokédex Dataset (pokemon_utf8.csv).",
             "type": "integer"
+          },
+          {
+            "name": "role",
+            "description": "\"featured\" for the Pokémon the card is, \"cameo\" for Pokémon that also appear in the artwork.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "card_variants.csv",
+      "description": "One row per printed variant: finish, stamps, foil and its marketplace ids.",
+      "schema": {
+        "fields": [
+          {
+            "name": "card_id",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
+            "type": "string"
+          },
+          {
+            "name": "variant_index",
+            "description": "Position of the variant in the source.",
+            "type": "integer"
+          },
+          {
+            "name": "type",
+            "description": "Finish: normal, holo, reverse (reverse holo), lenticular or metal.",
+            "type": "string"
+          },
+          {
+            "name": "subtype",
+            "description": "Print run, where it matters (e.g. \"unlimited\", \"shadowless\").",
+            "type": "string"
+          },
+          {
+            "name": "size",
+            "description": "Card size when not standard (e.g. \"jumbo\").",
+            "type": "string"
+          },
+          {
+            "name": "stamps",
+            "description": "Stamps on the card (e.g. 1st-edition, set-logo, staff, pre-release, pokemon-center). Several values are separated by \"|\".",
+            "type": "string"
+          },
+          {
+            "name": "foil",
+            "description": "Foil pattern (e.g. \"cosmos\", \"cracked-ice\").",
+            "type": "string"
+          },
+          {
+            "name": "languages",
+            "description": "Languages the variant was printed in, where the source restricts it. Several values are separated by \"|\".",
+            "type": "string"
+          },
+          {
+            "name": "tcgplayer_product_id",
+            "description": "TCGplayer product id. Blank when the source has none.",
+            "type": "integer"
+          },
+          {
+            "name": "cardmarket_product_id",
+            "description": "Cardmarket product id. Blank when the source has none.",
+            "type": "integer"
+          },
+          {
+            "name": "cardtrader_id",
+            "description": "CardTrader blueprint id. Blank when the source has none.",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "path": "card_boosters.csv",
+      "description": "Which booster packs a card can be pulled from (mostly Pokémon TCG Pocket).",
+      "schema": {
+        "fields": [
+          {
+            "name": "card_id",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
+            "type": "string"
+          },
+          {
+            "name": "booster",
+            "description": "Booster pack the card can be pulled from (e.g. \"Mewtwo\", \"Charizard\" for Genetic Apex).",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "description": "Where the row comes from: \"tcgdex\" or \"pocket-database\" (Pokémon TCG Pocket cards TCGdex does not have yet).",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "id_crosswalk.csv",
+      "description": "TCGdex card id to pokemontcg.io, TCGplayer, Cardmarket and CardTrader ids.",
+      "schema": {
+        "fields": [
+          {
+            "name": "card_id",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
+            "type": "string"
+          },
+          {
+            "name": "ptcgio_id",
+            "description": "Card id on pokemontcg.io / PokemonTCG/pokemon-tcg-data (e.g. \"sv3pt5-25\"); version 1 of this dataset used it.",
+            "type": "string"
+          },
+          {
+            "name": "tcgplayer_product_id",
+            "description": "TCGplayer product id. Blank when the source has none.",
+            "type": "integer"
+          },
+          {
+            "name": "cardmarket_product_id",
+            "description": "Cardmarket product id. Blank when the source has none.",
+            "type": "integer"
+          },
+          {
+            "name": "cardtrader_id",
+            "description": "CardTrader blueprint id. Blank when the source has none.",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "path": "price_history.csv",
+      "description": "Monthly TCGplayer sale prices per card, finish and condition, November 2022 to September 2024 (historical; the source stopped collecting).",
+      "schema": {
+        "fields": [
+          {
+            "name": "card_id",
+            "description": "Card id: <set_id>-<number> (e.g. \"sv03.5-025\", \"A1-001\"). The TCGdex id; joins to cards.csv.",
+            "type": "string"
+          },
+          {
+            "name": "variant",
+            "description": "Finish the sales are for: normal, reverse or holo.",
+            "type": "string"
+          },
+          {
+            "name": "condition",
+            "description": "Card condition: nearmint, good, played, used or poor.",
+            "type": "string"
+          },
+          {
+            "name": "month",
+            "description": "Month of the sales (YYYY-MM), November 2022 to September 2024.",
+            "type": "string"
+          },
+          {
+            "name": "avg_price_usd",
+            "description": "Sale-weighted average sale price in US dollars.",
+            "type": "number"
+          },
+          {
+            "name": "min_price_usd",
+            "description": "Lowest sale price in the month (USD).",
+            "type": "number"
+          },
+          {
+            "name": "max_price_usd",
+            "description": "Highest sale price in the month (USD).",
+            "type": "number"
+          },
+          {
+            "name": "sales",
+            "description": "Number of sales recorded in the month.",
+            "type": "integer"
+          },
+          {
+            "name": "days_with_sales",
+            "description": "Days in the month with at least one recorded sale.",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "path": "pocket_pull_rates.csv",
+      "description": "Pokémon TCG Pocket pull rates per set, pack type, slot and rarity.",
+      "schema": {
+        "fields": [
+          {
+            "name": "set_id",
+            "description": "Set id (e.g. \"base1\", \"sv03.5\", \"me06\", \"A1\"). The TCGdex id; joins to sets.csv.",
+            "type": "string"
+          },
+          {
+            "name": "pack_type",
+            "description": "\"Regular Pack\", \"Regular Pack +1\" (a pack with a bonus sixth card), \"Rare Pack\" (the rare \"god pack\") or \"Themed Rare Pack\".",
+            "type": "string"
+          },
+          {
+            "name": "pack_rate_pct",
+            "description": "Chance of opening this pack type (%).",
+            "type": "number"
+          },
+          {
+            "name": "cards_per_pack",
+            "description": "Cards in the pack (4 in deluxe packs, 5, or 6 with the bonus card).",
+            "type": "integer"
+          },
+          {
+            "name": "slot",
+            "description": "Position in the pack (1-6).",
+            "type": "integer"
+          },
+          {
+            "name": "rarity_code",
+            "description": "Rarity code: C, U, R, RR, AR, SR, SAR, IM, UR, S, SSR; CF, UF, RF are foil Common, Uncommon and Rare slots in deluxe packs.",
+            "type": "string"
+          },
+          {
+            "name": "rarity",
+            "description": "Rarity as in cards.csv (One Diamond ... Four Diamond, One Star ... Three Star, Crown, One Shiny, Two Shiny).",
+            "type": "string"
+          },
+          {
+            "name": "rarity_label",
+            "description": "Rarity name (Common, Uncommon, Rare, Double Rare, Art Rare, Super Rare, Special Art Rare, Immersive Rare, Crown Rare, Shiny, Shiny Super Rare).",
+            "type": "string"
+          },
+          {
+            "name": "rate_pct",
+            "description": "Chance that this slot holds a card of this rarity (%).",
+            "type": "number"
           }
         ]
       }
@@ -407,7 +728,7 @@
           },
           {
             "name": "set_id",
-            "description": "Set id (e.g. \"base1\", \"sv10\", \"me6\"). Joins to sets.csv.",
+            "description": "Set id (e.g. \"base1\", \"sv03.5\", \"me06\", \"A1\"). The TCGdex id; joins to sets.csv.",
             "type": "string"
           },
           {
@@ -430,7 +751,12 @@
           },
           {
             "name": "card_id",
-            "description": "Card id: <set_id>-<number> (e.g. \"sv3pt5-25\"). Joins to cards.csv.",
+            "description": "TCGdex card id. Joins to cards.csv; blank for the few deck cards with no TCGdex match.",
+            "type": "string"
+          },
+          {
+            "name": "ptcgio_id",
+            "description": "Card id on pokemontcg.io / PokemonTCG/pokemon-tcg-data (e.g. \"sv3pt5-25\"); version 1 of this dataset used it.",
             "type": "string"
           },
           {
@@ -446,11 +772,6 @@
           {
             "name": "count",
             "description": "Copies in the deck.",
-            "type": "integer"
-          },
-          {
-            "name": "in_cards_table",
-            "description": "1 if the card_id is in cards.csv (4 deck cards are not).",
             "type": "integer"
           }
         ]

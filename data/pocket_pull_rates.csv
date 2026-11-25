@@ -1,0 +1,1146 @@
+set_id,pack_type,pack_rate_pct,cards_per_pack,slot,rarity_code,rarity,rarity_label,rate_pct
+A1,Regular Pack,99.95,5,1,C,One Diamond,Common,100.0
+A1,Regular Pack,99.95,5,2,C,One Diamond,Common,100.0
+A1,Regular Pack,99.95,5,3,C,One Diamond,Common,100.0
+A1,Regular Pack,99.95,5,4,UR,Crown,Crown Rare,0.04
+A1,Regular Pack,99.95,5,4,IM,Three Star,Immersive Rare,0.222
+A1,Regular Pack,99.95,5,4,SR,Two Star,Super Rare,0.5
+A1,Regular Pack,99.95,5,4,AR,One Star,Art Rare,2.572
+A1,Regular Pack,99.95,5,4,RR,Four Diamond,Double Rare,1.666
+A1,Regular Pack,99.95,5,4,R,Three Diamond,Rare,5.0
+A1,Regular Pack,99.95,5,4,U,Two Diamond,Uncommon,90.0
+A1,Regular Pack,99.95,5,5,UR,Crown,Crown Rare,0.16
+A1,Regular Pack,99.95,5,5,IM,Three Star,Immersive Rare,0.888
+A1,Regular Pack,99.95,5,5,SR,Two Star,Super Rare,2.0
+A1,Regular Pack,99.95,5,5,AR,One Star,Art Rare,10.288
+A1,Regular Pack,99.95,5,5,RR,Four Diamond,Double Rare,6.664
+A1,Regular Pack,99.95,5,5,R,Three Diamond,Rare,20.0
+A1,Regular Pack,99.95,5,5,U,Two Diamond,Uncommon,60.0
+A1,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,5.0
+A1,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,5.0
+A1,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,50.0
+A1,Rare Pack,0.05,5,1,AR,One Star,Art Rare,40.0
+A1,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,5.0
+A1,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,5.0
+A1,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,50.0
+A1,Rare Pack,0.05,5,2,AR,One Star,Art Rare,40.0
+A1,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,5.0
+A1,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,5.0
+A1,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,50.0
+A1,Rare Pack,0.05,5,3,AR,One Star,Art Rare,40.0
+A1,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,5.0
+A1,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,5.0
+A1,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,50.0
+A1,Rare Pack,0.05,5,4,AR,One Star,Art Rare,40.0
+A1,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,5.0
+A1,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,5.0
+A1,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,50.0
+A1,Rare Pack,0.05,5,5,AR,One Star,Art Rare,40.0
+A1a,Regular Pack,99.95,5,1,C,One Diamond,Common,100.0
+A1a,Regular Pack,99.95,5,2,C,One Diamond,Common,100.0
+A1a,Regular Pack,99.95,5,3,C,One Diamond,Common,100.0
+A1a,Regular Pack,99.95,5,4,UR,Crown,Crown Rare,0.04
+A1a,Regular Pack,99.95,5,4,IM,Three Star,Immersive Rare,0.222
+A1a,Regular Pack,99.95,5,4,SR,Two Star,Super Rare,0.5
+A1a,Regular Pack,99.95,5,4,AR,One Star,Art Rare,2.572
+A1a,Regular Pack,99.95,5,4,RR,Four Diamond,Double Rare,1.666
+A1a,Regular Pack,99.95,5,4,R,Three Diamond,Rare,5.0
+A1a,Regular Pack,99.95,5,4,U,Two Diamond,Uncommon,90.0
+A1a,Regular Pack,99.95,5,5,UR,Crown,Crown Rare,0.16
+A1a,Regular Pack,99.95,5,5,IM,Three Star,Immersive Rare,0.888
+A1a,Regular Pack,99.95,5,5,SR,Two Star,Super Rare,2.0
+A1a,Regular Pack,99.95,5,5,AR,One Star,Art Rare,10.288
+A1a,Regular Pack,99.95,5,5,RR,Four Diamond,Double Rare,6.664
+A1a,Regular Pack,99.95,5,5,R,Three Diamond,Rare,20.0
+A1a,Regular Pack,99.95,5,5,U,Two Diamond,Uncommon,60.0
+A1a,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,5.555
+A1a,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,5.555
+A1a,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,55.555
+A1a,Rare Pack,0.05,5,1,AR,One Star,Art Rare,33.333
+A1a,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,5.555
+A1a,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,5.555
+A1a,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,55.555
+A1a,Rare Pack,0.05,5,2,AR,One Star,Art Rare,33.333
+A1a,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,5.555
+A1a,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,5.555
+A1a,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,55.555
+A1a,Rare Pack,0.05,5,3,AR,One Star,Art Rare,33.333
+A1a,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,5.555
+A1a,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,5.555
+A1a,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,55.555
+A1a,Rare Pack,0.05,5,4,AR,One Star,Art Rare,33.333
+A1a,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,5.555
+A1a,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,5.555
+A1a,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,55.555
+A1a,Rare Pack,0.05,5,5,AR,One Star,Art Rare,33.333
+A2,Regular Pack,99.95,5,1,C,One Diamond,Common,100.0
+A2,Regular Pack,99.95,5,2,C,One Diamond,Common,100.0
+A2,Regular Pack,99.95,5,3,C,One Diamond,Common,100.0
+A2,Regular Pack,99.95,5,4,UR,Crown,Crown Rare,0.04
+A2,Regular Pack,99.95,5,4,IM,Three Star,Immersive Rare,0.222
+A2,Regular Pack,99.95,5,4,SR,Two Star,Super Rare,0.5
+A2,Regular Pack,99.95,5,4,AR,One Star,Art Rare,2.572
+A2,Regular Pack,99.95,5,4,RR,Four Diamond,Double Rare,1.666
+A2,Regular Pack,99.95,5,4,R,Three Diamond,Rare,5.0
+A2,Regular Pack,99.95,5,4,U,Two Diamond,Uncommon,90.0
+A2,Regular Pack,99.95,5,5,UR,Crown,Crown Rare,0.16
+A2,Regular Pack,99.95,5,5,IM,Three Star,Immersive Rare,0.888
+A2,Regular Pack,99.95,5,5,SR,Two Star,Super Rare,2.0
+A2,Regular Pack,99.95,5,5,AR,One Star,Art Rare,10.288
+A2,Regular Pack,99.95,5,5,RR,Four Diamond,Double Rare,6.664
+A2,Regular Pack,99.95,5,5,R,Three Diamond,Rare,20.0
+A2,Regular Pack,99.95,5,5,U,Two Diamond,Uncommon,60.0
+A2,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,3.846
+A2,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,3.846
+A2,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,46.153
+A2,Rare Pack,0.05,5,1,AR,One Star,Art Rare,46.153
+A2,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,3.846
+A2,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,3.846
+A2,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,46.153
+A2,Rare Pack,0.05,5,2,AR,One Star,Art Rare,46.153
+A2,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,3.846
+A2,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,3.846
+A2,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,46.153
+A2,Rare Pack,0.05,5,3,AR,One Star,Art Rare,46.153
+A2,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,3.846
+A2,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,3.846
+A2,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,46.153
+A2,Rare Pack,0.05,5,4,AR,One Star,Art Rare,46.153
+A2,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,3.846
+A2,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,3.846
+A2,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,46.153
+A2,Rare Pack,0.05,5,5,AR,One Star,Art Rare,46.153
+A2a,Regular Pack,99.95,5,1,C,One Diamond,Common,100.0
+A2a,Regular Pack,99.95,5,2,C,One Diamond,Common,100.0
+A2a,Regular Pack,99.95,5,3,C,One Diamond,Common,100.0
+A2a,Regular Pack,99.95,5,4,UR,Crown,Crown Rare,0.04
+A2a,Regular Pack,99.95,5,4,IM,Three Star,Immersive Rare,0.222
+A2a,Regular Pack,99.95,5,4,SR,Two Star,Super Rare,0.5
+A2a,Regular Pack,99.95,5,4,AR,One Star,Art Rare,2.572
+A2a,Regular Pack,99.95,5,4,RR,Four Diamond,Double Rare,1.666
+A2a,Regular Pack,99.95,5,4,R,Three Diamond,Rare,5.0
+A2a,Regular Pack,99.95,5,4,U,Two Diamond,Uncommon,90.0
+A2a,Regular Pack,99.95,5,5,UR,Crown,Crown Rare,0.16
+A2a,Regular Pack,99.95,5,5,IM,Three Star,Immersive Rare,0.888
+A2a,Regular Pack,99.95,5,5,SR,Two Star,Super Rare,2.0
+A2a,Regular Pack,99.95,5,5,AR,One Star,Art Rare,10.288
+A2a,Regular Pack,99.95,5,5,RR,Four Diamond,Double Rare,6.664
+A2a,Regular Pack,99.95,5,5,R,Three Diamond,Rare,20.0
+A2a,Regular Pack,99.95,5,5,U,Two Diamond,Uncommon,60.0
+A2a,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,4.761
+A2a,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,4.761
+A2a,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,61.904
+A2a,Rare Pack,0.05,5,1,AR,One Star,Art Rare,28.571
+A2a,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,4.761
+A2a,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,4.761
+A2a,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,61.904
+A2a,Rare Pack,0.05,5,2,AR,One Star,Art Rare,28.571
+A2a,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,4.761
+A2a,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,4.761
+A2a,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,61.904
+A2a,Rare Pack,0.05,5,3,AR,One Star,Art Rare,28.571
+A2a,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,4.761
+A2a,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,4.761
+A2a,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,61.904
+A2a,Rare Pack,0.05,5,4,AR,One Star,Art Rare,28.571
+A2a,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,4.761
+A2a,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,4.761
+A2a,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,61.904
+A2a,Rare Pack,0.05,5,5,AR,One Star,Art Rare,28.571
+A2b,Regular Pack,99.95,5,1,C,One Diamond,Common,100.0
+A2b,Regular Pack,99.95,5,2,C,One Diamond,Common,100.0
+A2b,Regular Pack,99.95,5,3,C,One Diamond,Common,100.0
+A2b,Regular Pack,99.95,5,4,UR,Crown,Crown Rare,0.04
+A2b,Regular Pack,99.95,5,4,SSR,Two Shiny,Shiny Super Rare,0.333
+A2b,Regular Pack,99.95,5,4,S,One Shiny,Shiny,0.714
+A2b,Regular Pack,99.95,5,4,IM,Three Star,Immersive Rare,0.222
+A2b,Regular Pack,99.95,5,4,SR,Two Star,Super Rare,0.5
+A2b,Regular Pack,99.95,5,4,AR,One Star,Art Rare,2.572
+A2b,Regular Pack,99.95,5,4,RR,Four Diamond,Double Rare,1.666
+A2b,Regular Pack,99.95,5,4,R,Three Diamond,Rare,4.952
+A2b,Regular Pack,99.95,5,4,U,Two Diamond,Uncommon,89.0
+A2b,Regular Pack,99.95,5,5,UR,Crown,Crown Rare,0.16
+A2b,Regular Pack,99.95,5,5,SSR,Two Shiny,Shiny Super Rare,1.333
+A2b,Regular Pack,99.95,5,5,S,One Shiny,Shiny,2.857
+A2b,Regular Pack,99.95,5,5,IM,Three Star,Immersive Rare,0.888
+A2b,Regular Pack,99.95,5,5,SR,Two Star,Super Rare,2.0
+A2b,Regular Pack,99.95,5,5,AR,One Star,Art Rare,10.288
+A2b,Regular Pack,99.95,5,5,RR,Four Diamond,Double Rare,6.664
+A2b,Regular Pack,99.95,5,5,R,Three Diamond,Rare,19.81
+A2b,Regular Pack,99.95,5,5,U,Two Diamond,Uncommon,56.0
+A2b,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,2.564
+A2b,Rare Pack,0.05,5,1,SSR,Two Shiny,Shiny Super Rare,10.256
+A2b,Rare Pack,0.05,5,1,S,One Shiny,Shiny,25.641
+A2b,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,2.564
+A2b,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,43.589
+A2b,Rare Pack,0.05,5,1,AR,One Star,Art Rare,15.384
+A2b,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,2.564
+A2b,Rare Pack,0.05,5,2,SSR,Two Shiny,Shiny Super Rare,10.256
+A2b,Rare Pack,0.05,5,2,S,One Shiny,Shiny,25.641
+A2b,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,2.564
+A2b,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,43.589
+A2b,Rare Pack,0.05,5,2,AR,One Star,Art Rare,15.384
+A2b,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,2.564
+A2b,Rare Pack,0.05,5,3,SSR,Two Shiny,Shiny Super Rare,10.256
+A2b,Rare Pack,0.05,5,3,S,One Shiny,Shiny,25.641
+A2b,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,2.564
+A2b,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,43.589
+A2b,Rare Pack,0.05,5,3,AR,One Star,Art Rare,15.384
+A2b,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,2.564
+A2b,Rare Pack,0.05,5,4,SSR,Two Shiny,Shiny Super Rare,10.256
+A2b,Rare Pack,0.05,5,4,S,One Shiny,Shiny,25.641
+A2b,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,2.564
+A2b,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,43.589
+A2b,Rare Pack,0.05,5,4,AR,One Star,Art Rare,15.384
+A2b,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,2.564
+A2b,Rare Pack,0.05,5,5,SSR,Two Shiny,Shiny Super Rare,10.256
+A2b,Rare Pack,0.05,5,5,S,One Shiny,Shiny,25.641
+A2b,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,2.564
+A2b,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,43.589
+A2b,Rare Pack,0.05,5,5,AR,One Star,Art Rare,15.384
+A3,Regular Pack,99.95,5,1,C,One Diamond,Common,100.0
+A3,Regular Pack,99.95,5,2,C,One Diamond,Common,100.0
+A3,Regular Pack,99.95,5,3,C,One Diamond,Common,100.0
+A3,Regular Pack,99.95,5,4,UR,Crown,Crown Rare,0.04
+A3,Regular Pack,99.95,5,4,SSR,Two Shiny,Shiny Super Rare,0.333
+A3,Regular Pack,99.95,5,4,S,One Shiny,Shiny,0.714
+A3,Regular Pack,99.95,5,4,IM,Three Star,Immersive Rare,0.222
+A3,Regular Pack,99.95,5,4,SR,Two Star,Super Rare,0.5
+A3,Regular Pack,99.95,5,4,AR,One Star,Art Rare,2.572
+A3,Regular Pack,99.95,5,4,RR,Four Diamond,Double Rare,1.666
+A3,Regular Pack,99.95,5,4,R,Three Diamond,Rare,4.952
+A3,Regular Pack,99.95,5,4,U,Two Diamond,Uncommon,89.0
+A3,Regular Pack,99.95,5,5,UR,Crown,Crown Rare,0.16
+A3,Regular Pack,99.95,5,5,SSR,Two Shiny,Shiny Super Rare,1.333
+A3,Regular Pack,99.95,5,5,S,One Shiny,Shiny,2.857
+A3,Regular Pack,99.95,5,5,IM,Three Star,Immersive Rare,0.888
+A3,Regular Pack,99.95,5,5,SR,Two Star,Super Rare,2.0
+A3,Regular Pack,99.95,5,5,AR,One Star,Art Rare,10.288
+A3,Regular Pack,99.95,5,5,RR,Four Diamond,Double Rare,6.664
+A3,Regular Pack,99.95,5,5,R,Three Diamond,Rare,19.81
+A3,Regular Pack,99.95,5,5,U,Two Diamond,Uncommon,56.0
+A3,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,2.38
+A3,Rare Pack,0.05,5,1,SSR,Two Shiny,Shiny Super Rare,9.523
+A3,Rare Pack,0.05,5,1,S,One Shiny,Shiny,23.809
+A3,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,2.38
+A3,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,33.333
+A3,Rare Pack,0.05,5,1,AR,One Star,Art Rare,28.571
+A3,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,2.38
+A3,Rare Pack,0.05,5,2,SSR,Two Shiny,Shiny Super Rare,9.523
+A3,Rare Pack,0.05,5,2,S,One Shiny,Shiny,23.809
+A3,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,2.38
+A3,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,33.333
+A3,Rare Pack,0.05,5,2,AR,One Star,Art Rare,28.571
+A3,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,2.38
+A3,Rare Pack,0.05,5,3,SSR,Two Shiny,Shiny Super Rare,9.523
+A3,Rare Pack,0.05,5,3,S,One Shiny,Shiny,23.809
+A3,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,2.38
+A3,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,33.333
+A3,Rare Pack,0.05,5,3,AR,One Star,Art Rare,28.571
+A3,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,2.38
+A3,Rare Pack,0.05,5,4,SSR,Two Shiny,Shiny Super Rare,9.523
+A3,Rare Pack,0.05,5,4,S,One Shiny,Shiny,23.809
+A3,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,2.38
+A3,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,33.333
+A3,Rare Pack,0.05,5,4,AR,One Star,Art Rare,28.571
+A3,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,2.38
+A3,Rare Pack,0.05,5,5,SSR,Two Shiny,Shiny Super Rare,9.523
+A3,Rare Pack,0.05,5,5,S,One Shiny,Shiny,23.809
+A3,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,2.38
+A3,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,33.333
+A3,Rare Pack,0.05,5,5,AR,One Star,Art Rare,28.571
+A3a,Regular Pack,99.95,5,1,C,One Diamond,Common,100.0
+A3a,Regular Pack,99.95,5,2,C,One Diamond,Common,100.0
+A3a,Regular Pack,99.95,5,3,C,One Diamond,Common,100.0
+A3a,Regular Pack,99.95,5,4,UR,Crown,Crown Rare,0.04
+A3a,Regular Pack,99.95,5,4,SSR,Two Shiny,Shiny Super Rare,0.333
+A3a,Regular Pack,99.95,5,4,S,One Shiny,Shiny,0.714
+A3a,Regular Pack,99.95,5,4,IM,Three Star,Immersive Rare,0.222
+A3a,Regular Pack,99.95,5,4,SR,Two Star,Super Rare,0.5
+A3a,Regular Pack,99.95,5,4,AR,One Star,Art Rare,2.572
+A3a,Regular Pack,99.95,5,4,RR,Four Diamond,Double Rare,1.666
+A3a,Regular Pack,99.95,5,4,R,Three Diamond,Rare,4.952
+A3a,Regular Pack,99.95,5,4,U,Two Diamond,Uncommon,89.0
+A3a,Regular Pack,99.95,5,5,UR,Crown,Crown Rare,0.16
+A3a,Regular Pack,99.95,5,5,SSR,Two Shiny,Shiny Super Rare,1.333
+A3a,Regular Pack,99.95,5,5,S,One Shiny,Shiny,2.857
+A3a,Regular Pack,99.95,5,5,IM,Three Star,Immersive Rare,0.888
+A3a,Regular Pack,99.95,5,5,SR,Two Star,Super Rare,2.0
+A3a,Regular Pack,99.95,5,5,AR,One Star,Art Rare,10.288
+A3a,Regular Pack,99.95,5,5,RR,Four Diamond,Double Rare,6.664
+A3a,Regular Pack,99.95,5,5,R,Three Diamond,Rare,19.81
+A3a,Regular Pack,99.95,5,5,U,Two Diamond,Uncommon,56.0
+A3a,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,2.941
+A3a,Rare Pack,0.05,5,1,SSR,Two Shiny,Shiny Super Rare,11.764
+A3a,Rare Pack,0.05,5,1,S,One Shiny,Shiny,29.411
+A3a,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,2.941
+A3a,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,35.294
+A3a,Rare Pack,0.05,5,1,AR,One Star,Art Rare,17.647
+A3a,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,2.941
+A3a,Rare Pack,0.05,5,2,SSR,Two Shiny,Shiny Super Rare,11.764
+A3a,Rare Pack,0.05,5,2,S,One Shiny,Shiny,29.411
+A3a,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,2.941
+A3a,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,35.294
+A3a,Rare Pack,0.05,5,2,AR,One Star,Art Rare,17.647
+A3a,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,2.941
+A3a,Rare Pack,0.05,5,3,SSR,Two Shiny,Shiny Super Rare,11.764
+A3a,Rare Pack,0.05,5,3,S,One Shiny,Shiny,29.411
+A3a,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,2.941
+A3a,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,35.294
+A3a,Rare Pack,0.05,5,3,AR,One Star,Art Rare,17.647
+A3a,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,2.941
+A3a,Rare Pack,0.05,5,4,SSR,Two Shiny,Shiny Super Rare,11.764
+A3a,Rare Pack,0.05,5,4,S,One Shiny,Shiny,29.411
+A3a,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,2.941
+A3a,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,35.294
+A3a,Rare Pack,0.05,5,4,AR,One Star,Art Rare,17.647
+A3a,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,2.941
+A3a,Rare Pack,0.05,5,5,SSR,Two Shiny,Shiny Super Rare,11.764
+A3a,Rare Pack,0.05,5,5,S,One Shiny,Shiny,29.411
+A3a,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,2.941
+A3a,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,35.294
+A3a,Rare Pack,0.05,5,5,AR,One Star,Art Rare,17.647
+A3b,Regular Pack,99.95,5,1,C,One Diamond,Common,100.0
+A3b,Regular Pack,99.95,5,2,C,One Diamond,Common,100.0
+A3b,Regular Pack,99.95,5,3,C,One Diamond,Common,100.0
+A3b,Regular Pack,99.95,5,4,UR,Crown,Crown Rare,0.04
+A3b,Regular Pack,99.95,5,4,SSR,Two Shiny,Shiny Super Rare,0.333
+A3b,Regular Pack,99.95,5,4,S,One Shiny,Shiny,0.714
+A3b,Regular Pack,99.95,5,4,IM,Three Star,Immersive Rare,0.222
+A3b,Regular Pack,99.95,5,4,SR,Two Star,Super Rare,0.5
+A3b,Regular Pack,99.95,5,4,AR,One Star,Art Rare,2.572
+A3b,Regular Pack,99.95,5,4,RR,Four Diamond,Double Rare,1.666
+A3b,Regular Pack,99.95,5,4,R,Three Diamond,Rare,4.952
+A3b,Regular Pack,99.95,5,4,U,Two Diamond,Uncommon,89.0
+A3b,Regular Pack,99.95,5,5,UR,Crown,Crown Rare,0.16
+A3b,Regular Pack,99.95,5,5,SSR,Two Shiny,Shiny Super Rare,1.333
+A3b,Regular Pack,99.95,5,5,S,One Shiny,Shiny,2.857
+A3b,Regular Pack,99.95,5,5,IM,Three Star,Immersive Rare,0.888
+A3b,Regular Pack,99.95,5,5,SR,Two Star,Super Rare,2.0
+A3b,Regular Pack,99.95,5,5,AR,One Star,Art Rare,10.288
+A3b,Regular Pack,99.95,5,5,RR,Four Diamond,Double Rare,6.664
+A3b,Regular Pack,99.95,5,5,R,Three Diamond,Rare,19.81
+A3b,Regular Pack,99.95,5,5,U,Two Diamond,Uncommon,56.0
+A3b,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,2.631
+A3b,Rare Pack,0.05,5,1,SSR,Two Shiny,Shiny Super Rare,10.526
+A3b,Rare Pack,0.05,5,1,S,One Shiny,Shiny,26.315
+A3b,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,2.631
+A3b,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,34.21
+A3b,Rare Pack,0.05,5,1,AR,One Star,Art Rare,23.684
+A3b,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,2.631
+A3b,Rare Pack,0.05,5,2,SSR,Two Shiny,Shiny Super Rare,10.526
+A3b,Rare Pack,0.05,5,2,S,One Shiny,Shiny,26.315
+A3b,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,2.631
+A3b,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,34.21
+A3b,Rare Pack,0.05,5,2,AR,One Star,Art Rare,23.684
+A3b,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,2.631
+A3b,Rare Pack,0.05,5,3,SSR,Two Shiny,Shiny Super Rare,10.526
+A3b,Rare Pack,0.05,5,3,S,One Shiny,Shiny,26.315
+A3b,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,2.631
+A3b,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,34.21
+A3b,Rare Pack,0.05,5,3,AR,One Star,Art Rare,23.684
+A3b,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,2.631
+A3b,Rare Pack,0.05,5,4,SSR,Two Shiny,Shiny Super Rare,10.526
+A3b,Rare Pack,0.05,5,4,S,One Shiny,Shiny,26.315
+A3b,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,2.631
+A3b,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,34.21
+A3b,Rare Pack,0.05,5,4,AR,One Star,Art Rare,23.684
+A3b,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,2.631
+A3b,Rare Pack,0.05,5,5,SSR,Two Shiny,Shiny Super Rare,10.526
+A3b,Rare Pack,0.05,5,5,S,One Shiny,Shiny,26.315
+A3b,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,2.631
+A3b,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,34.21
+A3b,Rare Pack,0.05,5,5,AR,One Star,Art Rare,23.684
+A4,Regular Pack,91.62,5,1,C,One Diamond,Common,100.0
+A4,Regular Pack,91.62,5,2,C,One Diamond,Common,100.0
+A4,Regular Pack,91.62,5,3,C,One Diamond,Common,100.0
+A4,Regular Pack,91.62,5,4,UR,Crown,Crown Rare,0.04
+A4,Regular Pack,91.62,5,4,SSR,Two Shiny,Shiny Super Rare,0.333
+A4,Regular Pack,91.62,5,4,S,One Shiny,Shiny,0.714
+A4,Regular Pack,91.62,5,4,IM,Three Star,Immersive Rare,0.222
+A4,Regular Pack,91.62,5,4,SR,Two Star,Super Rare,0.5
+A4,Regular Pack,91.62,5,4,AR,One Star,Art Rare,2.572
+A4,Regular Pack,91.62,5,4,RR,Four Diamond,Double Rare,1.666
+A4,Regular Pack,91.62,5,4,R,Three Diamond,Rare,4.952
+A4,Regular Pack,91.62,5,4,U,Two Diamond,Uncommon,89.0
+A4,Regular Pack,91.62,5,5,UR,Crown,Crown Rare,0.16
+A4,Regular Pack,91.62,5,5,SSR,Two Shiny,Shiny Super Rare,1.333
+A4,Regular Pack,91.62,5,5,S,One Shiny,Shiny,2.857
+A4,Regular Pack,91.62,5,5,IM,Three Star,Immersive Rare,0.888
+A4,Regular Pack,91.62,5,5,SR,Two Star,Super Rare,2.0
+A4,Regular Pack,91.62,5,5,AR,One Star,Art Rare,10.288
+A4,Regular Pack,91.62,5,5,RR,Four Diamond,Double Rare,6.664
+A4,Regular Pack,91.62,5,5,R,Three Diamond,Rare,19.81
+A4,Regular Pack,91.62,5,5,U,Two Diamond,Uncommon,56.0
+A4,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,2.564
+A4,Rare Pack,0.05,5,1,SSR,Two Shiny,Shiny Super Rare,10.256
+A4,Rare Pack,0.05,5,1,S,One Shiny,Shiny,25.641
+A4,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,2.564
+A4,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,30.769
+A4,Rare Pack,0.05,5,1,AR,One Star,Art Rare,28.205
+A4,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,2.564
+A4,Rare Pack,0.05,5,2,SSR,Two Shiny,Shiny Super Rare,10.256
+A4,Rare Pack,0.05,5,2,S,One Shiny,Shiny,25.641
+A4,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,2.564
+A4,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,30.769
+A4,Rare Pack,0.05,5,2,AR,One Star,Art Rare,28.205
+A4,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,2.564
+A4,Rare Pack,0.05,5,3,SSR,Two Shiny,Shiny Super Rare,10.256
+A4,Rare Pack,0.05,5,3,S,One Shiny,Shiny,25.641
+A4,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,2.564
+A4,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,30.769
+A4,Rare Pack,0.05,5,3,AR,One Star,Art Rare,28.205
+A4,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,2.564
+A4,Rare Pack,0.05,5,4,SSR,Two Shiny,Shiny Super Rare,10.256
+A4,Rare Pack,0.05,5,4,S,One Shiny,Shiny,25.641
+A4,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,2.564
+A4,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,30.769
+A4,Rare Pack,0.05,5,4,AR,One Star,Art Rare,28.205
+A4,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,2.564
+A4,Rare Pack,0.05,5,5,SSR,Two Shiny,Shiny Super Rare,10.256
+A4,Rare Pack,0.05,5,5,S,One Shiny,Shiny,25.641
+A4,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,2.564
+A4,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,30.769
+A4,Rare Pack,0.05,5,5,AR,One Star,Art Rare,28.205
+A4,Regular Pack +1,8.33,6,1,C,One Diamond,Common,100.0
+A4,Regular Pack +1,8.33,6,2,C,One Diamond,Common,100.0
+A4,Regular Pack +1,8.33,6,3,C,One Diamond,Common,100.0
+A4,Regular Pack +1,8.33,6,4,UR,Crown,Crown Rare,0.04
+A4,Regular Pack +1,8.33,6,4,SSR,Two Shiny,Shiny Super Rare,0.333
+A4,Regular Pack +1,8.33,6,4,S,One Shiny,Shiny,0.714
+A4,Regular Pack +1,8.33,6,4,IM,Three Star,Immersive Rare,0.222
+A4,Regular Pack +1,8.33,6,4,SR,Two Star,Super Rare,0.5
+A4,Regular Pack +1,8.33,6,4,AR,One Star,Art Rare,2.572
+A4,Regular Pack +1,8.33,6,4,RR,Four Diamond,Double Rare,1.666
+A4,Regular Pack +1,8.33,6,4,R,Three Diamond,Rare,4.952
+A4,Regular Pack +1,8.33,6,4,U,Two Diamond,Uncommon,89.0
+A4,Regular Pack +1,8.33,6,5,UR,Crown,Crown Rare,0.16
+A4,Regular Pack +1,8.33,6,5,SSR,Two Shiny,Shiny Super Rare,1.333
+A4,Regular Pack +1,8.33,6,5,S,One Shiny,Shiny,2.857
+A4,Regular Pack +1,8.33,6,5,IM,Three Star,Immersive Rare,0.888
+A4,Regular Pack +1,8.33,6,5,SR,Two Star,Super Rare,2.0
+A4,Regular Pack +1,8.33,6,5,AR,One Star,Art Rare,10.288
+A4,Regular Pack +1,8.33,6,5,RR,Four Diamond,Double Rare,6.664
+A4,Regular Pack +1,8.33,6,5,R,Three Diamond,Rare,19.81
+A4,Regular Pack +1,8.33,6,5,U,Two Diamond,Uncommon,56.0
+A4,Regular Pack +1,8.33,6,6,AR,One Star,Art Rare,12.9
+A4,Regular Pack +1,8.33,6,6,R,Three Diamond,Rare,87.1
+A4a,Regular Pack,91.62,5,1,C,One Diamond,Common,100.0
+A4a,Regular Pack,91.62,5,2,C,One Diamond,Common,100.0
+A4a,Regular Pack,91.62,5,3,C,One Diamond,Common,100.0
+A4a,Regular Pack,91.62,5,4,UR,Crown,Crown Rare,0.04
+A4a,Regular Pack,91.62,5,4,SSR,Two Shiny,Shiny Super Rare,0.333
+A4a,Regular Pack,91.62,5,4,S,One Shiny,Shiny,0.714
+A4a,Regular Pack,91.62,5,4,IM,Three Star,Immersive Rare,0.222
+A4a,Regular Pack,91.62,5,4,SR,Two Star,Super Rare,0.5
+A4a,Regular Pack,91.62,5,4,AR,One Star,Art Rare,2.572
+A4a,Regular Pack,91.62,5,4,RR,Four Diamond,Double Rare,1.666
+A4a,Regular Pack,91.62,5,4,R,Three Diamond,Rare,4.952
+A4a,Regular Pack,91.62,5,4,U,Two Diamond,Uncommon,89.0
+A4a,Regular Pack,91.62,5,5,UR,Crown,Crown Rare,0.16
+A4a,Regular Pack,91.62,5,5,SSR,Two Shiny,Shiny Super Rare,1.333
+A4a,Regular Pack,91.62,5,5,S,One Shiny,Shiny,2.857
+A4a,Regular Pack,91.62,5,5,IM,Three Star,Immersive Rare,0.888
+A4a,Regular Pack,91.62,5,5,SR,Two Star,Super Rare,2.0
+A4a,Regular Pack,91.62,5,5,AR,One Star,Art Rare,10.288
+A4a,Regular Pack,91.62,5,5,RR,Four Diamond,Double Rare,6.664
+A4a,Regular Pack,91.62,5,5,R,Three Diamond,Rare,19.81
+A4a,Regular Pack,91.62,5,5,U,Two Diamond,Uncommon,56.0
+A4a,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,3.03
+A4a,Rare Pack,0.05,5,1,SSR,Two Shiny,Shiny Super Rare,12.121
+A4a,Rare Pack,0.05,5,1,S,One Shiny,Shiny,30.303
+A4a,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,3.03
+A4a,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,36.363
+A4a,Rare Pack,0.05,5,1,AR,One Star,Art Rare,15.151
+A4a,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,3.03
+A4a,Rare Pack,0.05,5,2,SSR,Two Shiny,Shiny Super Rare,12.121
+A4a,Rare Pack,0.05,5,2,S,One Shiny,Shiny,30.303
+A4a,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,3.03
+A4a,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,36.363
+A4a,Rare Pack,0.05,5,2,AR,One Star,Art Rare,15.151
+A4a,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,3.03
+A4a,Rare Pack,0.05,5,3,SSR,Two Shiny,Shiny Super Rare,12.121
+A4a,Rare Pack,0.05,5,3,S,One Shiny,Shiny,30.303
+A4a,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,3.03
+A4a,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,36.363
+A4a,Rare Pack,0.05,5,3,AR,One Star,Art Rare,15.151
+A4a,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,3.03
+A4a,Rare Pack,0.05,5,4,SSR,Two Shiny,Shiny Super Rare,12.121
+A4a,Rare Pack,0.05,5,4,S,One Shiny,Shiny,30.303
+A4a,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,3.03
+A4a,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,36.363
+A4a,Rare Pack,0.05,5,4,AR,One Star,Art Rare,15.151
+A4a,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,3.03
+A4a,Rare Pack,0.05,5,5,SSR,Two Shiny,Shiny Super Rare,12.121
+A4a,Rare Pack,0.05,5,5,S,One Shiny,Shiny,30.303
+A4a,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,3.03
+A4a,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,36.363
+A4a,Rare Pack,0.05,5,5,AR,One Star,Art Rare,15.151
+A4a,Regular Pack +1,8.33,6,1,C,One Diamond,Common,100.0
+A4a,Regular Pack +1,8.33,6,2,C,One Diamond,Common,100.0
+A4a,Regular Pack +1,8.33,6,3,C,One Diamond,Common,100.0
+A4a,Regular Pack +1,8.33,6,4,UR,Crown,Crown Rare,0.04
+A4a,Regular Pack +1,8.33,6,4,SSR,Two Shiny,Shiny Super Rare,0.333
+A4a,Regular Pack +1,8.33,6,4,S,One Shiny,Shiny,0.714
+A4a,Regular Pack +1,8.33,6,4,IM,Three Star,Immersive Rare,0.222
+A4a,Regular Pack +1,8.33,6,4,SR,Two Star,Super Rare,0.5
+A4a,Regular Pack +1,8.33,6,4,AR,One Star,Art Rare,2.572
+A4a,Regular Pack +1,8.33,6,4,RR,Four Diamond,Double Rare,1.666
+A4a,Regular Pack +1,8.33,6,4,R,Three Diamond,Rare,4.952
+A4a,Regular Pack +1,8.33,6,4,U,Two Diamond,Uncommon,89.0
+A4a,Regular Pack +1,8.33,6,5,UR,Crown,Crown Rare,0.16
+A4a,Regular Pack +1,8.33,6,5,SSR,Two Shiny,Shiny Super Rare,1.333
+A4a,Regular Pack +1,8.33,6,5,S,One Shiny,Shiny,2.857
+A4a,Regular Pack +1,8.33,6,5,IM,Three Star,Immersive Rare,0.888
+A4a,Regular Pack +1,8.33,6,5,SR,Two Star,Super Rare,2.0
+A4a,Regular Pack +1,8.33,6,5,AR,One Star,Art Rare,10.288
+A4a,Regular Pack +1,8.33,6,5,RR,Four Diamond,Double Rare,6.664
+A4a,Regular Pack +1,8.33,6,5,R,Three Diamond,Rare,19.81
+A4a,Regular Pack +1,8.33,6,5,U,Two Diamond,Uncommon,56.0
+A4a,Regular Pack +1,8.33,6,6,AR,One Star,Art Rare,12.9
+A4a,Regular Pack +1,8.33,6,6,R,Three Diamond,Rare,87.1
+A4b,Regular Pack,99.95,4,1,C,One Diamond,Common,100.0
+A4b,Regular Pack,99.95,4,2,C,One Diamond,Common,17.73
+A4b,Regular Pack,99.95,4,2,U,Two Diamond,Uncommon,82.27
+A4b,Regular Pack,99.95,4,3,UR,Crown,Crown Rare,0.198
+A4b,Regular Pack,99.95,4,3,SSR,Two Shiny,Shiny Super Rare,1.667
+A4b,Regular Pack,99.95,4,3,IM,Three Star,Immersive Rare,1.111
+A4b,Regular Pack,99.95,4,3,SR,Two Star,Super Rare,2.5
+A4b,Regular Pack,99.95,4,3,AR,One Star,Art Rare,12.858
+A4b,Regular Pack,99.95,4,3,R,Three Diamond,Rare,31.666
+A4b,Regular Pack,99.95,4,3,RF,Three Diamond,Rare (foil),8.993
+A4b,Regular Pack,99.95,4,3,UF,Two Diamond,Uncommon (foil),17.985
+A4b,Regular Pack,99.95,4,3,CF,One Diamond,Common (foil),23.021
+A4b,Regular Pack,99.95,4,4,RR,Four Diamond,Double Rare,100.0
+A4b,Rare Pack,0.05,4,1,UR,Crown,Crown Rare,3.846
+A4b,Rare Pack,0.05,4,1,SSR,Two Shiny,Shiny Super Rare,7.692
+A4b,Rare Pack,0.05,4,1,IM,Three Star,Immersive Rare,3.846
+A4b,Rare Pack,0.05,4,1,SR,Two Star,Super Rare,61.538
+A4b,Rare Pack,0.05,4,1,AR,One Star,Art Rare,23.076
+A4b,Rare Pack,0.05,4,2,UR,Crown,Crown Rare,3.846
+A4b,Rare Pack,0.05,4,2,SSR,Two Shiny,Shiny Super Rare,7.692
+A4b,Rare Pack,0.05,4,2,IM,Three Star,Immersive Rare,3.846
+A4b,Rare Pack,0.05,4,2,SR,Two Star,Super Rare,61.538
+A4b,Rare Pack,0.05,4,2,AR,One Star,Art Rare,23.076
+A4b,Rare Pack,0.05,4,3,UR,Crown,Crown Rare,3.846
+A4b,Rare Pack,0.05,4,3,SSR,Two Shiny,Shiny Super Rare,7.692
+A4b,Rare Pack,0.05,4,3,IM,Three Star,Immersive Rare,3.846
+A4b,Rare Pack,0.05,4,3,SR,Two Star,Super Rare,61.538
+A4b,Rare Pack,0.05,4,3,AR,One Star,Art Rare,23.076
+A4b,Rare Pack,0.05,4,4,UR,Crown,Crown Rare,3.846
+A4b,Rare Pack,0.05,4,4,SSR,Two Shiny,Shiny Super Rare,7.692
+A4b,Rare Pack,0.05,4,4,IM,Three Star,Immersive Rare,3.846
+A4b,Rare Pack,0.05,4,4,SR,Two Star,Super Rare,61.538
+A4b,Rare Pack,0.05,4,4,AR,One Star,Art Rare,23.076
+B1,Regular Pack,94.711,5,1,C,One Diamond,Common,100.0
+B1,Regular Pack,94.711,5,2,C,One Diamond,Common,100.0
+B1,Regular Pack,94.711,5,3,C,One Diamond,Common,100.0
+B1,Regular Pack,94.711,5,4,UR,Crown,Crown Rare,0.04
+B1,Regular Pack,94.711,5,4,IM,Three Star,Immersive Rare,0.222
+B1,Regular Pack,94.711,5,4,SR,Two Star,Super Rare,0.5
+B1,Regular Pack,94.711,5,4,AR,One Star,Art Rare,2.572
+B1,Regular Pack,94.711,5,4,RR,Four Diamond,Double Rare,1.667
+B1,Regular Pack,94.711,5,4,R,Three Diamond,Rare,5.0
+B1,Regular Pack,94.711,5,4,U,Two Diamond,Uncommon,89.999
+B1,Regular Pack,94.711,5,5,UR,Crown,Crown Rare,0.16
+B1,Regular Pack,94.711,5,5,IM,Three Star,Immersive Rare,0.889
+B1,Regular Pack,94.711,5,5,SR,Two Star,Super Rare,2.0
+B1,Regular Pack,94.711,5,5,AR,One Star,Art Rare,10.286
+B1,Regular Pack,94.711,5,5,RR,Four Diamond,Double Rare,6.667
+B1,Regular Pack,94.711,5,5,R,Three Diamond,Rare,20.0
+B1,Regular Pack,94.711,5,5,U,Two Diamond,Uncommon,59.998
+B1,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,4.761
+B1,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,4.761
+B1,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,52.38
+B1,Rare Pack,0.05,5,1,AR,One Star,Art Rare,38.095
+B1,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,4.761
+B1,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,4.761
+B1,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,52.38
+B1,Rare Pack,0.05,5,2,AR,One Star,Art Rare,38.095
+B1,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,4.761
+B1,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,4.761
+B1,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,52.38
+B1,Rare Pack,0.05,5,3,AR,One Star,Art Rare,38.095
+B1,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,4.761
+B1,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,4.761
+B1,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,52.38
+B1,Rare Pack,0.05,5,4,AR,One Star,Art Rare,38.095
+B1,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,4.761
+B1,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,4.761
+B1,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,52.38
+B1,Rare Pack,0.05,5,5,AR,One Star,Art Rare,38.095
+B1,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B1,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B1,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B1,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B1,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B1,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B1,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B1,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B1,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B1,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B1,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B1,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B1,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B1,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B1,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B1,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B1,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B1,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B1,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B1a,Regular Pack,94.711,5,1,C,One Diamond,Common,100.0
+B1a,Regular Pack,94.711,5,2,C,One Diamond,Common,100.0
+B1a,Regular Pack,94.711,5,3,C,One Diamond,Common,100.0
+B1a,Regular Pack,94.711,5,4,UR,Crown,Crown Rare,0.04
+B1a,Regular Pack,94.711,5,4,IM,Three Star,Immersive Rare,0.222
+B1a,Regular Pack,94.711,5,4,SR,Two Star,Super Rare,0.5
+B1a,Regular Pack,94.711,5,4,AR,One Star,Art Rare,2.572
+B1a,Regular Pack,94.711,5,4,RR,Four Diamond,Double Rare,1.667
+B1a,Regular Pack,94.711,5,4,R,Three Diamond,Rare,5.0
+B1a,Regular Pack,94.711,5,4,U,Two Diamond,Uncommon,89.999
+B1a,Regular Pack,94.711,5,5,UR,Crown,Crown Rare,0.158
+B1a,Regular Pack,94.711,5,5,IM,Three Star,Immersive Rare,0.889
+B1a,Regular Pack,94.711,5,5,SR,Two Star,Super Rare,2.0
+B1a,Regular Pack,94.711,5,5,AR,One Star,Art Rare,10.286
+B1a,Regular Pack,94.711,5,5,RR,Four Diamond,Double Rare,6.667
+B1a,Regular Pack,94.711,5,5,R,Three Diamond,Rare,20.0
+B1a,Regular Pack,94.711,5,5,U,Two Diamond,Uncommon,60.0
+B1a,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,10.0
+B1a,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,5.0
+B1a,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,55.0
+B1a,Rare Pack,0.05,5,1,AR,One Star,Art Rare,30.0
+B1a,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,10.0
+B1a,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,5.0
+B1a,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,55.0
+B1a,Rare Pack,0.05,5,2,AR,One Star,Art Rare,30.0
+B1a,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,10.0
+B1a,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,5.0
+B1a,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,55.0
+B1a,Rare Pack,0.05,5,3,AR,One Star,Art Rare,30.0
+B1a,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,10.0
+B1a,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,5.0
+B1a,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,55.0
+B1a,Rare Pack,0.05,5,4,AR,One Star,Art Rare,30.0
+B1a,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,10.0
+B1a,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,5.0
+B1a,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,55.0
+B1a,Rare Pack,0.05,5,5,AR,One Star,Art Rare,30.0
+B1a,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B1a,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B1a,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B1a,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B1a,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B1a,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B1a,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B1a,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B1a,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B1a,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B1a,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.158
+B1a,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B1a,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B1a,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B1a,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B1a,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B1a,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,60.0
+B1a,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B1a,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B2,Regular Pack,94.711,5,1,C,One Diamond,Common,100.0
+B2,Regular Pack,94.711,5,2,C,One Diamond,Common,100.0
+B2,Regular Pack,94.711,5,3,C,One Diamond,Common,100.0
+B2,Regular Pack,94.711,5,4,UR,Crown,Crown Rare,0.04
+B2,Regular Pack,94.711,5,4,IM,Three Star,Immersive Rare,0.222
+B2,Regular Pack,94.711,5,4,SR,Two Star,Super Rare,0.5
+B2,Regular Pack,94.711,5,4,AR,One Star,Art Rare,2.572
+B2,Regular Pack,94.711,5,4,RR,Four Diamond,Double Rare,1.667
+B2,Regular Pack,94.711,5,4,R,Three Diamond,Rare,5.0
+B2,Regular Pack,94.711,5,4,U,Two Diamond,Uncommon,89.999
+B2,Regular Pack,94.711,5,5,UR,Crown,Crown Rare,0.16
+B2,Regular Pack,94.711,5,5,IM,Three Star,Immersive Rare,0.889
+B2,Regular Pack,94.711,5,5,SR,Two Star,Super Rare,2.0
+B2,Regular Pack,94.711,5,5,AR,One Star,Art Rare,10.286
+B2,Regular Pack,94.711,5,5,RR,Four Diamond,Double Rare,6.667
+B2,Regular Pack,94.711,5,5,R,Three Diamond,Rare,20.0
+B2,Regular Pack,94.711,5,5,U,Two Diamond,Uncommon,59.998
+B2,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,3.921
+B2,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,3.921
+B2,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,45.098
+B2,Rare Pack,0.05,5,1,AR,One Star,Art Rare,47.058
+B2,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,3.921
+B2,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,3.921
+B2,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,45.098
+B2,Rare Pack,0.05,5,2,AR,One Star,Art Rare,47.058
+B2,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,3.921
+B2,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,3.921
+B2,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,45.098
+B2,Rare Pack,0.05,5,3,AR,One Star,Art Rare,47.058
+B2,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,3.921
+B2,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,3.921
+B2,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,45.098
+B2,Rare Pack,0.05,5,4,AR,One Star,Art Rare,47.058
+B2,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,3.921
+B2,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,3.921
+B2,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,45.098
+B2,Rare Pack,0.05,5,5,AR,One Star,Art Rare,47.058
+B2,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B2,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B2,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B2,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B2,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B2,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B2,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B2,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B2,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B2,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B2,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B2,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B2,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B2,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B2,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B2,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B2,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B2,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B2,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B2a,Regular Pack,94.711,5,1,C,One Diamond,Common,100.0
+B2a,Regular Pack,94.711,5,2,C,One Diamond,Common,100.0
+B2a,Regular Pack,94.711,5,3,C,One Diamond,Common,100.0
+B2a,Regular Pack,94.711,5,4,UR,Crown,Crown Rare,0.04
+B2a,Regular Pack,94.711,5,4,IM,Three Star,Immersive Rare,0.222
+B2a,Regular Pack,94.711,5,4,SR,Two Star,Super Rare,0.5
+B2a,Regular Pack,94.711,5,4,AR,One Star,Art Rare,2.572
+B2a,Regular Pack,94.711,5,4,RR,Four Diamond,Double Rare,1.667
+B2a,Regular Pack,94.711,5,4,R,Three Diamond,Rare,5.0
+B2a,Regular Pack,94.711,5,4,U,Two Diamond,Uncommon,89.999
+B2a,Regular Pack,94.711,5,5,UR,Crown,Crown Rare,0.16
+B2a,Regular Pack,94.711,5,5,IM,Three Star,Immersive Rare,0.889
+B2a,Regular Pack,94.711,5,5,SR,Two Star,Super Rare,2.0
+B2a,Regular Pack,94.711,5,5,AR,One Star,Art Rare,10.286
+B2a,Regular Pack,94.711,5,5,RR,Four Diamond,Double Rare,6.667
+B2a,Regular Pack,94.711,5,5,R,Three Diamond,Rare,20.0
+B2a,Regular Pack,94.711,5,5,U,Two Diamond,Uncommon,59.998
+B2a,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,8.333
+B2a,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,4.166
+B2a,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,62.5
+B2a,Rare Pack,0.05,5,1,AR,One Star,Art Rare,25.0
+B2a,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,8.333
+B2a,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,4.166
+B2a,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,62.5
+B2a,Rare Pack,0.05,5,2,AR,One Star,Art Rare,25.0
+B2a,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,8.333
+B2a,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,4.166
+B2a,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,62.5
+B2a,Rare Pack,0.05,5,3,AR,One Star,Art Rare,25.0
+B2a,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,8.333
+B2a,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,4.166
+B2a,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,62.5
+B2a,Rare Pack,0.05,5,4,AR,One Star,Art Rare,25.0
+B2a,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,8.333
+B2a,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,4.166
+B2a,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,62.5
+B2a,Rare Pack,0.05,5,5,AR,One Star,Art Rare,25.0
+B2a,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B2a,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B2a,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B2a,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B2a,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B2a,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B2a,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B2a,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B2a,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B2a,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B2a,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B2a,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B2a,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B2a,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B2a,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B2a,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B2a,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B2a,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B2a,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B2b,Regular Pack,94.706,5,1,C,One Diamond,Common,100.0
+B2b,Regular Pack,94.706,5,2,C,One Diamond,Common,100.0
+B2b,Regular Pack,94.706,5,3,C,One Diamond,Common,100.0
+B2b,Regular Pack,94.706,5,4,UR,Crown,Crown Rare,0.04
+B2b,Regular Pack,94.706,5,4,IM,Three Star,Immersive Rare,0.222
+B2b,Regular Pack,94.706,5,4,SR,Two Star,Super Rare,0.5
+B2b,Regular Pack,94.706,5,4,AR,One Star,Art Rare,2.572
+B2b,Regular Pack,94.706,5,4,RR,Four Diamond,Double Rare,1.667
+B2b,Regular Pack,94.706,5,4,R,Three Diamond,Rare,5.0
+B2b,Regular Pack,94.706,5,4,U,Two Diamond,Uncommon,89.999
+B2b,Regular Pack,94.706,5,5,UR,Crown,Crown Rare,0.16
+B2b,Regular Pack,94.706,5,5,IM,Three Star,Immersive Rare,0.889
+B2b,Regular Pack,94.706,5,5,SR,Two Star,Super Rare,2.0
+B2b,Regular Pack,94.706,5,5,AR,One Star,Art Rare,10.286
+B2b,Regular Pack,94.706,5,5,RR,Four Diamond,Double Rare,6.667
+B2b,Regular Pack,94.706,5,5,R,Three Diamond,Rare,20.0
+B2b,Regular Pack,94.706,5,5,U,Two Diamond,Uncommon,59.998
+B2b,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,11.111
+B2b,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,5.555
+B2b,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,50.0
+B2b,Rare Pack,0.05,5,1,AR,One Star,Art Rare,33.333
+B2b,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,11.111
+B2b,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,5.555
+B2b,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,50.0
+B2b,Rare Pack,0.05,5,2,AR,One Star,Art Rare,33.333
+B2b,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,11.111
+B2b,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,5.555
+B2b,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,50.0
+B2b,Rare Pack,0.05,5,3,AR,One Star,Art Rare,33.333
+B2b,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,11.111
+B2b,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,5.555
+B2b,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,50.0
+B2b,Rare Pack,0.05,5,4,AR,One Star,Art Rare,33.333
+B2b,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,11.111
+B2b,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,5.555
+B2b,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,50.0
+B2b,Rare Pack,0.05,5,5,AR,One Star,Art Rare,33.333
+B2b,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B2b,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B2b,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B2b,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B2b,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B2b,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B2b,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B2b,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B2b,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B2b,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B2b,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B2b,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B2b,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B2b,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B2b,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B2b,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B2b,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B2b,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,25.42
+B2b,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B2b,Regular Pack +1,5.238,6,6,IM,Three Star,Immersive Rare,6.4
+B2b,Themed Rare Pack,0.005,5,1,SSR,Two Shiny,Shiny Super Rare,100.0
+B2b,Themed Rare Pack,0.005,5,2,SSR,Two Shiny,Shiny Super Rare,100.0
+B2b,Themed Rare Pack,0.005,5,3,SSR,Two Shiny,Shiny Super Rare,100.0
+B2b,Themed Rare Pack,0.005,5,4,SSR,Two Shiny,Shiny Super Rare,100.0
+B2b,Themed Rare Pack,0.005,5,5,SSR,Two Shiny,Shiny Super Rare,100.0
+B3,Regular Pack,94.711,5,1,C,One Diamond,Common,100.0
+B3,Regular Pack,94.711,5,2,C,One Diamond,Common,100.0
+B3,Regular Pack,94.711,5,3,C,One Diamond,Common,100.0
+B3,Regular Pack,94.711,5,4,UR,Crown,Crown Rare,0.04
+B3,Regular Pack,94.711,5,4,IM,Three Star,Immersive Rare,0.222
+B3,Regular Pack,94.711,5,4,SR,Two Star,Super Rare,0.5
+B3,Regular Pack,94.711,5,4,AR,One Star,Art Rare,2.572
+B3,Regular Pack,94.711,5,4,RR,Four Diamond,Double Rare,1.667
+B3,Regular Pack,94.711,5,4,R,Three Diamond,Rare,5.0
+B3,Regular Pack,94.711,5,4,U,Two Diamond,Uncommon,89.999
+B3,Regular Pack,94.711,5,5,UR,Crown,Crown Rare,0.16
+B3,Regular Pack,94.711,5,5,IM,Three Star,Immersive Rare,0.889
+B3,Regular Pack,94.711,5,5,SR,Two Star,Super Rare,2.0
+B3,Regular Pack,94.711,5,5,AR,One Star,Art Rare,10.286
+B3,Regular Pack,94.711,5,5,RR,Four Diamond,Double Rare,6.667
+B3,Regular Pack,94.711,5,5,R,Three Diamond,Rare,20.0
+B3,Regular Pack,94.711,5,5,U,Two Diamond,Uncommon,59.998
+B3,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,3.921
+B3,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,3.921
+B3,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,45.098
+B3,Rare Pack,0.05,5,1,AR,One Star,Art Rare,47.058
+B3,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,3.921
+B3,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,3.921
+B3,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,45.098
+B3,Rare Pack,0.05,5,2,AR,One Star,Art Rare,47.058
+B3,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,3.921
+B3,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,3.921
+B3,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,45.098
+B3,Rare Pack,0.05,5,3,AR,One Star,Art Rare,47.058
+B3,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,3.921
+B3,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,3.921
+B3,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,45.098
+B3,Rare Pack,0.05,5,4,AR,One Star,Art Rare,47.058
+B3,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,3.921
+B3,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,3.921
+B3,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,45.098
+B3,Rare Pack,0.05,5,5,AR,One Star,Art Rare,47.058
+B3,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B3,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B3,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B3,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B3,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B3,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B3,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B3,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B3,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B3,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B3,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B3,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B3,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B3,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B3,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B3,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B3,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B3,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B3,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B3a,Regular Pack,94.712,5,1,C,One Diamond,Common,100.0
+B3a,Regular Pack,94.712,5,2,C,One Diamond,Common,100.0
+B3a,Regular Pack,94.712,5,3,C,One Diamond,Common,100.0
+B3a,Regular Pack,94.712,5,4,UR,Crown,Crown Rare,0.04
+B3a,Regular Pack,94.712,5,4,IM,Three Star,Immersive Rare,0.222
+B3a,Regular Pack,94.712,5,4,SR,Two Star,Super Rare,0.5
+B3a,Regular Pack,94.712,5,4,AR,One Star,Art Rare,2.572
+B3a,Regular Pack,94.712,5,4,RR,Four Diamond,Double Rare,1.667
+B3a,Regular Pack,94.712,5,4,R,Three Diamond,Rare,5.0
+B3a,Regular Pack,94.712,5,4,U,Two Diamond,Uncommon,89.999
+B3a,Regular Pack,94.712,5,5,UR,Crown,Crown Rare,0.16
+B3a,Regular Pack,94.712,5,5,IM,Three Star,Immersive Rare,0.889
+B3a,Regular Pack,94.712,5,5,SR,Two Star,Super Rare,2.0
+B3a,Regular Pack,94.712,5,5,AR,One Star,Art Rare,10.286
+B3a,Regular Pack,94.712,5,5,RR,Four Diamond,Double Rare,6.667
+B3a,Regular Pack,94.712,5,5,R,Three Diamond,Rare,20.0
+B3a,Regular Pack,94.712,5,5,U,Two Diamond,Uncommon,59.998
+B3a,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,9.524
+B3a,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,4.762
+B3a,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,57.143
+B3a,Rare Pack,0.05,5,1,AR,One Star,Art Rare,28.571
+B3a,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,9.524
+B3a,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,4.762
+B3a,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,57.143
+B3a,Rare Pack,0.05,5,2,AR,One Star,Art Rare,28.571
+B3a,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,9.524
+B3a,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,4.762
+B3a,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,57.143
+B3a,Rare Pack,0.05,5,3,AR,One Star,Art Rare,28.571
+B3a,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,9.524
+B3a,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,4.762
+B3a,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,57.143
+B3a,Rare Pack,0.05,5,4,AR,One Star,Art Rare,28.571
+B3a,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,9.524
+B3a,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,4.762
+B3a,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,57.143
+B3a,Rare Pack,0.05,5,5,AR,One Star,Art Rare,28.571
+B3a,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B3a,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B3a,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B3a,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B3a,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B3a,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B3a,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B3a,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B3a,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B3a,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B3a,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B3a,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B3a,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B3a,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B3a,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B3a,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B3a,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B3a,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B3a,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B3b,Regular Pack,94.711,5,1,C,One Diamond,Common,100.0
+B3b,Regular Pack,94.711,5,2,C,One Diamond,Common,100.0
+B3b,Regular Pack,94.711,5,3,C,One Diamond,Common,100.0
+B3b,Regular Pack,94.711,5,4,UR,Crown,Crown Rare,0.04
+B3b,Regular Pack,94.711,5,4,IM,Three Star,Immersive Rare,0.222
+B3b,Regular Pack,94.711,5,4,SR,Two Star,Super Rare,0.499
+B3b,Regular Pack,94.711,5,4,AR,One Star,Art Rare,2.572
+B3b,Regular Pack,94.711,5,4,RR,Four Diamond,Double Rare,1.667
+B3b,Regular Pack,94.711,5,4,R,Three Diamond,Rare,5.0
+B3b,Regular Pack,94.711,5,4,U,Two Diamond,Uncommon,89.999
+B3b,Regular Pack,94.711,5,5,UR,Crown,Crown Rare,0.16
+B3b,Regular Pack,94.711,5,5,IM,Three Star,Immersive Rare,0.889
+B3b,Regular Pack,94.711,5,5,SR,Two Star,Super Rare,2.0
+B3b,Regular Pack,94.711,5,5,AR,One Star,Art Rare,10.286
+B3b,Regular Pack,94.711,5,5,RR,Four Diamond,Double Rare,6.667
+B3b,Regular Pack,94.711,5,5,R,Three Diamond,Rare,20.0
+B3b,Regular Pack,94.711,5,5,U,Two Diamond,Uncommon,59.998
+B3b,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,8.695
+B3b,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,4.347
+B3b,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,52.173
+B3b,Rare Pack,0.05,5,1,AR,One Star,Art Rare,34.782
+B3b,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,8.695
+B3b,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,4.347
+B3b,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,52.173
+B3b,Rare Pack,0.05,5,2,AR,One Star,Art Rare,34.782
+B3b,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,8.695
+B3b,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,4.347
+B3b,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,52.173
+B3b,Rare Pack,0.05,5,3,AR,One Star,Art Rare,34.782
+B3b,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,8.695
+B3b,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,4.347
+B3b,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,52.173
+B3b,Rare Pack,0.05,5,4,AR,One Star,Art Rare,34.782
+B3b,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,8.695
+B3b,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,4.347
+B3b,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,52.173
+B3b,Rare Pack,0.05,5,5,AR,One Star,Art Rare,34.782
+B3b,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B3b,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B3b,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B3b,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B3b,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B3b,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B3b,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B3b,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B3b,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B3b,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B3b,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B3b,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B3b,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B3b,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B3b,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B3b,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B3b,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B3b,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B3b,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B4,Regular Pack,94.711,5,1,C,One Diamond,Common,100.0
+B4,Regular Pack,94.711,5,2,C,One Diamond,Common,100.0
+B4,Regular Pack,94.711,5,3,C,One Diamond,Common,100.0
+B4,Regular Pack,94.711,5,4,UR,Crown,Crown Rare,0.04
+B4,Regular Pack,94.711,5,4,IM,Three Star,Immersive Rare,0.222
+B4,Regular Pack,94.711,5,4,SR,Two Star,Super Rare,0.5
+B4,Regular Pack,94.711,5,4,AR,One Star,Art Rare,2.572
+B4,Regular Pack,94.711,5,4,RR,Four Diamond,Double Rare,1.667
+B4,Regular Pack,94.711,5,4,R,Three Diamond,Rare,5.0
+B4,Regular Pack,94.711,5,4,U,Two Diamond,Uncommon,89.999
+B4,Regular Pack,94.711,5,5,UR,Crown,Crown Rare,0.16
+B4,Regular Pack,94.711,5,5,IM,Three Star,Immersive Rare,0.889
+B4,Regular Pack,94.711,5,5,SR,Two Star,Super Rare,2.0
+B4,Regular Pack,94.711,5,5,AR,One Star,Art Rare,10.286
+B4,Regular Pack,94.711,5,5,RR,Four Diamond,Double Rare,6.667
+B4,Regular Pack,94.711,5,5,R,Three Diamond,Rare,20.0
+B4,Regular Pack,94.711,5,5,U,Two Diamond,Uncommon,59.998
+B4,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,4.0
+B4,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,4.0
+B4,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,44.0
+B4,Rare Pack,0.05,5,1,AR,One Star,Art Rare,48.0
+B4,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,4.0
+B4,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,4.0
+B4,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,44.0
+B4,Rare Pack,0.05,5,2,AR,One Star,Art Rare,48.0
+B4,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,4.0
+B4,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,4.0
+B4,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,44.0
+B4,Rare Pack,0.05,5,3,AR,One Star,Art Rare,48.0
+B4,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,4.0
+B4,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,4.0
+B4,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,44.0
+B4,Rare Pack,0.05,5,4,AR,One Star,Art Rare,48.0
+B4,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,4.0
+B4,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,4.0
+B4,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,44.0
+B4,Rare Pack,0.05,5,5,AR,One Star,Art Rare,48.0
+B4,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B4,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B4,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B4,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B4,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B4,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B4,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B4,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B4,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B4,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B4,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B4,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B4,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B4,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B4,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B4,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B4,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B4,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B4,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B4a,Regular Pack,94.711,5,1,C,One Diamond,Common,100.0
+B4a,Regular Pack,94.711,5,2,C,One Diamond,Common,100.0
+B4a,Regular Pack,94.711,5,3,C,One Diamond,Common,100.0
+B4a,Regular Pack,94.711,5,4,UR,Crown,Crown Rare,0.04
+B4a,Regular Pack,94.711,5,4,IM,Three Star,Immersive Rare,0.222
+B4a,Regular Pack,94.711,5,4,SR,Two Star,Super Rare,0.5
+B4a,Regular Pack,94.711,5,4,AR,One Star,Art Rare,2.572
+B4a,Regular Pack,94.711,5,4,RR,Four Diamond,Double Rare,1.667
+B4a,Regular Pack,94.711,5,4,R,Three Diamond,Rare,5.0
+B4a,Regular Pack,94.711,5,4,U,Two Diamond,Uncommon,89.999
+B4a,Regular Pack,94.711,5,5,UR,Crown,Crown Rare,0.16
+B4a,Regular Pack,94.711,5,5,IM,Three Star,Immersive Rare,0.889
+B4a,Regular Pack,94.711,5,5,SR,Two Star,Super Rare,2.0
+B4a,Regular Pack,94.711,5,5,AR,One Star,Art Rare,10.286
+B4a,Regular Pack,94.711,5,5,RR,Four Diamond,Double Rare,6.667
+B4a,Regular Pack,94.711,5,5,R,Three Diamond,Rare,20.0
+B4a,Regular Pack,94.711,5,5,U,Two Diamond,Uncommon,59.998
+B4a,Rare Pack,0.05,5,1,UR,Crown,Crown Rare,8.333
+B4a,Rare Pack,0.05,5,1,IM,Three Star,Immersive Rare,4.166
+B4a,Rare Pack,0.05,5,1,SR,Two Star,Super Rare,62.5
+B4a,Rare Pack,0.05,5,1,AR,One Star,Art Rare,25.0
+B4a,Rare Pack,0.05,5,2,UR,Crown,Crown Rare,8.333
+B4a,Rare Pack,0.05,5,2,IM,Three Star,Immersive Rare,4.166
+B4a,Rare Pack,0.05,5,2,SR,Two Star,Super Rare,62.5
+B4a,Rare Pack,0.05,5,2,AR,One Star,Art Rare,25.0
+B4a,Rare Pack,0.05,5,3,UR,Crown,Crown Rare,8.333
+B4a,Rare Pack,0.05,5,3,IM,Three Star,Immersive Rare,4.166
+B4a,Rare Pack,0.05,5,3,SR,Two Star,Super Rare,62.5
+B4a,Rare Pack,0.05,5,3,AR,One Star,Art Rare,25.0
+B4a,Rare Pack,0.05,5,4,UR,Crown,Crown Rare,8.333
+B4a,Rare Pack,0.05,5,4,IM,Three Star,Immersive Rare,4.166
+B4a,Rare Pack,0.05,5,4,SR,Two Star,Super Rare,62.5
+B4a,Rare Pack,0.05,5,4,AR,One Star,Art Rare,25.0
+B4a,Rare Pack,0.05,5,5,UR,Crown,Crown Rare,8.333
+B4a,Rare Pack,0.05,5,5,IM,Three Star,Immersive Rare,4.166
+B4a,Rare Pack,0.05,5,5,SR,Two Star,Super Rare,62.5
+B4a,Rare Pack,0.05,5,5,AR,One Star,Art Rare,25.0
+B4a,Regular Pack +1,5.238,6,1,C,One Diamond,Common,100.0
+B4a,Regular Pack +1,5.238,6,2,C,One Diamond,Common,100.0
+B4a,Regular Pack +1,5.238,6,3,C,One Diamond,Common,100.0
+B4a,Regular Pack +1,5.238,6,4,UR,Crown,Crown Rare,0.04
+B4a,Regular Pack +1,5.238,6,4,IM,Three Star,Immersive Rare,0.222
+B4a,Regular Pack +1,5.238,6,4,SR,Two Star,Super Rare,0.5
+B4a,Regular Pack +1,5.238,6,4,AR,One Star,Art Rare,2.572
+B4a,Regular Pack +1,5.238,6,4,RR,Four Diamond,Double Rare,1.667
+B4a,Regular Pack +1,5.238,6,4,R,Three Diamond,Rare,5.0
+B4a,Regular Pack +1,5.238,6,4,U,Two Diamond,Uncommon,89.999
+B4a,Regular Pack +1,5.238,6,5,UR,Crown,Crown Rare,0.16
+B4a,Regular Pack +1,5.238,6,5,IM,Three Star,Immersive Rare,0.889
+B4a,Regular Pack +1,5.238,6,5,SR,Two Star,Super Rare,2.0
+B4a,Regular Pack +1,5.238,6,5,AR,One Star,Art Rare,10.286
+B4a,Regular Pack +1,5.238,6,5,RR,Four Diamond,Double Rare,6.667
+B4a,Regular Pack +1,5.238,6,5,R,Three Diamond,Rare,20.0
+B4a,Regular Pack +1,5.238,6,5,U,Two Diamond,Uncommon,59.998
+B4a,Regular Pack +1,5.238,6,6,S,One Shiny,Shiny,68.18
+B4a,Regular Pack +1,5.238,6,6,SSR,Two Shiny,Shiny Super Rare,31.82
+B4b,Regular Pack,98.284,4,1,C,One Diamond,Common,100.0
+B4b,Regular Pack,98.284,4,2,C,One Diamond,Common,17.73
+B4b,Regular Pack,98.284,4,2,U,Two Diamond,Uncommon,82.27
+B4b,Regular Pack,98.284,4,3,UR,Crown,Crown Rare,0.158
+B4b,Regular Pack,98.284,4,3,IM,Three Star,Immersive Rare,0.889
+B4b,Regular Pack,98.284,4,3,SR,Two Star,Super Rare,2.125
+B4b,Regular Pack,98.284,4,3,AR,One Star,Art Rare,12.858
+B4b,Regular Pack,98.284,4,3,R,Three Diamond,Rare,33.97
+B4b,Regular Pack,98.284,4,3,RF,Three Diamond,Rare (foil),9.036
+B4b,Regular Pack,98.284,4,3,UF,Two Diamond,Uncommon (foil),19.578
+B4b,Regular Pack,98.284,4,3,CF,One Diamond,Common (foil),21.385
+B4b,Regular Pack,98.284,4,4,UR,Crown,Crown Rare,0.04
+B4b,Regular Pack,98.284,4,4,IM,Three Star,Immersive Rare,0.222
+B4b,Regular Pack,98.284,4,4,SR,Two Star,Super Rare,0.375
+B4b,Regular Pack,98.284,4,4,RR,Four Diamond,Double Rare,99.363
+B4b,Rare Pack,0.05,4,1,UR,Crown,Crown Rare,8.0
+B4b,Rare Pack,0.05,4,1,IM,Three Star,Immersive Rare,4.0
+B4b,Rare Pack,0.05,4,1,SR,Two Star,Super Rare,64.0
+B4b,Rare Pack,0.05,4,1,AR,One Star,Art Rare,24.0
+B4b,Rare Pack,0.05,4,2,UR,Crown,Crown Rare,8.0
+B4b,Rare Pack,0.05,4,2,IM,Three Star,Immersive Rare,4.0
+B4b,Rare Pack,0.05,4,2,SR,Two Star,Super Rare,64.0
+B4b,Rare Pack,0.05,4,2,AR,One Star,Art Rare,24.0
+B4b,Rare Pack,0.05,4,3,UR,Crown,Crown Rare,8.0
+B4b,Rare Pack,0.05,4,3,IM,Three Star,Immersive Rare,4.0
+B4b,Rare Pack,0.05,4,3,SR,Two Star,Super Rare,64.0
+B4b,Rare Pack,0.05,4,3,AR,One Star,Art Rare,24.0
+B4b,Rare Pack,0.05,4,4,UR,Crown,Crown Rare,13.333
+B4b,Rare Pack,0.05,4,4,IM,Three Star,Immersive Rare,6.666
+B4b,Rare Pack,0.05,4,4,SR,Two Star,Super Rare,80.0
+B4b,Regular Pack +1,1.666,5,1,C,One Diamond,Common,100.0
+B4b,Regular Pack +1,1.666,5,2,C,One Diamond,Common,17.73
+B4b,Regular Pack +1,1.666,5,2,U,Two Diamond,Uncommon,82.27
+B4b,Regular Pack +1,1.666,5,3,UR,Crown,Crown Rare,0.158
+B4b,Regular Pack +1,1.666,5,3,IM,Three Star,Immersive Rare,0.889
+B4b,Regular Pack +1,1.666,5,3,SR,Two Star,Super Rare,2.125
+B4b,Regular Pack +1,1.666,5,3,AR,One Star,Art Rare,12.858
+B4b,Regular Pack +1,1.666,5,3,R,Three Diamond,Rare,33.97
+B4b,Regular Pack +1,1.666,5,3,RF,Three Diamond,Rare (foil),9.036
+B4b,Regular Pack +1,1.666,5,3,UF,Two Diamond,Uncommon (foil),19.578
+B4b,Regular Pack +1,1.666,5,3,CF,One Diamond,Common (foil),21.385
+B4b,Regular Pack +1,1.666,5,4,UR,Crown,Crown Rare,0.04
+B4b,Regular Pack +1,1.666,5,4,IM,Three Star,Immersive Rare,0.222
+B4b,Regular Pack +1,1.666,5,4,SR,Two Star,Super Rare,0.375
+B4b,Regular Pack +1,1.666,5,4,RR,Four Diamond,Double Rare,99.363
+B4b,Regular Pack +1,1.666,5,5,SSR,Two Shiny,Shiny Super Rare,100.0

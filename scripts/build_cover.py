@@ -1,7 +1,8 @@
 """Render dataset-cover-image.png (1280 x 640), the Kaggle cover of The Complete Pokémon TCG Dataset.
 
 Same visual system as The Complete Pokédex Dataset cover (navy gradient, title, accent underline),
-with the dataset's headline finding as the hero: median attack damage per Energy by release year.
+with the dataset's headline finding as the hero: median attack damage per Energy by release year
+(international TCG cards).
 No card images are used.
 
 Usage (needs Pillow and matplotlib):
@@ -49,7 +50,8 @@ def card_grid(base, cw=54, ch=75, gap=18, alpha=11):
 def damage_per_energy():
     cards = pd.read_csv(ROOT / 'data' / 'cards.csv', low_memory=False)
     attacks = pd.read_csv(ROOT / 'data' / 'card_attacks.csv')
-    a = attacks.merge(cards[['card_id', 'release_date']], on='card_id')
+    tcg = cards[(cards.region == 'international') & (cards.game == 'tcg') & (cards.release_date >= '1999')]
+    a = attacks.merge(tcg[['card_id', 'release_date']], on='card_id')
     a = a[(a.converted_energy_cost > 0) & a.base_damage.notna()]
     year = a.release_date.str[:4].astype(int)
     return (a.base_damage / a.converted_energy_cost).groupby(year).median()
@@ -96,9 +98,8 @@ def fit_font(path, text, width, start):
 
 def main():
     cards = pd.read_csv(ROOT / 'data' / 'cards.csv', low_memory=False, usecols=['card_id', 'release_date'])
-    sets = pd.read_csv(ROOT / 'data' / 'sets.csv')
-    first, last = cards.release_date.min()[:4], cards.release_date.max()[:4]
-    subtitle = f'{len(cards):,} cards  ·  {len(sets)} sets  ·  {first}–{last}  ·  attacks & decks'
+    last = cards.release_date.max()[:4]
+    subtitle = f'{len(cards):,} cards  ·  TCG, Pocket & Japanese  ·  1999–{last}  ·  prices'
 
     im = gradient()
     card_grid(im)
