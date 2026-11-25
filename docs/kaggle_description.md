@@ -18,7 +18,7 @@ Every **English Pokémon Trading Card Game card**, from Base Set (January 1999) 
 
 ```python
 import pandas as pd
-cards = pd.read_csv('/kaggle/input/pokemon-tcg/cards.csv')
+cards = pd.read_csv('/kaggle/input/pokemon-tcg/cards.csv', low_memory=False)  # a few columns mix numbers and text
 attacks = pd.read_csv('/kaggle/input/pokemon-tcg/card_attacks.csv')
 
 # Damage per Energy across eras: how much has power crept?
@@ -35,6 +35,8 @@ links = pd.read_csv('/kaggle/input/pokemon-tcg/card_pokemon.csv')
 hp = links.merge(cards[['card_id', 'hp']], on='card_id').merge(pokedex, on='national_number')
 ```
 
+**Starter notebook:** the dataset's starter analysis covers power creep, the rise of rule-box cards, card HP against game stats, and the most prolific illustrators. Fork it as a starting point.
+
 ## Ideas
 - **Power creep:** HP and damage per Energy by year and series.
 - **Rarity:** what makes a card rare, and how the rarity ladder changed (Rare Holo → Illustration Rare → Hyper Rare).
@@ -49,7 +51,19 @@ hp = links.merge(cards[['card_id', 'hp']], on='card_id').merge(pokedex, on='nati
 - Image links point at the source's image host. The source has announced that its API will go offline on March 1, 2027, so the links may stop working. They are kept for reference.
 - There are no prices. Price feeds are commercial.
 
+## License
+**Other (non-commercial, attribution required).** The card names, card text and card images belong to The Pokémon Company, and the upstream compilation publishes no license, so no standard license fits.
+- **You may:** use the data for non-commercial research, education, analysis and notebooks.
+- **You must:** credit *"The Complete Pokémon TCG Dataset by Cristobal Mitchell"* and *"card data compiled by PokemonTCG/pokemon-tcg-data"*.
+- **You may not:** sell the data or use it in a commercial product.
+- **The author's own contributions:** the table design, derived columns, corrections, documentation and cover are © 2026 Cristobal Mitchell and reusable under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The build and analysis code on GitHub is MIT-licensed.
+- **No affiliation:** not affiliated with or endorsed by Nintendo, The Pokémon Company, Creatures Inc., GAME FREAK inc. or the PokemonTCG project.
+
+The full terms are in the repository's `DATA_LICENSE.md`.
+
 ## Source and credits
-Compiled from the [PokemonTCG/pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data) JSON files, which are now kept for historical use. This dataset is a snapshot taken in November 2026. The source repository has no explicit license. Card names, card text and card images are © The Pokémon Company, Nintendo, Creatures Inc. and GAME FREAK, and are shared here for non-commercial research and education.
+Compiled from the [PokemonTCG/pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data) JSON files, which are now kept for historical use. This dataset is a snapshot taken in November 2026. Card names, card text and card images are © 1995–2026 Nintendo, Creatures Inc. and GAME FREAK inc.
 
 The build is reproducible: `scripts/build.py` builds the tables and `scripts/validate.py` checks them. Both are on [GitHub](https://github.com/cristobalmitchell/pokemon-tcg).
+
+**Companion dataset:** [The Complete Pokédex Dataset](https://www.kaggle.com/datasets/cristobalmitchell/pokedex) has every Pokémon's game data, forms, moves, Smogon usage, artwork and cries.
