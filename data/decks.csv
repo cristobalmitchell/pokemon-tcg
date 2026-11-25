@@ -1,0 +1,189 @@
+deck_id,name,types,set_id,card_count
+d-base1-1,2-Player Starter Set,Fire|Fighting|Colorless,base1,61
+d-base1-2,Overgrowth,Water|Grass,base1,60
+d-base1-3,Zap!,Lightning|Psychic,base1,60
+d-base1-4,Brushfire,Fire|Grass,base1,60
+d-base1-5,Blackout,Water|Fighting,base1,60
+d-base2-1,Water Blast,Water|Fighting,base2,60
+d-base2-2,Power Reserve,Psychic|Grass,base2,60
+d-base3-1,LockDown,Fire|Water,base3,60
+d-base3-2,BodyGuard,Grass|Fighting,base3,60
+d-base4-1,2-Player CD-ROM Starter Set,Fighting|Water|Colorless,base4,61
+d-base4-2,Grass Chopper,Fighting|Grass,base4,60
+d-base4-3,Hot Water,Fire|Water,base4,60
+d-base4-4,Lightning Bug,Lightning|Grass,base4,60
+d-base4-5,Psych Out,Psychic|Water,base4,60
+d-base4-6,Thunderstorm,Water|Lightning,base4,60
+d-base5-1,Devastation,Grass|Water,base5,60
+d-base5-2,Trouble,Psychic|Grass,base5,60
+d-base6-1,Turmoil,Lightning|Water,base6,60
+d-base6-2,Lava,Fighting|Fire,base6,60
+d-bw1-1,Green Tornado,Grass|Psychic,bw1,60
+d-bw1-2,Red Frenzy,Fire|Fighting,bw1,60
+d-bw1-3,Blue Assault,Water|Lightning,bw1,60
+d-bw10-1,Mind Wipe,Grass|Psychic,bw10,60
+d-bw10-2,Solar Strike,Fire|Water,bw10,60
+d-bw2-1,Power Play,Fighting|Water,bw2,60
+d-bw2-2,Toxic Tricks,Psychic|Fire,bw2,60
+d-bw3-1,Fast Daze,Grass|Fire,bw3,60
+d-bw3-2,Furious Knights,Metal|Lightning,bw3,60
+d-bw4-1,Explosive Edge,Fire|Water,bw4,60
+d-bw4-2,Voltage Vortex,Lightning|Darkness,bw4,60
+d-bw5-1,Raiders,Psychic|Darkness,bw5,60
+d-bw5-2,Shadows,Darkness|Water,bw5,60
+d-bw6-1,DragonSnarl,Psychic|Darkness,bw6,60
+d-bw6-2,Dragon Speed,Water|Fighting,bw6,60
+d-bw7-1,Ice Shock,Water|Lightning,bw7,60
+d-bw7-2,Cold Fire,Water|Fire,bw7,60
+d-bw7-3,Red Genesect Collection,Grass|Psychic,bw7,60
+d-bw8-1,Plasma Shadow,Psychic|Grass,bw8,60
+d-bw8-2,Plasma Claw,Fire|Water|Dragon,bw8,60
+d-bw9-1,Frost Ray,Water|Lightning,bw9,60
+d-bw9-2,Psy Crusher,Psychic|Grass,bw9,60
+d-col1-1,Retort,Fighting|Lightning,col1,60
+d-col1-2,Recon,Grass|Fire,col1,60
+d-dp1-1,Terra Firma,Grass|Darkness,dp1,60
+d-dp1-2,Inferno Zone,Fire|Fighting,dp1,60
+d-dp1-3,Royal Frost,Water|Metal,dp1,60
+d-dp2-1,Armor Fortress,Water|Metal,dp2,60
+d-dp2-2,Skull Charge,Grass|Fighting,dp2,60
+d-dp3-1,Powerhouse,Lightning|Fighting,dp3,60
+d-dp3-2,Lavaflow,Fire|Grass,dp3,60
+d-dp4-1,Infinite Space,Water|Psychic,dp4,60
+d-dp4-2,Eternal Time,Fighting|Metal,dp4,60
+d-dp4-3,Endless Night,Grass|Fire|Darkness,dp4,60
+d-dp5-1,Forest Force,Grass|Psychic,dp5,60
+d-dp5-2,Polar Frost,Water|Lightning,dp5,60
+d-dp6-1,Bombardment,Water|Fighting,dp6,60
+d-dp6-2,Metal Surge,Metal|Grass,dp6,60
+d-dp7-1,Raging Sea,Water|Grass,dp7,60
+d-dp7-2,Dark Rampage,Darkness|Fighting,dp7,60
+d-ecard1-1,Echo,Psychic|Colorless,ecard1,60
+d-ecard1-2,Electric Garden,Grass|Lightning,ecard1,60
+d-ecard2-1,Rock Garden,Fighting|Grass,ecard2,60
+d-ecard2-2,Abyss,Fire|Water,ecard2,60
+d-ecard3-1,Eeveelution,Fire|Water|Lightning,ecard3,60
+d-ecard3-2,Mind Machine,Grass|Fire|Water|Lightning|Psychic|Fighting,ecard3,60
+d-ex1-1,Ruby,Fighting|Fire,ex1,60
+d-ex1-2,Sapphire,Water|Grass,ex1,60
+d-ex10-1,Golden Sky,Fire|Fighting,ex10,60
+d-ex10-2,Silvery Ocean,Grass|Psychic,ex10,60
+d-ex11-1,Breakthrough,Grass|Lightning|Metal,ex11,60
+d-ex11-2,Steeplechase,Fire|Colorless|Metal,ex11,60
+d-ex12-1,Groundbreaker,Grass|Fighting,ex12,60
+d-ex12-2,Shadowquake,Water|Psychic,ex12,60
+d-ex13-1,FireMist,Fire|Fighting,ex13,60
+d-ex13-2,FloodRush,Water|Psychic,ex13,60
+d-ex14-1,Green Cyclone,Grass,ex14,60
+d-ex14-2,Storm Surge,Water|Lightning,ex14,60
+d-ex14-3,Earth Shower,Water|Fighting,ex14,60
+d-ex15-1,Power Wave,Lightning|Fighting,ex15,60
+d-ex15-2,Shadow Blaze,Fire|Psychic,ex15,60
+d-ex16-1,Mind Game,Fighting|Psychic,ex16,60
+d-ex16-2,Dark Blast,Darkness|Fire,ex16,60
+d-ex2-1,Oasis,Water|Fighting,ex2,60
+d-ex2-2,Caravan,Grass|Fire,ex2,60
+d-ex3-1,WindBlast,Grass|Lightning,ex3,60
+d-ex3-2,FireFang,Fire|Water,ex3,60
+d-ex4-1,Team Magma,Fire|Fighting,ex4,60
+d-ex4-2,Team Aqua,Water|Lightning,ex4,60
+d-ex5-1,Wish Maker,Psychic|Water,ex5,60
+d-ex5-2,Forest Guardian,Colorless|Grass,ex5,60
+d-ex6-1,FireRed,Water|Fire,ex6,60
+d-ex6-2,LeafGreen,Grass|Lightning,ex6,60
+d-ex7-1,Jessie,Grass|Psychic|Fighting,ex7,60
+d-ex7-2,James,Grass|Water|Lightning,ex7,60
+d-ex8-1,Starcharge,Grass|Psychic,ex8,60
+d-ex8-2,Jetstream,Fire|Water|Lightning,ex8,60
+d-ex9-1,Hydrobloom,Water|Grass,ex9,60
+d-ex9-2,Wildfire,Lightning|Fire,ex9,60
+d-gym1-1,Brock,Fighting,gym1,60
+d-gym1-2,Misty,Water,gym1,60
+d-gym1-3,Lt. Surge,Lightning,gym1,60
+d-gym1-4,Erika,Grass,gym1,60
+d-gym2-1,Sabrina,Psychic,gym2,60
+d-gym2-2,Koga,Grass,gym2,60
+d-gym2-3,Blaine,Fire,gym2,60
+d-gym2-4,Giovanni,Fighting,gym2,60
+d-hgss1-1,Growth Clash,Grass|Fighting,hgss1,60
+d-hgss1-2,Ember Spark,Fire|Lightning,hgss1,60
+d-hgss1-3,Mind Flood,Water|Psychic,hgss1,60
+d-hgss2-1,Chaos Control,Psychic|Fighting|Darkness,hgss2,60
+d-hgss2-2,Steel Sentinel,Grass|Fighting|Metal,hgss2,60
+d-hgss3-1,Daybreak,Psychic|Grass,hgss3,60
+d-hgss3-2,Nightfall,Darkness|Metal,hgss3,60
+d-hgss4-1,Verdant Frost,Grass|Water,hgss4,60
+d-hgss4-2,Royal Guard,Psychic|Fighting,hgss4,60
+d-neo1-1,Hotfoot,Grass|Fire,neo1,60
+d-neo1-2,Cold Fusion,Lightning|Water,neo1,60
+d-neo2-1,BrainWave,Psychic|Water,neo2,60
+d-neo2-2,Wallop,Grass|Fighting,neo2,60
+d-neo4-1,Light,Fighting|Water,neo4,60
+d-neo4-2,Dark,Fire|Psychic,neo4,60
+d-pl1-1,Flourish,Grass|Fire,pl1,60
+d-pl1-2,Rebellion,Psychic|Fighting,pl1,60
+d-pl2-1,Drill Point,Fighting|Water,pl2,60
+d-pl2-2,Cutting Edge,Psychic|Grass,pl2,60
+d-pl3-1,Ignition,Fire|Grass,pl3,60
+d-pl3-2,Overflow,Water|Psychic,pl3,60
+d-pl4-1,Flamemaster,Fire|Grass,pl4,60
+d-pl4-2,Stormshaper,Lightning|Psychic,pl4,60
+d-sm1-1,Forest Shadow,Grass,sm1,60
+d-sm1-2,Roaring Heat,Fire|Fighting,sm1,60
+d-sm1-3,Bright Tide,Water|Lightning,sm1,60
+d-sm10-1,Lightning Loop,Lightning,sm10,60
+d-sm10-2,Battle Mind,Psychic|Fire,sm10,60
+d-sm2-1,Steel Sun,Metal|Psychic,sm2,60
+d-sm2-2,Hidden Moon,Psychic|Fire,sm2,60
+d-sm3-1,Rock Steady,Fighting|Psychic,sm3,60
+d-sm3-2,Luminous Frost,Water|Fire,sm3,60
+d-sm4-1,Destruction Fang,Darkness|Psychic,sm4,60
+d-sm4-2,Clanging Thunder,Lightning|Fighting,sm4,60
+d-sm5-1,Mach Strike,Fighting,sm5,60
+d-sm5-2,Imperial Command,Water,sm5,60
+d-sm6-1,Tropical Takedown,Grass,sm6,60
+d-sm6-2,Twilight Rogue,Fighting|Psychic,sm6,60
+d-sm7-1,Leaf Charge,Grass|Lightning,sm7,60
+d-sm7-2,Hydro Fury,Water|Fire,sm7,60
+d-sm8-1,Storm Caller,Lightning,sm8,60
+d-sm8-2,Blazing Volcano,Fire|Grass,sm8,60
+d-sm9-1,Relentless Flame,Fire,sm9,60
+d-sm9-2,Torrential Cannon,Water,sm9,60
+d-sm9-3,"Let's Play, Pikachu!",Lightning,sm9,60
+d-sm9-4,"Let's Play, Eevee!",Fire,sm9,60
+d-swsh1-1,Rillaboom,Grass,swsh1,60
+d-swsh1-2,Cinderace,Fire,swsh1,60
+d-swsh1-3,Inteleon,Water,swsh1,60
+d-swsh2-1,Zacian,Metal,swsh2,60
+d-swsh2-2,Zamazenta,Metal,swsh2,60
+d-swsh3-1,Galarian Darmanitan,Water,swsh3,60
+d-swsh3-2,Galarian Sirfetch'd,Fighting,swsh3,60
+d-swsh4-1,Charizard,Fire,swsh4,60
+d-swsh4-2,Drednaw,Water,swsh4,60
+d-xy0-1,Chespin,Grass|Fairy,xy0,60
+d-xy0-2,Fennekin,Fire|Darkness,xy0,60
+d-xy0-3,Froakie,Water|Metal,xy0,60
+d-xy1-1,Resilient Life,Fairy|Psychic,xy1,60
+d-xy1-2,Destruction Rush,Darkness|Fighting,xy1,60
+d-xy10-1,Sky Guardian,Fire|Fairy,xy10,60
+d-xy10-2,Battle Ruler,Fighting|Grass,xy10,60
+d-xy11-1,Gears of Fire,Fire|Metal,xy11,60
+d-xy11-2,Ring of Lightning,Psychic|Lightning,xy11,60
+d-xy12-1,Pikachu Power,Lightning|Grass,xy12,60
+d-xy12-2,Mewtwo Mayhem,Psychic|Fighting,xy12,60
+d-xy2-1,Brilliant Thunder,Fire|Lightning,xy2,60
+d-xy2-2,Mystic Typhoon,Water|Psychic,xy2,60
+d-xy3-1,Enchanted Echo,Grass|Fairy,xy3,60
+d-xy3-2,Dark Hammer,Darkness|Fighting,xy3,60
+d-xy4-1,Burning Winds,Fire|Grass,xy4,60
+d-xy4-2,Bolt Twister,Lightning|Water,xy4,60
+d-xy5-1,Ocean's Core,Water|Fire,xy5,60
+d-xy5-2,Earth's Pulse,Fighting|Lightning,xy5,60
+d-xy6-1,Aurora Blast,Water|Fire,xy6,60
+d-xy6-2,Storm Rider,Lightning|Grass,xy6,60
+d-xy7-1,Iron Tide,Metal|Water,xy7,60
+d-xy7-2,Stone Heart,Fighting|Grass,xy7,60
+d-xy8-1,Burning Spark,Lightning|Fire,xy8,60
+d-xy8-2,Night Striker,Psychic|Darkness,xy8,60
+d-xy9-1,Wave Slasher,Water|Grass,xy9,60
+d-xy9-2,Electric Eye,Lightning|Psychic,xy9,60
